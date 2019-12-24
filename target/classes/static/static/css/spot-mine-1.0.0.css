@@ -1,0 +1,55 @@
+.mine-mall-list >label{width:1200px;height:40px;margin-bottom:10px;line-height:40px;}
+.mine-mall-list >.label-1{width:1200px;height:40px;margin-top:10px;margin-bottom:58px;line-height:40px;}
+.mine-mall-list >.label-1 img{width:14px;height:14px;margin-right:6px;}
+.mine-mall-list >.label-1 span{font-size:14px;color:#888;margin-right:8px;}
+.center-content >label{width:1200px;height:40px;margin-bottom:10px;line-height:40px;}
+.center-content >.label-2{position:absolute;width:1200px;height:40px;top:160px;}
+.center-content >.label-2 select{float:left;width:160px;height:40px;margin-right:50px;padding-left:10px;box-sizing:border-box;border:1px solid #f2f2f1;border-radius:4px;
+    background-color:#fff;background-image: url(../image/select.png);  background-repeat: no-repeat;  background-position: 140px center;
+}
+.center-content >.label-2 input{float:left;width:400px;height:40px;padding-left:10px;border:none;box-shadow: 1px 0 20px #f1f1f1;border-radius:4px;}
+.center-content >.label-2 button{float:left;width:84px;height:40px;margin-left:-84px;color:#fff;background-color:#e55858;border:none; border-radius:0 4px 4px 0;}
+
+.spot-goods-list{width:1200px;height:210px;margin-bottom:10px;background-color: #fff;box-shadow: 0 0 10px #f1f1f1;}
+.spot-goods-list > img{float:left;width:140px;height:160px;margin:29px 0 21px 22px; }
+
+.spot-goods-list .goods-list-left{
+     display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; -webkit-box-align: center;  -webkit-align-items: center;
+    -webkit-flex-direction: column; -webkit-justify-content: center; display:flex;justify-content:center;align-items:center;
+    float:left;width:290px;height:210px;margin:0 0 0 30px;border-right:1px solid #eee;
+}
+.spot-goods-list .goods-list-left > div{ width:100%;height:auto; }
+.spot-goods-list .goods-list-left > div label{float:left;width:100%;}
+.spot-goods-list .goods-list-left > div label span{float:left;font-size:20px;color:#333;}
+.spot-goods-list .goods-list-left > div label img{margin: 0 10px 0 0;}
+.spot-goods-list .goods-list-left > div .label-0 a{position:absolute;width:80px;height:24px;line-height:24px;right:16px;top:50%;margin-top:-12px;
+    text-align:center;font-size:12px;color:#e55858;border:1px solid #e55858;border-radius:12px;}
+.spot-goods-list .goods-list-left > div label a img{float:left;margin:6px 0 0 6px;}
+.spot-goods-list .goods-list-left > div .label-0{position:relative;margin-top:10px;}
+.spot-goods-list .goods-list-left > div .label-0 span{margin-right:60px;}
+.spot-goods-list .goods-list-left > div .label-0 img{margin-left:10px;}
+.spot-goods-list .goods-list-left > div .label-1{margin-top:10px;}
+.spot-goods-list .goods-list-left > div .label-1 span{line-height:24px;font-size:14px;color:#888;}
+.spot-goods-list .goods-list-left > div .label-2{margin-top:0px;}
+.spot-goods-list .goods-list-right{position:relative;float:left;width:717px;height:210px;}
+.spot-goods-list .goods-list-right > label{float:left;display:inline-block;width:677px;height:32px;margin:18px 0 0 0;padding-left:40px; }
+.spot-goods-list .goods-list-right > label span{float:left;display:inline-block;width:120px;height:32px;line-height:32px;fiont-sizeL:14px;text-align:center;}
+.spot-goods-list .goods-list-right > label > .span-1{color:#fff;background-image:url("../image/week-new.png");border-radius:6px 0px  0px 6px; }
+.spot-goods-list .goods-list-right > label > .span-2{height:32px;color:#999;background-color:#fff;border-radius:0px 6px 6px 0px;border:1px solid #cfcfcf; border-left:none;}
+.spot-goods-list .goods-list-right > label a{float:right;margin-right:10px;line-height:32px;font-size:14px;color:#999;}
+.spot-goods-list .goods-list-right .content-right{float:left;width:640px;height:140px;margin:20px 0 0;}
+.spot-goods-list .goods-list-right .content-right ul{width:640px;height:140px;margin:0;padding:0;}
+.spot-goods-list .goods-list-right .content-right ul li{float:left;width:120px;height:140px;margin-left:40px;list-style:none;}
+.spot-goods-list .goods-list-right .content-right ul li label{
+    float:left;display: inline-block;width:118px;height:78px;border:1px solid #cfcfcf;border-radius: 10px;
+}
+.spot-goods-list .goods-list-right .content-right ul .is_heated label{
+    background-image: url('../image/spot-hot.png');background-repeat: no-repeat;background-position: 49px 36px;
+}
+.spot-goods-list .goods-list-right .content-right ul li label > span{float:left;display:inline-block;width:100%;text-align:center;font-size:14px;}
+.spot-goods-list .goods-list-right .content-right ul li label > .span-1{color:#555;margin-top:12px;}
+.spot-goods-list .goods-list-right .content-right ul li label > .span-2{color:#888;margin-top:4px;}
+.spot-goods-list .goods-list-right .content-right ul li span{float:left;display:inline-block;width:100%;margin-top:8px;font-size:14px;color:#ff8a4e;text-align:center;}
+.spot-goods-list .goods-list-right > a{display:inline-block;position: absolute;right:10px;bottom:21px;background-color: #fff;
+     color:#999;font-size:14px;
+}

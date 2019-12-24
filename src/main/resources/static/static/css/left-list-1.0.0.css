@@ -1,0 +1,3488 @@
+.content {
+    width: 1200px;
+    height: auto;
+}
+
+.center-top {
+    margin-top: 10px;
+    padding-left: 13px;
+}
+
+.center-top span {
+    padding-left: 3px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.center-content {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin-top: 10px;
+}
+
+.center-left {
+    float: left;
+    width: 180px;
+}
+
+.center-left-1 {
+    background-color: #fff;
+    width: 180px;
+    height: 336px;
+    background-size: 100%;
+}
+
+.center-left-1 > label {
+    font-size: 20px;
+    color: #333333;
+    padding-top: 18px;
+    margin-bottom: 0;
+}
+
+.center-left-1 ul {
+    width: 100%;
+    padding-top: 6px;
+}
+
+.center-left-1 ul li {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    list-style-type: none;
+}
+
+.center-left-1 ul li a {
+    font-size: 16px;
+    color: #888;
+}
+
+.center-left-1 ul li a:hover {
+    color: #e75454;
+    cursor: pointer;
+}
+
+.center-left-1 ul li .active {
+    color: #e75454;
+    cursor: pointer;
+}
+
+.center-left-2 {
+    width: 180px;
+    height: 180px;
+    margin-top: 2px;
+}
+
+.center-left-3 {
+    width: 180px;
+    height: 140px;
+    margin-top: 2px;
+}
+
+.center-left-4 {
+    width: 180px;
+    height: 100px;
+    margin-top: 2px;
+}
+
+.center-right {
+    float: left;
+    margin-left: 20px;
+    width: 1000px;
+    min-height: 600px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.center-right > .search-center {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    position: relative
+}
+
+.center-right > .search-center label {
+    position: absolute;
+    height: 50px;
+    left: 20px;
+    margin: 0;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.center-right > .search-center input {
+    position: absolute;
+    right: 120px;
+    top: 10px;
+    font-size: 14px;
+    color: #333333;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    padding-left: 25px;
+    background-image: url("../image/index-s.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+.center-right > .search-center button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #e65252;
+    border: 1px solid #e65252;
+    border-radius: 4px;
+}
+
+.center-right > label {
+    font-size: 20px;
+    color: #333333;
+    width: 100%;
+    height: 58px;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+.center-right > .line-info {
+    width: 100%;
+    height: 56px;
+}
+
+.center-right > .group-line-info .label-2 {
+    width: auto !important;
+    height: 50px;
+    line-height: 50px;
+    margin: 6px 0 0 16px;
+}
+
+.center-right > .group-line-info .label-3 {
+    float: right;
+    padding-right: 20px;
+}
+
+.center-right > .group-line-info .label-2 a {
+    margin-left: 30px;
+}
+
+.center-right > .line-info .label-1 {
+    height: 56px;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 56px;
+    font-size: 20px;
+    color: #333;
+}
+
+.center-right > .line-info .label-2 {
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    margin: 6px 0 0 16px;
+}
+
+.center-right > .line-info .label-2 a {
+    height: 50px;
+    line-height: 50px;
+    color: #e55858;
+}
+
+.center-right > .line-info .label-3 {
+    height: 50px;
+    line-height: 50px;
+    margin: 6px 0 0 30px;
+}
+
+.center-right > .line-info .label-3 span {
+    height: 50px;
+    margin: 0 4px;
+    line-height: 50px;
+    color: #e55858;
+}
+
+.center-right > .line-info .label-3 a {
+    float: right;
+    height: 50px;
+    margin-left: 4px;
+    line-height: 50px;
+    color: #e55858;
+}
+
+.center-right > .line-1 {
+    width: 960px;
+    border-top: 1px solid #cfcfcf;
+    margin-left: 20px;
+}
+
+.center-right > .line-2 {
+    width: 960px;
+    border-top: 1px solid #eee;
+    margin-left: 20px;
+}
+
+.account-1 {
+    padding-top: 30px;
+    width: 1000px;
+    padding-left: 58px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.account-1 .img-p {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.account-1 .user-head-img {
+    position: relative;
+    width: 94px;
+    height: 94px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+    float: left;
+    background-image: url("../image/user-head-moren.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.account-1 .user-head-img img {
+    display: none;
+    float: left;
+    margin: 62px 2px 0;
+}
+
+.account-1 .user-head-img:hover img {
+    display: block
+}
+
+.account-1 .user-head-img input {
+    position: absolute;
+    width: 86px;
+    height: 32px;
+    top: 62px;
+    left: 4px;
+    border-radius: 50%/0 0 100% 100%;
+    opacity: 0;
+}
+
+.account-1 label {
+    font-size: 14px;
+    color: #333333;
+    padding-left: 30px;
+    line-height: 22px;
+}
+
+.account-1 .company {
+    color: #e79654;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.account-2 {
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 26px;
+}
+
+.account-2 .img-center {
+    float: left;
+    margin: 0px 8px 0 0;
+}
+
+.account-2 .account-2-left {
+    float: left;
+}
+
+.account-2 label {
+    font-size: 18px;
+    color: #333333;
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+.account-2 .label-bottom {
+    font-size: 16px;
+    color: #888;
+    padding-left: 10px;
+}
+
+.account-2 .account-2-right {
+    float: right;
+}
+
+.account-2 .account-2-right label {
+    display: none
+}
+
+.account-2 span {
+    font-size: 14px;
+    color: #009900;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+.account-2 button {
+    font-size: 14px;
+    color: #999999;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+}
+
+.account-2 button:hover {
+    background-color: #e65252;
+    color: #ffffff;
+    border: 1px solid #e65252;
+}
+
+.account-2 .btn-1 {
+    width: 140px !important;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #e65252;
+    border-color: #e65252;
+    color: #ffffff
+}
+
+.account-2 .btn-1:hover {
+    background-color: #b73a33;
+    border-color: #b73a33;
+}
+
+/*我的钱包*/
+.account-info {
+    width: 100%;
+    height: 110px;
+    padding: 0 20px;
+}
+
+.account-info > span {
+    float: left;
+    width: 1px;
+    height: 40px;
+    margin-top: 35px;
+    border-left: 1px solid #cfcfcf;
+}
+
+.account-info .body-1 {
+    float: left;
+    position: relative;
+    width: 275px;
+    height: 110px;
+}
+
+.account-info .body-1 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 12px;
+    top: 16px;
+    border-radius: 50%;
+    border: 1px solid #efefef;
+}
+
+.account-info .body-1 #mobile {
+    position: absolute;
+    left: 101px;
+    top: 31px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.account-info .body-1 #user_type {
+    position: absolute;
+    left: 101px;
+    top: 61px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.account-info .body-2 {
+    float: left;
+    position: relative;
+    width: 388px;
+    height: 110px;
+}
+
+.account-info .body-2 > img {
+    position: absolute;
+    left: 50px;
+    top: 31px;
+}
+
+.account-info .body-2 .label-1 {
+    position: absolute;
+    left: 98px;
+    top: 42px;
+    font-size: 18px;
+    color: #333;
+}
+
+.account-info .body-2 div {
+    float: right;
+    margin-right: 30px;
+    width: auto;
+    height: 108px;
+}
+
+.account-info .body-2 .label-2 {
+    float: left;
+    margin: 26px 0 12px;
+    font-size: 16px;
+    color: #999;
+}
+
+.account-info .body-2 .label-2 img {
+    margin-right: 8px;
+}
+
+.account-info .body-2 a {
+    float: left;
+    font-size: 16px;
+    color: #e55858;
+}
+
+.account-info .body-2 a:hover {
+    cursor: pointer
+}
+
+.account-info .body-3 {
+    float: left;
+    position: relative;
+    width: 294px;
+    height: 110px;
+}
+
+.account-info .body-3 > img {
+    position: absolute;
+    left: 50px;
+    top: 31px;
+}
+
+.account-info .body-3 .label-1 {
+    position: absolute;
+    left: 98px;
+    top: 42px;
+    font-size: 18px;
+    color: #333;
+}
+
+.account-info .body-3 .label-2 {
+    position: absolute;
+    left: 208px;
+    top: 27px;
+    font-size: 16px;
+    color: #999;
+}
+
+.account-info .body-3 .label-2 img {
+    margin-right: 8px;
+}
+
+.account-info .body-3 a {
+    position: absolute;
+    left: 208px;
+    top: 60px;
+    font-size: 16px;
+    color: #e55858;
+}
+
+.account-info .body-3 a:hover {
+    cursor: pointer
+}
+
+.account-info .body-had-quick a {
+    width: 120px;
+    height: 42px;
+    left: 107px;
+    top: 34px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    background-color: #e55858;
+}
+
+.account-info .body-in-quick .label-2 {
+    top: 42px;
+}
+
+/*企业认证*/
+.enter-certify {
+    width: 100%;
+    height: 650px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    position: relative
+}
+
+.enter-certify label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.enter-certify > span {
+    font-size: 14px;
+    color: #e65252;
+    position: absolute;
+    right: 80px;
+}
+
+.enter-certify-1 {
+    margin-top: 24px;
+}
+
+.enter-certify-1 input {
+    width: 500px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.enter-certify-1 .address {
+    background-image: url("../image/select.png");
+    background-repeat: no-repeat;
+    background-position: 475px center;
+}
+
+.enter-certify-1 label span {
+    color: #e65252
+}
+
+.myauth-upload {
+    background-image: url('../image/upload.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+.myauth-upload input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.enter-certify-2 {
+    width: 500px;
+    height: 110px;
+    background-color: #f9f9f9;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 76px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.enter-certify-2 p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 18px;
+}
+
+.enter-certify-1 button {
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #e65252;
+    border-radius: 6px;
+    background-color: #e65252;
+}
+
+.enter-certify-1 button:hover {
+    background-color: #b73a33;
+    border-color: #b73a33
+}
+
+.myauth-upload-1 {
+    opacity: 0.8;
+    background-size: 100% 100%
+}
+
+.myauth-upload img {
+    width: 100%;
+    height: 100%;
+}
+
+.myauth-upload-1 input[type=file] {
+    margin-top: -100px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: transparent;
+    opacity: 0;
+}
+
+/*修改手机*/
+.reset_mobile {
+    width: 100%;
+    height: 506px;
+    padding-left: 50px;
+    background-color: white;
+    position: relative;
+    padding-top: 30px;
+}
+
+.reset_mobile-1 {
+    margin-top: 48px;
+    width: 350px;
+    height: 35px;
+    line-height: 35px;
+    background-image: url("../image/reset_mobile-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 20px;
+}
+
+.reset_mobile-1 label {
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.reset_mobile-1 .label-1 {
+    color: #555;
+}
+
+.lInp-a {
+    overflow: hidden;
+    width: 350px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.lInp-a > label {
+    font-weight: normal;
+}
+
+.lInp-a > .login-inp04 {
+    border: 1px solid #ddd;
+    padding-left: 40px;
+    background: url('../image/login-phone.png') 8px center no-repeat;
+}
+
+.lInp-a > .login-inp04:focus {
+    padding-left: 40px;
+}
+
+.lInp-a input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    height: 48px;
+}
+
+.lInp-b1 {
+    overflow: hidden;
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.lInp-b1 > .login-inp06 {
+    padding-left: 40px;
+    background: url('../image/login-code.png') 7px center no-repeat;
+}
+
+.lInp-b1 > .login-inp06:focus {
+    padding-left: 40px;
+}
+
+.lInp-b1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    float: left;
+    height: 48px;
+}
+
+.lInp-a1 {
+    overflow: hidden;
+    width: 350px;
+}
+
+.lInp-a1 > .login-inp05 {
+    padding-left: 40px;
+    background: url('../image/suo.png') 7px center no-repeat;
+}
+
+.lInp-a1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    float: left;
+    height: 48px;
+}
+
+.getcode {
+    background-color: #e65252;
+    color: #fff;
+    height: 50px;
+    width: 110px;
+    border: none;
+    position: absolute;
+    float: right;
+    margin-left: -110px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.getcode:hover {
+    border: none;
+    background-color: #c72b2b;
+    color: #fff;
+}
+
+.getcode:focus {
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+
+.reset-mobile-left {
+    display: block;
+}
+
+.reset-mobile-right {
+    display: none;
+}
+
+.reset-mobile-left > button {
+    width: 350px;
+    height: 50px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #e65252;
+    border-radius: 6px;
+    background-color: #e65252;
+}
+
+.reset-mobile-left > button:hover {
+    border: none;
+    background-color: #c72b2b
+}
+
+.my_reset_mobile-1 {
+    width: 360px;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: -50px;
+}
+
+#my_reset_password {
+    width: 360px;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: -20px;
+}
+
+.my_reset_mobile-2 {
+    width: 400px;
+    height: 320px;
+    float: left;
+    margin-left: 165px;
+}
+
+.lInp-a1 {
+    overflow: hidden;
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.lInp-a1 > .login-inp05 {
+    padding-left: 40px;
+    background: url('../image/suo.png') 7px center no-repeat;
+}
+
+.lInp-a1 > .login-inp05:focus {
+    padding-left: 40px;
+}
+
+.lInp-a1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    float: left;
+    height: 48px;
+}
+
+/*发布供货*/
+.good-post {
+    width: 960px;
+    height: 206px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.good-post tr td {
+    border: 1px solid #e2e2e2;
+}
+
+.good-post tr td:nth-child(2n) {
+    background-color: #ffffff;
+    padding-left: 20px;
+}
+
+.good-post tr td:nth-child(2n+1) {
+    background-color: #fcfcfc;
+    padding-left: 10px;
+}
+
+.good-post tr td span {
+    color: #e65252
+}
+
+.good-post tr td label span {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.good-post tr td select {
+    width: 130px;
+    height: 28px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-image: url("../image/select.png");
+    background-repeat: no-repeat;
+    background-position: 110px center;
+    padding-left: 10px;
+}
+
+.good-post tr td input[type=text] {
+    padding-left: 10px;
+    width: 130px;
+    height: 28px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.good-post tr td input[type=radio] {
+    margin-right: 8px;
+}
+
+.good-post tr td .time {
+    cursor: pointer;
+    background-image: url("../image/select.png");
+    background-repeat: no-repeat;
+    background-position: 110px center;
+}
+
+.good-discount {
+    width: 960px;
+    height: 83px;
+    border: 1px solid #e2e2e2;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.good-discount thead {
+    background-color: #fcfcfc;
+    height: 42px;
+    line-height: 42px;
+}
+
+.good-discount thead tr {
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.good-discount thead tr th {
+    text-align: center;
+    font-weight: normal;
+}
+
+.good-discount tbody tr {
+    border-bottom: 1px solid #e2e2e2;
+    height: 40px;
+}
+
+.good-discount tbody tr td {
+    text-align: center
+}
+
+.good-discount tbody tr td input[type=text] {
+    padding-left: 10px;
+    height: 28px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-right: 6px;
+}
+
+.good-discount tbody tr td a {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.good-technology-analy {
+    width: 960px;
+    height: 282px;
+    border: 1px solid #e2e2e2;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.good-technology-analy thead {
+    height: 42px;
+    line-height: 42px;
+    background-color: #fcfcfc;
+}
+
+.good-technology-analy thead tr th {
+    color: #e65252;
+    padding-left: 10px;
+}
+
+.good-technology-analy thead tr th .table-title {
+    border-left: 2px solid #e65252;
+    padding-right: 10px;
+}
+
+.good-technology-analy tbody tr td {
+    border: 1px solid #e2e2e2;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.good-technology-analy tbody tr td > img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.good-technology-analy tbody tr td input[type=text] {
+    padding-left: 10px;
+    width: 70px;
+    margin-left: 10px;
+    height: 28px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.good-technology-analy tbody tr .name-color {
+    background: #fcfcfc;
+}
+
+.good-technology-analy tbody tr td .upload {
+    background: #e65252;
+    width: 70px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    float: left
+}
+
+.good-technology-analy tbody tr td .upload input[type=file] {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin-top: -28px;
+}
+
+.good-technology-analy tbody tr td .examiny {
+    cursor: -webkit-zoom-in;
+    display: none;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.good-technology-analy tbody tr td .examiny .examiny-bottom {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    padding: 0 30px;
+}
+
+.good-technology-analy tbody tr td .examiny .examiny-bottom a {
+    cursor: pointer;
+}
+
+.good-technology-analy tbody tr td .examiny .examiny-bottom .examiny-right {
+    margin-right: 25px;
+}
+
+.good-technology-analy tbody tr td .examiny .examiny-bottom a input[type=file] {
+    opacity: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 6px;
+    right: 31px;
+    cursor: pointer;
+}
+
+.good-analy {
+    height: 202px;
+}
+
+.good-code {
+    height: 122px;
+}
+
+#discounts tr {
+    border-bottom: 1px solid #e2e2e2;
+    height: 39px;
+}
+
+/*我的订单*/
+.order-content {
+    width: 100%;
+    height: 130px;
+}
+
+.my-order {
+    width: 500px;
+    height: 140px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding-top: 23px;
+    padding-left: 34px;
+    float: left;
+}
+
+.my-order > img {
+    float: left;
+}
+
+.my-order > label {
+    font-size: 16px;
+    color: #333333;
+    padding-left: 20px;
+    line-height: 22px;
+}
+
+.my-order > .company {
+    font-size: 14px;
+    color: #e79654;
+    padding-left: 20px;
+}
+
+.my-order > p {
+    font-size: 12px;
+    color: #999999;
+}
+
+.my-order-1 {
+    width: 500px;
+    height: 140px;
+    float: left;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.my-order-1 > p {
+    font-size: 12px;
+    color: #666666;
+    padding-left: 60px;
+    margin-bottom: 15px;
+}
+
+.my-order-1 > p img {
+    margin-top: -4px;
+}
+
+.my-order-1 > p label {
+    font-size: 12px;
+    color: #333333;
+    padding-left: 6px;
+}
+
+.my-order-1 > p button {
+    font-size: 14px;
+    color: #e65252;
+    width: 90px;
+    height: 32px;
+    border: 1px solid #e65252;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-top: -10px;
+    background-image: url("../image/qq.png");
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    padding-left: 20px;
+}
+
+.my-order-1 > p button:hover {
+    background-image: url("../image/qq-1.png");
+    background-color: #e65252;
+    color: #ffffff;
+}
+
+.my-order-3 {
+    width: 100%;
+    height: 20px;
+    background-color: #fafafa;
+}
+
+.order-table {
+    width: 960px;
+    min-height: 100px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.order-table thead tr {
+    background-color: #efefef;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #eeeeee;
+}
+
+.order-table thead tr th {
+    text-align: center;
+    font-weight: normal;
+}
+
+.order-table tbody tr:nth-child(3n) {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.order-table tbody tr:nth-child(3n+1) {
+    background-color: #ffffff;
+    height: 10px;
+    width: 100%;
+    border: none;
+}
+
+.order-table tbody tr:nth-child(3n+2) {
+    background-color: #efefef;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.order-table tbody tr:nth-child(3n+2) td {
+    padding-left: 20px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.order-table tbody tr:nth-child(3n+2) td span {
+    padding-left: 5px;
+    padding-right: 25px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.order-table tbody tr:nth-child(3n+2) td span strong {
+    color: #333333;
+    font-weight: normal
+}
+
+.order-table tbody tr:nth-child(3n+2) td .invalid {
+    position: absolute;
+    right: 165px;
+    top: 0;
+}
+
+.order-table tbody tr:nth-child(3n+2) td a {
+    float: right;
+}
+
+.order-table tbody tr:nth-child(3n+2) td .delete {
+    float: right;
+    width: 20px;
+    height: 16px;
+    margin: 0 0 0 20px;
+}
+
+.order-table tbody tr:nth-child(3n) td {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.order-table tbody tr:nth-child(3n) td button {
+    width: 50px;
+    height: 30px;
+    background-color: #e65252;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.order-table tbody tr:nth-child(3n) td button:hover {
+    background-color: #b73a33;
+    border-color: #b73a33;
+}
+
+.order-table tbody tr:nth-child(3n) td .btn-1 {
+    background-color: #ffffff;
+    color: #e65252;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.order-table tbody tr:nth-child(3n) td .btn-1:hover {
+    background-color: #e65252;
+    color: #ffffff
+}
+
+.order-table tbody tr:nth-child(3n):hover {
+    background-color: #fafafa;
+}
+
+.group-manage-table {
+    width: 960px;
+    min-height: 100px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.group-manage-table thead tr {
+    background-color: #f5f5f5;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #efefef;
+}
+
+.group-manage-table thead tr th {
+    text-align: center;
+    font-weight: normal;
+}
+
+.group-manage-table tbody tr:nth-child(2n) {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.group-manage-table tbody tr:nth-child(2n+1) {
+    background-color: #ffffff;
+    height: 10px;
+    width: 100%;
+    border: none;
+}
+
+.group-manage-table tbody tr td {
+    height: 68px;
+    text-align: center;
+}
+
+.top-goods-search {
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.top-goods-search > a {
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+.top-goods-search > a:hover {
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.top-goods-search > .active {
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.top-goods-search > input {
+    width: 330px;
+    height: 40px;
+    color: #999;
+    margin-right: 0px;
+    background-color: #efefef;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #eaeaea;
+    float: right;
+    background-image: url("../image/index-s.png");
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 35px;
+}
+
+.top-goods-search > input:focus {
+    padding-left: 25px;
+}
+
+.top-goods-search > button {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e65252;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    float: right;
+}
+
+.mall-order-btn button {
+    float: right;
+    margin: 0 5px;
+}
+
+.mall-order-btn .under-line {
+    width: 70px !important;
+    background-color: #fff !important;
+    color: #e55858 !important;
+}
+
+/*订单详情*/
+.center-right > p {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.center-right > p span {
+    font-size: 14px;
+    color: #999999;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.center-right > p span strong {
+    color: #333333;
+}
+
+.order-detail-table {
+    width: 960px;
+    height: 123px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.order-detail-tuan {
+    width: 960px;
+    height: 242px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.order-detail-table thead tr th {
+    height: 30px;
+}
+
+.order-detail-table tbody tr td {
+    border: 1px solid #e2e2e2;
+    text-align: center;
+}
+
+.order-detail-table tbody tr td:nth-child(2n) {
+    background-color: #ffffff;
+    padding-left: 20px;
+    width: 180px;
+}
+
+.order-detail-table tbody tr td:nth-child(2n+1) {
+    background-color: #fcfcfc;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.order-detail-table tbody tr td span {
+    color: #e55858
+}
+
+.order-detail-table-1 {
+    height: 283px;
+}
+
+.order-detail-table-2 {
+    height: 112px;
+}
+
+/*收货地址*/
+.addAddress {
+    width: 100%;
+    height: 235px;
+    padding-top: 18px;
+}
+
+.addAddress > label {
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.addAddress-1 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.addAddress-1 label {
+    display: inline-block;
+    width: 71px;
+    text-align: right;
+    height: 100%;
+    color: #666666;
+    margin-left: 47px;
+}
+
+.addAddress-1 label span {
+    color: #e65252
+}
+
+.addAddress-1 input {
+    width: 313px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding-left: 5px;
+}
+
+.addAddress p {
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 10px;
+}
+
+.addAddress button {
+    width: 120px;
+    height: 40px;
+    background-color: #e65252;
+    border-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.address-list {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.address-list label {
+    color: #e79654;
+    font-size: 14px;
+}
+
+.address-list table {
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid #e2e2e2
+}
+
+.address-list table thead {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.address-list table thead tr {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.address-list table thead tr th {
+    text-align: center;
+    font-weight: normal
+}
+
+.address-list table tbody tr {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff
+}
+
+.address-list table tbody tr td button {
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #e65252;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.address-list table tbody tr td .btn-1 {
+    background-color: #f1d2d2;
+    border-color: #e53232;
+    color: #e53232
+}
+
+.address-list table tbody tr td img {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#publish_address {
+    width: 100%;
+    height: 0;
+}
+
+/*我的钱包*/
+.historyBill {
+    width: 1000px;
+    min-height: 200px;
+    padding: 20px;
+    position: relative;
+}
+
+.historyBill > label {
+    font-size: 18px;
+    color: #333333;
+}
+
+.historyBill > input {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    right: 100px;
+    color: #999;
+    margin-right: 0px;
+    background-color: #efefef;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #eaeaea;
+    background-image: url("../image/index-s.png");
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 25px;
+}
+
+.historyBill > input:focus {
+    padding-left: 25px;
+}
+
+.historyBill > button {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    right: 20px;
+    line-height: 40px;
+    background-color: #e65252;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+}
+
+.historyBill > table {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 28px;
+}
+
+.historyBill > table thead tr {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #efefef;
+}
+
+.historyBill > table thead tr th {
+    text-align: center;
+    font-weight: normal
+}
+
+.historyBill > table tbody tr {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+
+/*快捷支付-补充个人信息*/
+.bindinfo {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.bindinfo-1 {
+    position: relative;
+    height: 162px;
+    width: 100%;
+    line-height: 162px;
+}
+
+.bindinfo-1 label {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.bindinfo-1 .label-1 {
+    top: 116px;
+    left: 177px;
+}
+
+.bindinfo-1 .label-2 {
+    top: 116px;
+    left: 498px;
+}
+
+.bindinfo-1 .label-3 {
+    top: 116px;
+    left: 822px;
+}
+
+.bindinfo-2 {
+    width: 100%;
+    padding-top: 24px;
+    height: auto;
+}
+
+.bindinfo-3 {
+    position: relative;
+    clear: both;
+    margin-bottom: 24px;
+    width: 680px;
+    margin-left: 252px;
+}
+
+.bindinfo-3 > span {
+    font-size: 16px;
+    color: #333;
+}
+
+.bindinfo-3 > label {
+    float: left;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.bindinfo-3 > input {
+    margin-left: 10px;
+    color: #333;
+    width: 500px;
+    height: 36px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+}
+
+.bindinfo-3 > select {
+    margin-left: 15px;
+    color: #333;
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+}
+
+.bindinfo-3 > .idcard {
+    margin-left: 15px;
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-image: url("../image/idcard.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bindinfo-3 > .idcard > input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.bindinfo-3 > .bind-exp {
+    float: right;
+    width: 430px;
+    height: 340px;
+    padding: 20px 26px;
+    margin-top: 0;
+    margin-right: -164px;
+    background-color: #f9f9f9;
+}
+
+.bindinfo-3 > .bind-exp label {
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+}
+
+.bindinfo-3 > .bind-exp p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+}
+
+.bindinfo-3 > img {
+    margin-left: 20px;
+}
+
+.bindinfo > button {
+    width: 100px;
+    height: 40px;
+    margin: 0 40px;
+    background-color: #e53232;
+    border-radius: 4px;
+    border: 1px solid #e53232;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.bindinfo > button:hover {
+    background-color: #c72b2b;
+    border: none;
+}
+
+.bindinfo > .pre-step {
+    background-color: #fff;
+    color: #e53232;
+    margin-right: 100px;
+}
+
+.bindinfo > .pre-step:hover {
+    color: #fff;
+}
+
+.bindinfo-success {
+    padding-top: 122px;
+    margin-bottom: 30px;
+}
+
+/*银行卡管理*/
+.account-3 {
+    float: right;
+    width: 998px;
+    min-height: 274px;
+    background-color: #fff;
+    padding: 35px 13px 20px;
+    margin-bottom: 50px;
+}
+
+.account-3 .clearfix {
+    width: 998px;
+    heigh: 0;
+    clear: both;
+}
+
+.account-3 > label {
+    font-weight: normal;
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 40px;
+}
+
+.account-3 > a {
+    color: #e55858;
+    font-size: 14px;
+    float: right;
+    margin: 12px 54px 0 0;
+}
+
+.nogoods {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.nogoods > img {
+    margin-bottom: 50px;
+}
+
+.nogoods > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e53232;
+    font-size: 16px;
+}
+
+.nogoods > .refresh {
+    color: #e53232;
+    background-color: #fff;
+}
+
+.nogoods > .refresh:hover {
+    color: #fff;
+    background-color: #e53232;
+}
+
+.nogoods > .refresh-1 {
+    margin-right: 0;
+}
+
+.nogoods > .goindex {
+    color: #fff;
+    background-color: #e53232;
+    margin-left: 200px;
+}
+
+.nogoods-1 {
+    width: 100%;
+    height: 307px;
+    padding-top: 40px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.manage-bank {
+    float: left;
+    width: 960px;
+    min-height: 100px;
+    padding-left: 52px;
+    clear: both;
+}
+
+.manage-bank-1 {
+    float: left;
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(207, 207, 207, 1);
+    border-radius: 1px;
+    margin: 0 32px 30px;
+    padding: 22px 0 0 23px;
+}
+
+.manage-bank-1 > label {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 6px;
+}
+
+.manage-bank-1 > img {
+    float: right;
+    margin: 16px 12px;
+}
+
+.manage-bank-1:hover {
+    border-color: #e53232;
+}
+
+/*绑定银行卡*/
+.bindCard {
+    width: 1000px;
+    min-height: 400px;
+    background-color: #fff;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.bindCard > label {
+    font-weight: normal;
+    font-size: 20px;
+    color: #333;
+}
+
+.bindCard-1 {
+    border-radius: 4px;
+    width: 680px;
+    height: 226px;
+    margin-top: 30px;
+}
+
+.bindCard-1 > input {
+    float: left;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 36px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
+.bindCard-1 > .code-card {
+    width: 180px;
+}
+
+.bindCard-1 > .bind-name {
+    font-size: 16px;
+    width: 370px;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.bindCard-1 > span {
+    font-size: 16px;
+    color: #333;
+    padding-right: 16px;
+}
+
+.bindCard-1 > button {
+    font-size: 14px;
+    color: #333;
+    width: 96px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #e53232;
+    margin-left: 20px;
+}
+
+.bindCard-1 > select {
+    margin-bottom: 25px;
+    width: 370px;
+    height: 30px;
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.bindCard > button {
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #e53232;
+    background-color: #e53232;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.bindCard > button:hover {
+    border: none;
+    background-color: #c72b2b
+}
+
+.bindCard-1 > .checkBank {
+    margin-left: 270px;
+}
+
+.bindCard-1 > label {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.bindCard-1 > label span {
+    color: #e55858
+}
+
+.bindCard-1 > a {
+    color: #009cff;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bindCard-1 > .margin {
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.bindCard-1 > img {
+    width: 96px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.bindCard-1 > .vcode-label-1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.bindCard-1 > .vcode-label-2 {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.bindCard-1 > .vcode-label-3 {
+    font-size: 16px;
+    width: 85px;
+    padding-left: 0;
+}
+
+.bindCard-1 > .vcode-label-4 {
+    margin-bottom: 30px;
+}
+
+.bindCard-1 > .vcode-label-5 {
+    margin-top: 0;
+}
+
+.bindCard-1 > .vcode-label-4 > a {
+    color: #009cff;
+    text-decoration: underline;
+}
+
+.bindCard-1 > .vcode-input {
+    width: 180px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    padding-left: 10px;
+}
+
+.bindCard-3 {
+    padding-left: 40px;
+}
+
+.bindCard-1 .error {
+    font-size: 20px;
+    color: #e53232;
+    display: none
+}
+
+.bindCard-1 .success {
+    font-size: 20px;
+    color: #009cff;
+    display: none;
+}
+
+/* 账户中心 */
+.zhanghu-center {
+    height: 180px;
+    padding-top: 43px;
+    padding-left: 20px;
+}
+
+.zhanghu-center .center-1 {
+    float: left;
+    width: 540px;
+}
+
+.zhanghu-center .center-1 label {
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.zhanghu-center .center-2 {
+    float: left;
+    width: 360px;
+    height: 100px;
+}
+
+.zhanghu-center .center-2 label {
+    width: 100%;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.zhanghu-center .center-2 label span {
+    color: #555;
+}
+
+.zhanghu-center .center-2 label img {
+    margin-right: 8px;
+}
+
+.zhanghu-center-2 {
+    width: 100%;
+    height: 182px;
+}
+
+.zhanghu-center-3 {
+    width: 100%;
+    height: 182px;
+}
+
+.zhanghu-center-2 .b-style {
+    display: none;
+}
+
+.zhanghu-center-2 .b-1 {
+    position: relative;
+    float: left;
+    width: 540px;
+    height: 182px;
+}
+
+.zhanghu-center-2 .b-1 div {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 83px;
+    left: 50px;
+}
+
+.zhanghu-center-2 .b-1 .div-1 {
+    background-image: url("../image/person-bg-1.png")
+}
+
+.zhanghu-center-2 .b-1 .div-2 {
+    background-image: url("../image/person-bg-2.png")
+}
+
+.zhanghu-center-2 .b-1 .div-3 {
+    background-image: url("../image/person-bg-3.png")
+}
+
+.zhanghu-center-2 .b-1 .div-4 {
+    background-image: url("../image/person-bg-4.png")
+}
+
+.zhanghu-center-2 .b-1 .label-1 {
+    position: absolute;
+    top: 99px;
+    left: 160px;
+    font-size: 18px;
+    color: #333;
+}
+
+.zhanghu-center-2 .b-1 .label-2 {
+    position: absolute;
+    top: 144px;
+    left: 160px;
+    font-size: 14px;
+    color: #888;
+}
+
+.zhanghu-center-2 .b-2 {
+    width: 460px;
+}
+
+.zhanghu-center-2 .b-2 div {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 83px;
+    left: 52px;
+}
+
+.zhanghu-center-2 .b-2 .label-1 {
+    position: absolute;
+    top: 99px;
+    left: 163px;
+    font-size: 18px;
+    color: #333;
+}
+
+.zhanghu-center-2 .b-2 .label-2 {
+    position: absolute;
+    top: 144px;
+    left: 163px;
+    font-size: 14px;
+    color: #888;
+}
+
+/*系统消息*/
+.myauth-2 {
+    width: 100%;
+    min-height: 660px;
+    background-color: #fff;
+}
+
+.notify-1 {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.notify-1-1 {
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+.notify-1-1 > span {
+    float: left;
+    margin-top: 5px;
+    color: #333;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.notify-checkbox {
+    float: left;
+    background: url("../image/notify-8.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    border: none;
+    color: transparent;
+}
+
+.notify-1-1 .btn-group {
+    float: left;
+}
+
+.notify-1-1 button {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    color: #e53232;
+    background-color: #fff;
+    border: 1px solid #e53232;
+}
+
+.notify-1-2 {
+    width: 100%;
+    height: 10px;
+    background-color: #f5f5f5;
+}
+
+.notify-1-3 {
+    width: 100%;
+    min-height: 650px;
+}
+
+.nitify-menu {
+    margin-top: -15px;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.nitify-menu > li {
+    height: 40px;
+    background-color: #fff;
+    padding: 0;
+    line-height: 40px;
+}
+
+.nitify-menu > li > a {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.nitify-menu > li > a:hover {
+    background-color: #f9f9f9;
+    color: #e53232;
+}
+
+.dropdown-menu .divider {
+    margin: 0;
+}
+
+.notify-btn-1 {
+    margin-left: 32px;
+    padding-left: 20px;
+    background-image: url("../image/notify-2.png");
+    background-repeat: no-repeat;
+    background-position: 6px center;
+}
+
+.notify-btn-1 img {
+    margin-left: 10px;
+}
+
+.notify-btn-2 {
+    float: left;
+    margin-left: 20px;
+    background-image: url("../image/notify-5.png");
+    background-repeat: no-repeat;
+    background-position: 23px center;
+}
+
+.notify-btn-2 > span {
+    margin-left: 24px;
+}
+
+.notify-news {
+    width: 100%;
+    min-height: 59px;
+    border-bottom: 1px dashed #eee;
+}
+
+.notify-news:hover {
+    background-color: #fafafa;
+}
+
+.notify-news-1 {
+    width: 100%;
+    height: 59px;
+    padding-top: 20px;
+}
+
+.notify-news-2 {
+    width: 100%;
+    min-height: 52px;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: none;
+}
+
+.notify-news input[type=button] {
+    margin-left: 20px;
+    float: left;
+    margin-top: 3px;
+}
+
+.notify-news input[type=reset] {
+    margin-left: 20px;
+    float: left;
+    margin-top: 3px;
+}
+
+.notify-news label {
+    padding-left: 16px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.notify-news span {
+    float: right;
+    font-size: 15px;
+    color: #555;
+}
+
+.notify-news .clearfix {
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.notify-news .notify-img-1 {
+    float: right;
+    margin-top: 5px;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+
+.notify-news .notify-img-2 {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    float: left;
+}
+
+.notify-news-2 label {
+    font-weight: normal;
+    padding-left: 10px;
+    display: inline-block;
+    width: 860px;
+}
+
+.notify-news-2 label a {
+    color: #009cff;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.notify-news label > img {
+    width: 22px;
+    margin-right: 5px;
+}
+
+/*团购管理*/
+.group-manage > label {
+    float: left;
+    width: auto;
+    height: 63px;
+    line-height: 63px;
+    margin-right: 52px;
+}
+
+.group-manage > ul {
+    display: inline-block;
+}
+
+.group-manage > ul li {
+    float: left;
+    width: 80px;
+    height: 20px;
+    padding-left: 24px;
+    margin-top: 24px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #999;
+    list-style: none;
+}
+
+.group-manage > ul .li-1 {
+    background-image: url("../image/add-m.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.group-manage > ul .li-2 {
+    background-image: url("../image/delete-m.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.group-manage > ul .li-3 {
+    background-image: url("../image/stop-m.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.group-manage > ul .li-4 {
+    background-image: url("../image/chengtuan-m.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.group-manage > ul li:hover {
+    cursor: pointer;
+    color: #e55858
+}
+
+.group-manage > ul .li-1:hover {
+    background-image: url("../image/add-m-2.png");
+}
+
+.group-manage > ul .li-2:hover {
+    background-image: url("../image/delete-m-2.png");
+}
+
+.group-manage > ul .li-3:hover {
+    background-image: url("../image/stop-m-2.png");
+}
+
+.group-manage > ul .li-4:hover {
+    background-image: url("../image/chengtuan-m-2.png");
+}
+
+.group-manage .top-gp-search {
+    float: right;
+    width: 440px;
+    height: 58px;
+    padding-top: 12px;
+}
+
+.group-manage .top-gp-search > input {
+    width: 330px;
+    height: 40px;
+    color: #999;
+    margin-right: 0px;
+    background-color: #efefef;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #eaeaea;
+    float: right;
+    background-image: url("../image/index-s.png");
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 35px;
+}
+
+.group-manage .top-gp-search > button {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    background-color: #e65252;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    float: right;
+}
+
+.group-manage > .nav-tab {
+    float: left;
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px;
+}
+
+.group-manage > .nav-tab ul {
+    display: inline-block;
+}
+
+.group-manage > .nav-tab ul li {
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    margin-right: 30px;
+    list-style: none;
+    font-size: 16px;
+    color: #666;
+}
+
+.group-manage > .nav-tab ul li:hover {
+    cursor: pointer;
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.group-manage > .nav-tab ul .active {
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.group-manage .group-manage-table thead tr {
+    background-color: #efefef;
+}
+
+.group-manage .gp-handle {
+    position: absolute;
+    width: 88px;
+    top: 18px;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.group-manage .gp-handle label {
+    width: 100%;
+    height: 30px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    background-image: url("../image/handle-down.png");
+    background-repeat: no-repeat;
+    background-position: 72px center;
+}
+
+.group-manage .gp-handle ul {
+    display: none;
+    margin-bottom: 4px !important;
+}
+
+.group-manage .gp-handle:hover {
+    z-index: 1000;
+}
+
+.group-manage .gp-handle:hover label {
+    background-image: url("../image/handle-up.png");
+}
+
+.group-manage .gp-handle:hover ul {
+    display: block;
+}
+
+.group-manage .gp-handle ul li {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    list-style: none;
+}
+
+.group-manage .gp-handle ul li:hover {
+    cursor: pointer;
+    color: #e55858
+}
+
+.group-manage .gp-handle ul li:hover a {
+    cursor: pointer;
+    color: #e55858
+}
+
+.group-manage .gp-checkbox {
+    float: left;
+    background: url("../image/gp-uncheck.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 4px;
+    border: none;
+    color: transparent;
+}
+
+.group-manage .gp-order-handle {
+    position: absolute;
+    width: 130px;
+    top: 18px;
+    border-radius: 4px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.group-manage .gp-order-handle label {
+    width: 100%;
+    height: 30px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    background-image: url("../image/handle-down.png");
+    background-repeat: no-repeat;
+    background-position: 90px center;
+}
+
+.group-manage .gp-order-handle ul {
+    display: none;
+    margin-bottom: 4px !important;
+}
+
+.group-manage tr:hover .gp-order-handle {
+    background-color: #fafafa;
+}
+
+.group-manage .gp-order-handle:hover {
+    top: 4px;
+    z-index: 1000;
+}
+
+.group-manage .gp-order-handle:hover label {
+    background-image: url("../image/handle-up.png");
+}
+
+.group-manage .gp-order-handle:hover ul {
+    display: block;
+}
+
+.group-manage .gp-order-handle ul li {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.group-manage .gp-order-handle ul li:hover {
+    cursor: pointer;
+}
+
+.group-manage .gp-order-handle ul .sent-goods {
+    border: 1px solid #e55858;
+    color: #e55858;
+    margin-right: 2px;
+}
+
+.group-manage .gp-order-handle ul .no-send {
+    border: 1px solid #c7c7c7;
+    margin-left: 2px;
+}
+
+.modal-add-total {
+    width: 340px;
+    height: 198px;
+    background-color: #fff;
+    border-radius: 10px !important;
+}
+
+.modal-add-total .modal-header {
+    border: none;
+}
+
+.modal-add-total .modal-header img {
+    float: right;
+}
+
+.modal-add-total .modal-header span {
+    display: inline-block;
+    padding: 4px 0 0 18px;
+    color: #333;
+    font-size: 20px;
+}
+
+.modal-add-total .modal-body-1 {
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.modal-add-total .modal-body-1 label {
+    color: #333;
+    font-size: 16px;
+}
+
+.modal-add-total .modal-body-1 input {
+    width: 236px;
+    height: 40px;
+    padding-left: 10px;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+}
+
+.modal-add-total .modal-body-1 span {
+    display: inline-block;
+    width: 40px;
+    margin-left: -40px;
+    color: #333;
+    font-size: 16px;
+}
+
+.modal-add-total .modal-body-2 input {
+    width: 80px;
+    height: 40px;
+    margin: 0 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.modal-add-total .modal-body-2 .cancel-btn {
+    font-size: 16px;
+    color: #a9a9a9;
+    border: 1px solid #999;
+}
+
+.modal-add-total .modal-body-2 .confirm-btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #E85B5A;
+    border: 1px solid #E85B5A;
+}
+
+.modal-change-price {
+    width: 462px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 10px !important;
+}
+
+.modal-change-price .modal-header {
+    border: none;
+}
+
+.modal-change-price .modal-header img {
+    float: right;
+}
+
+.modal-change-price .modal-header span {
+    display: inline-block;
+    padding: 10px 0 0 18px;
+    color: #333;
+    font-size: 20px;
+}
+
+.modal-change-price .modal-body-1 {
+    width: 100%;
+    height: 174px;
+    padding-top: 5px;
+}
+
+.modal-change-price .modal-body-1 label {
+    color: #333;
+    font-size: 16px;
+}
+
+.modal-change-price .modal-body-1 input {
+    width: 288px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.modal-change-price .modal-body-1 span {
+    display: inline-block;
+    width: 60px;
+    margin-left: -60px;
+    color: #333;
+    font-size: 16px;
+}
+
+.modal-change-price .modal-body-2 input {
+    width: 80px;
+    height: 40px;
+    margin: 0 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.modal-change-price .modal-body-2 .cancel-btn {
+    font-size: 16px;
+    color: #a9a9a9;
+    border: 1px solid #999;
+}
+
+.modal-change-price .modal-body-2 .confirm-btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #E85B5A;
+    border: 1px solid #E85B5A;
+}
+
+/* 添加团购活动 */
+.group-manage-add {
+    min-height: 686px;
+}
+
+.group-manage-add .add-content {
+    padding: 34px 0 0 20px;
+}
+
+.group-manage-add .add-content p {
+    margin-bottom: 28px;
+    height: 40px;
+}
+
+.group-manage-add .add-content p label {
+    float: left;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 16px;
+    color: #333;
+}
+
+.group-manage-add .add-content p input {
+    float: left;
+    width: 220px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #cfcfcf;
+}
+
+.group-manage-add .add-content p select {
+    float: left;
+    width: 160px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #cfcfcf;
+    background-image: url("../image/select-drop.png");
+    background-repeat: no-repeat;
+    background-position: 182px center;
+}
+
+.group-manage-add .add-content p #coal_variety_name {
+    width: 130px;
+    background-position: 90px center;
+}
+
+.group-manage-add .add-content p #coal_norm {
+    background-position: 120px center;
+}
+
+.group-manage-add .add-content p #coal_mine_name_2 {
+    width: 222px;
+    margin-right: 118px;
+}
+
+.group-manage-add .add-content p .chosen-container {
+    float: left;
+    width: 222px !important;
+    height: 40px;
+    margin-right: 118px;
+    border-radius: 0px;
+}
+
+.group-manage-add .add-content p .chosen-container-single .chosen-single {
+    height: 40px;
+    border-radius: 0px;
+    background-image: url("../image/select-drop.png");
+    background-repeat: no-repeat;
+    background-position: 182px center;
+}
+
+.group-manage-add .add-content p .chosen-container-single .chosen-default {
+    background-image: url("../image/select-drop.png");
+    background-repeat: no-repeat;
+    background-position: 182px center;
+}
+
+.group-manage-add .add-content p .chosen-container .chosen-results {
+    width: 100%;
+}
+
+.group-manage-add .add-content p span {
+    display: inline-block;
+    height: 40px;
+    margin-left: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+}
+
+.group-manage-add .add-content p .span-style-1 {
+    width: 114px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #e55858;
+    border: 1px solid #cfcfcf;
+}
+
+.group-manage-add .add-content p .span-style-2 {
+    margin-left: 0;
+    font-size: 14px;
+    color: #e55858;
+}
+
+.group-manage-add .add-content p .span-style-1:hover {
+    cursor: pointer;
+}
+
+.group-manage-add .add-content-1 {
+    float: left;
+    width: 420px;
+    height: auto;
+}
+
+.group-manage-add .add-content-2 {
+    float: left;
+    width: 430px;
+    height: auto;
+}
+
+.group-manage-add .add-content-3 {
+    display: none;
+    float: left;
+    width: 430px;
+    height: auto;
+}
+
+.group-manage-add .add-content p .confirm-add-btn {
+    width: 126px;
+    height: 46px;
+    padding: 0;
+    margin: 48px 416px;
+    font-size: 20px;
+    color: #fff;
+    background: #E55858;
+    border-radius: 4px;
+    border: none;
+}
+
+.group-manage-info-1 input {
+    background-color: #fff;
+}
+
+.group-manage-info-1 .add-content p .wait-pass {
+    width: 126px;
+    height: 46px;
+    padding: 0;
+    margin: 48px 416px;
+    font-size: 20px;
+    color: #E55858;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #E55858;
+}
+
+/* 添加指标弹窗 */
+.modal-add-group {
+    width: 480px;
+    height: 290px;
+    border-radius: 10px !important;
+    margin-top: 100px;
+}
+
+.modal-add-group .modal-header {
+    height: 66px;
+    border: none;
+}
+
+.modal-add-group .modal-header span {
+    font-size: 20px;
+    color: #333;
+}
+
+.modal-add-group .modal-header input {
+    float: right;
+    margin: 4px 5px 0 0;
+}
+
+.modal-add-group .modal-body-1 {
+    position: relative;
+    height: auto;
+}
+
+.modal-add-group .modal-body-1 label {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.modal-add-group .modal-body-1 input {
+    float: left;
+    width: 120px;
+    height: 30px;
+    padding-left: 6px;
+    margin: 0 10px 20px 10px;
+    border: 1px solid #999;
+}
+
+.modal-add-group .modal-body-1 .span-1 {
+    position: absolute;
+    left: 170px;
+    top: 0;
+    line-height: 30px;
+    color: #ccc
+}
+
+.modal-add-group .modal-body-1 .span-2 {
+    position: absolute;
+    left: 410px;
+    top: 0;
+    line-height: 30px;
+    color: #ccc
+}
+
+.modal-add-group .modal-body-1 .input-1 {
+    width: 340px;
+}
+
+.modal-add-group .modal-body-2 {
+    margin-top: 50px;
+}
+
+.modal-add-group .modal-body-2 input {
+    width: 80px;
+    height: 40px;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #a9a9a9;
+    border: 1px solid #999;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.modal-add-group .modal-body-2 .confirm-btn {
+    color: #fff;
+    background-color: #e85b5a;
+    border: none;
+}
+
+.modal-add-remark {
+    height: 258px;
+}
+
+.modal-add-remark .modal-body-1 {
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+}
+
+.modal-add-remark .modal-body-1 textarea {
+    width: 220px;
+    height: 100px;
+    padding: 4px;
+}
+
+.gp-rule-content {
+    width: 100%;
+    height: 860px;
+    background-color: #fff;
+}
+
+.gp-rule-content > label {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    line-height: 80px;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.gp-rule-content .rule-info {
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.gp-rule-content .rule-info label {
+    width: 100%;
+    height: 30px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #555;
+    text-align: left;
+}
+
+.gp-rule-content .rule-info p {
+    height: 38px;
+    line-height: 38px;
+    margin: 0;
+    font-size: 16px;
+    color: #888;
+    text-align: left;
+}
+
+.gp-rule-content .rule-info .main-p {
+    margin-top: 70px;
+    font-size: 14px;
+    color: #999;
+    text-align: left;
+}
+
+.gp-rule-content .rule-info .main-p span {
+    color: #e55858;
+}
+
+/*运单列表*/
+.waybill-center .top-search {
+    float: right;
+    width: 800px;
+    height: 40px;
+    padding-right: 20px;
+    line-height: 40px;
+    background-color: #ffffff;
+    margin-top: 14px;
+}
+
+.waybill-center .top-search input {
+    float: right;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.waybill-center .top-search .address {
+    background-image: url("../image/select.png");
+    background-repeat: no-repeat;
+    background-position: 184px center;
+}
+
+.waybill-center .top-search button {
+    float: right;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e65252;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #e65252
+}
+
+.waybill-center .top-search button:hover {
+    background-color: #e65252;
+    color: #ffffff
+}
+
+.waybill-center .top-search .btn-1 {
+    background-color: #e65252;
+    color: #ffffff;
+}
+
+.waybill-center .top-search .btn-1:hover {
+    background-color: #b73a33;
+    border-color: #b73a33
+}
+
+.waybill-center .way-info {
+    width: 100%;
+    height: 160px;
+    padding: 0 20px;
+}
+
+.waybill-center .way-info > label {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    background: #fff url("../image/order-time-1.png") 0 14px/16px 16px no-repeat;
+}
+
+.waybill-center .way-info .road-line {
+    width: 100%;
+    height: 48px;
+}
+
+.waybill-center .way-info .road-line label {
+    float: left;
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-left: 37px;
+}
+
+.waybill-center .way-info .road-line .start {
+    background-image: url("../image/way-start.png");
+}
+
+.waybill-center .way-info .road-line .center {
+    padding: 0;
+    margin: 0 32px;
+    background-position: center 4px;
+    background-image: url("../image/wuliu-2.png");
+}
+
+.waybill-center .way-info .road-line .end {
+    background-image: url("../image/way-end.png");
+}
+
+.waybill-center .way-search {
+    float: left;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin: 20px 0 10px;
+}
+
+.waybill-center .way-search label {
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    line-height: 40px;
+}
+
+.waybill-center .way-search > a {
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+.waybill-center .way-search > a:hover {
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.waybill-center .way-search > .active {
+    color: #e55858;
+    border-bottom: 2px solid #e55858;
+}
+
+.waybill-center .way-search > input {
+    width: 330px;
+    height: 40px;
+    color: #999;
+    margin-right: 0px;
+    background-color: #efefef;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #eaeaea;
+    float: right;
+    background-image: url("../image/index-s.png");
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    padding-left: 35px;
+}
+
+.waybill-center .way-search > input:focus {
+    padding-left: 35px;
+}
+
+.waybill-center .way-search > button {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e65252;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #e65252;
+    color: #ffffff;
+    float: right;
+}
+
+.waybill-center .goods-info {
+    display: flex;
+    width: 960px;
+    height: 65px;
+    margin-top: 4px;
+    align-items: center;
+    border: 1px solid #cfcfcf;
+}
+
+.waybill-center .goods-info .item {
+    height: 20px;
+    line-height: 20px;
+    flex-grow: 1;
+    border-right: 1px solid #cfcfcf;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.waybill-center .goods-info .item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.waybill-center .goods-info :last-child {
+    border: none;
+    max-width: 300px;
+}
+
+.waybill-center .way-order-btn .finshed {
+    display: none;
+}
+
+.waybill-center .way-order-btn button {
+    float: right;
+    margin: 0 5px;
+}
+
+.waybill-center .way-order-btn .under-line {
+    width: 70px !important;
+    background-color: #fff !important;
+    color: #e55858 !important;
+}
+
+.waybill-center .way-order-btn .confirm button {
+    display: none;
+    float: right;
+    margin: 0 5px;
+}
+
+.waybill-center .way-order-btn .confirm .queren {
+    display: block;
+    margin-right: 50px;
+}
+
+.waybill-center .way-order-btn .confirm .under-line {
+    width: 70px !important;
+    background-color: #fff !important;
+    color: #e55858 !important;
+}
+
+.waybill-center .edit-pound {
+    width: 160px;
+}
+
+.waybill-center .edit-pound .edit {
+    display: flex;
+    width: auto;
+    height: 24px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.waybill-center .edit-pound .edit .pound-count {
+    line-height: 24px;
+    margin: 0 10px;
+}
+
+.waybill-center .edit-pound .edit .e_1 {
+    display: none;
+}
+
+.waybill-center .edit-pound .edit .e_1 input {
+    float: left;
+    width: 70px;
+    height: 24px;
+}
+
+.waybill-center .edit-pound .edit .e_1 button {
+    float: left;
+    width: 30px;
+    height: 24px;
+    margin: 0;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.waybill-center .edit-pound .edit img {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 5px 0 0 0;
+}

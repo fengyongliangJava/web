@@ -1,0 +1,1009 @@
+.transel {
+    width: 1200px;
+    min-height: 360px;
+    background-color: #fff;
+}
+
+.trans-form {
+    display: none;
+}
+
+.transel-q {
+    min-height: 240px;
+    background-color: #ffff;
+}
+
+.transel-q-1 {
+    height: 716px;
+    background-color: #f5f5f5;
+}
+
+.transel-q-2 {
+    width: 1200px;
+    min-height: 380px;
+    background-color: #fff;
+}
+
+.transel-2 {
+    margin-left: 180px;
+}
+
+.transel-3 {
+    margin-left: 180px;
+}
+
+.transel-q > label {
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.trans-problem-show {
+    width: 100%;
+    height: 334px;
+    margin-top: 20px;
+    padding: 15px 0 0 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #333;
+    background-color: #fff0f0
+}
+
+.trans-problem-show .trans-problem {
+    width: 100%;
+}
+
+.trans-problem-show .trans-problem label {
+    float: left;
+    font-size: 18px;
+    color: #333
+}
+
+.trans-problem-show .trans-problem img {
+    float: right;
+    margin-right: 15px;
+}
+
+.trans-problem-show > label {
+    dispaly: block;
+    float: left;
+    width: 900px;
+    font-size: 14px;
+    color: #333
+}
+
+.trans-problem-show > label img {
+    margin-right: 10px;
+}
+
+.trans-problem-show > span {
+    dispaly: block;
+    float: left;
+    width: 900px;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #666
+}
+
+.trans-problem-show .margin-style {
+    margin-top: 10px;
+}
+
+.trans-order-show {
+    width: 100%;
+    height: 220px;
+    margin-top: 30px;
+    padding: 26px 30px 0 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #333;
+    background-color: #fff
+}
+
+.trans-order-show > label {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+    font-weight: normal
+}
+
+.trans-order-show .show-1 {
+    float: left;
+    width: 600px;
+}
+
+.trans-order-show .show-1 label {
+    height: 38px;
+    line-height: 38px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.trans-order-show .show-1 label img {
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.trans-order-show .show-2 {
+    float: right;
+    width: 200px;
+    margin: 30px 60px 0 0;
+    text-align: right;
+}
+
+.trans-order-show .show-2 span {
+    font-size: 22px;
+    color: #e53232;
+    font-family: Avenir Next Condensed-Mediumitalic;
+    font-style: italic;
+}
+
+/*商城付款信息展示*/
+.trans-order-show-mall {
+    height: 182px;
+}
+
+.transel-k-info {
+    width: 1000px;
+    height: 134px;
+    padding-left: 60px;
+    background-color: #fff
+}
+
+.transel-k-info label {
+    float: left;
+    margin-top: 56px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.transel-k-info a {
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 47px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #fff;
+    background-color: #e53232;
+    border: none;
+    border-radius: 4px;
+}
+
+.transel-k-info a:hover {
+    background-color: #c72b2b;
+    border: none;
+}
+
+.transel-q-info {
+    width: 1200px;
+    height: 214px;
+    padding: 0px 40px 0;
+    background-color: #fff
+}
+
+.transel-q-info .trans-handle-1 {
+    width: 920px;
+    height: 30px;
+    position: relative;
+}
+
+.transel-q-info .trans-handle-1 .mask {
+    position: absolute;
+    width: 920px;
+    height: 30px;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.transel-q-info .trans-handle-1 img {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.transel-q-info .trans-handle-1 span {
+    margin: 0 10px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #333;
+}
+
+.transel-q-info label {
+    margin: 0 0 0 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #666;
+    font-weight: normal
+}
+
+.transel-q-info .trans-handle-2 {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 15px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.transel-q-info .trans-handle-2 .bankCard {
+    float: right;
+    width: 300px;
+    height: 28px;
+}
+
+.transel-q-info .trans-handle-2 img {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.transel-q-info .trans-handle-2 span {
+    margin: 0 10px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #333;
+}
+
+.transel-q-info .trans-handle-2 select {
+    width: 300px;
+    height: 28px;
+    padding-left: 10px;
+    line-height: 28px;
+    background-color: #EAEAEA;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    margin-right: 20px;
+}
+
+.transel-q-info .trans-handle-2 a {
+    float: right;
+    display: none;
+    width: 80px;
+    height: 34px;
+    margin: 14px 70px 0 0;
+    line-height: 34px;
+    text-decoration: none;
+    text-align: center;
+    color: #3275e5;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+}
+
+.transel-q-info .trans-handle-2 #mobile {
+    float: right;
+    display: none;
+    margin-right: 50px;
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.transel-q-info .trans-handle-2 label {
+    float: right;
+    display: none;
+}
+
+.trans-btn {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+
+.trans-btn label {
+    float: left;
+    margin: 0px 20px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.trans-btn span {
+    font-size: 26px;
+    color: #e53232;
+    font-family: Avenir Next Condensed-Mediumitalic;
+}
+
+.trans-btn > button {
+    float: right;
+    width: 140px;
+    height: 60px;
+    background-color: #e53232;
+    border-radius: 4px;
+    border: 1px solid #e53232;
+    font-size: 18px;
+    color: #fff;
+}
+
+.trans-btn > button:hover {
+    background-color: #c72b2b;
+    border: none;
+}
+
+.trans-btn-2 {
+    width: 1200px;
+    height: 70px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.trans-btn-2 img {
+    float: left;
+    margin: 24px 10px 0 44px;
+}
+
+.trans-btn-2 span {
+    float: left;
+    margin: 24px 0px;
+    font-size: 16px;
+    color: #e2e2e2;
+}
+
+.trans-btn-2 a {
+    float: left;
+    width: 200px;
+    line-height: 70px;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.trans-btn-2 .payment-active {
+    background-image: url("../image/public-pay.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+/*发票模块*/
+.order-invoice-info {
+    height: 100px !important;
+    padding: 10px 0 0 40px !important;
+    border-bottom: 10px solid #fafafa;
+}
+
+.order-invoice-info label {
+    float: left;
+    width: 100%;
+    height: 30px !important;
+    margin: 0;
+    line-height: 30px;
+    font-size: 16px;
+    color: #555;
+}
+
+.invoice-state {
+    padding: 0 40px !important;
+    border-bottom: 10px solid #fafafa !important;
+}
+
+.invoice-state img {
+    float: left;
+    margin: 28px 26px 0 0;
+}
+
+.invoice-state span {
+    float: left;
+    line-height: 90px;
+    font-size: 18px;
+    color: #555;
+}
+
+.trans-btn-3 {
+    width: 1000px;
+    height: auto;
+    padding: 16px 0 0 0;
+    background-color: #fff;
+}
+
+.trans-btn-3 > label {
+    font-size: 20px;
+    color: #333;
+    padding-left: 40px;
+}
+
+.trans-btn-3 > ul {
+    padding-left: 42px;
+    margin-bottom: 20px;
+}
+
+.trans-btn-3 > ul .list-1 {
+    float: left;
+    width: auto !important;
+    height: 40px;
+    margin-right: 10px !important;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+}
+
+.trans-btn-3 > ul li {
+    float: left;
+    width: 156px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+.trans-btn-3 > ul .active a {
+    background: #fff url("../image/chose-2.png") no-repeat 0 center;
+    color: #333 !important;
+}
+
+.trans-btn-3 > ul li a {
+    line-height: 40px;
+    padding-left: 26px;
+    text-align: left;
+    font-size: 18px;
+    color: #999;
+    background: #fff url("../image/chose-1.png") no-repeat 0 center;
+}
+
+.trans-btn-3 > ul li a:hover {
+    background-color: #fff;
+}
+
+.trans-btn-3 .add-value {
+    width: 100%;
+    padding-left: 180px;
+}
+
+.trans-btn-3 .add-value > label {
+    height: 30px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.trans-btn-3 .add-value > p {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.trans-btn-3 .add-value > p label {
+    float: left;
+    width: 136px;
+    height: 36px;
+    padding-right: 6px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.trans-btn-3 .add-value > p input {
+    float: left;
+    width: 500px;
+    height: 36px;
+    padding-left: 10px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+.trans-btn-3 .add-value > p .p-class {
+    width: 116px;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+.trans-btn-3 .plain-value {
+    width: 100%;
+    padding-left: 180px;
+}
+
+.trans-btn-3 .plain-value > label {
+    height: 30px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.trans-btn-3 .plain-value > p {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.trans-btn-3 .plain-value > p label {
+    float: left;
+    width: 136px;
+    height: 36px;
+    padding-right: 6px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.trans-btn-3 .plain-value > p input {
+    float: left;
+    width: 500px;
+    height: 36px;
+    padding-left: 10px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+.trans-btn-3 .plain-value > p .p-class {
+    width: 116px;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+.trans-btn-4 {
+    width: 1000px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.trans-btn-4 .label-style {
+    float: left;
+    width: 100%;
+    height: 14px;
+    padding-right: 180px;
+    line-height: 14px;
+    text-align: right;
+    font-size: 14px;
+    color: #e65252;
+}
+
+.trans-btn-4 button {
+    float: right;
+    width: 128px;
+    height: 50px;
+    margin: 20px 180px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #e55858;
+    border: none;
+    border-radius: 4px;
+}
+
+.trans-btn-5 {
+    width: 1000px;
+    height: 426px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: #fff;
+}
+
+.trans-btn-5 label {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.trans-btn-5 label span {
+    color: #333;
+}
+
+.trans-btn-5 label a {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e55858;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #e55858;
+    border-radius: 4px;
+}
+
+/* 对公支付 */
+.content-pay-1 {
+    width: 1200px;
+    height: 390px;
+    padding: 36px 48px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.content-pay-1 label {
+    float: left;
+}
+
+.content-pay-1 .label-1 {
+    width: 100%;
+    height: 50px;
+    margin: 0 0 36px 0;
+    text-align: left;
+}
+
+.content-pay-1 .label-1 img {
+    float: left;
+}
+
+.content-pay-1 .label-1 .span-1 {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    margin: 0 30px;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.content-pay-1 .label-1 .span-2 {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    margin-left: 22px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #333;
+}
+
+.content-pay-1 .label-2 {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    margin: 28px 0 20px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: #e55858;
+}
+
+.content-pay-1 .label-3 {
+    width: 100%;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+.content-pay-1 .label-4 {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.content-pay-1 .label-4 img {
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.content-pay-1 .label-4 img:hover {
+    cursor: pointer
+}
+
+.content-pay-2 {
+    width: 1200px;
+    height: 400px;
+    padding-left: 55px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.content-pay-2 ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 220px;
+    height: 50px;
+    margin: 40px 25px 0;
+    vertical-align: middle;
+    border: 1px solid #cfcfcf;
+}
+
+.content-pay-2 ul .active {
+    background: url("../image/chose-bank.png") no-repeat 0 center;
+}
+
+.content-pay-2 ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.content-pay-3 {
+    width: 1200px;
+    height: 100px;
+    padding-left: 56px;
+    margin-top: 10px;
+    background-color: #fafafa;
+}
+
+.content-pay-3 p {
+    float: left;
+    width: 716px;
+    font-size: 14px;
+    color: #e55858;
+}
+
+.content-pay-3 p label {
+    width: 100%;
+    margin: 0;
+    line-height: 28px;
+    text-align: left;
+}
+
+.content-pay-3 p .label-2 {
+    margin-left: 28px;
+}
+
+.content-pay-3 button {
+    float: right;
+    width: 140px;
+    height: 50px;
+    margin: 20px 56px 0 0;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(230, 82, 82, 1);
+    border: none;
+    border-radius: 4px;
+}
+
+.mall-public-pay {
+    height: 300px;
+    padding: 26px 48px;
+}
+
+.bankCard {
+    display: none;
+}
+
+.balance {
+    display: block;
+}
+
+.transel-q-info-1 {
+    padding-top: 70px;
+}
+
+.transel-q-info-1 .trans-btn-3 {
+    margin-top: 64px;
+}
+
+.transel-q-info-1 > label {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.transel-q-info-1 > input {
+    padding-left: 12px;
+    height: 30px;
+    width: 260px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+
+.transel-q-info-1 > button {
+    width: 140px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+    border: 1px solid #e53232;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #e53232;
+}
+
+.transel-q-info-2 > label {
+    float: left;
+}
+
+.transel-q-info-2 > input {
+    float: left;
+    margin-right: 20px;
+}
+
+.transel-q-info-2 > .hidden-btn {
+    display: none;
+}
+
+.transel-q-info-3 {
+    width: 1000px;
+    height: 524px;
+    background-color: #fff;
+}
+
+.transel-q-info-3 > label {
+    width: 960px;
+    margin: 20px 0 0 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #333;
+}
+
+.transel-q-info-3 > img {
+    float: left;
+    margin-top: 32px;
+}
+
+.transel-q-info-3 .show-3 {
+    float: left;
+    width: 260px;
+    height: 357px;
+    margin: 32px 120px 0 165px;
+}
+
+.transel-q-info-3 .show-3 .pay-qrcode {
+    width: 260px;
+    height: 260px;
+    border: 1px solid #e2e2e2;
+}
+
+.transel-q-info-3 .show-3 .pay-qrcode > img {
+    width: 112px;
+    height: 112px;
+    margin: 73px;
+}
+
+.transel-q-info-3 .show-3 .pay-remind {
+    width: 260px;
+    height: 60px;
+    margin-top: 37px;
+    background-color: #e53232;
+}
+
+.transel-q-info-3 .show-3 .pay-remind img {
+    float: left;
+    margin: 12px 22px 0px 40px;
+}
+
+.transel-q-info-3 .show-3 .pay-remind span {
+    float: left;
+    margin-top: 10px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #fff;
+}
+
+.transel-q-info-3 .other-handle {
+    width: 1000px;
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.transel-q-info-3 .other-handle a {
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #3275e5;
+}
+
+.trans-pay {
+    padding-top: 85px;
+}
+
+.trans-pay > .trans-pay-btn-1 {
+    border: 1px solid #e53232;
+    background-color: #e53232;
+    color: #fff;
+    cursor: pointer
+}
+
+.trans-pay > .trans-pay-btn-2 {
+    border: 1px solid #e53232;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    margin-right: 210px;
+}
+
+.trans-pay > .trans-pay-btn-2:hover {
+    color: #fff;
+}
+
+.mall-pays .public-pay {
+    height: 72px;
+    border-bottom: none;
+    padding-top: 12px;
+}
+
+.mall-pays .quick-pay {
+    border: none;
+    margin: 0;
+}
+
+.mall-pays .internet-pay {
+    height: 72px;
+    border-top: none;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.mall-pays .transel-q-info {
+    height: 358px;
+}
+
+.mall-pays .quick-state {
+    display: none;
+    float: right;
+    width: 890px;
+    height: 60px;
+}
+
+.mall-pays .quick-state .bankCard {
+    display: block;
+    float: left;
+    margin-right: 40px;
+}
+
+.mall-pays .quick-state > label {
+    display: block;
+    float: left;
+    margin-right: 46px;
+    margin-left: 0;
+}
+
+.mall-pays .quick-state #mobile {
+    display: inline-block;
+    margin: 0;
+}
+
+.mall-pays .quick-state > a {
+    display: block;
+    float: left;
+    margin-left: 0;
+}
+
+.mall-pays .no-pass label {
+    float: left;
+    line-height: 60px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.mall-pays .no-pass a {
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0 0 20px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #fff;
+    background-color: #e53232;
+    border: none;
+    border-radius: 4px;
+}
+
+.mall-pays .no-pass a:hover {
+    background-color: #c72b2b;
+    border: none;
+}

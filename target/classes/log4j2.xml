@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 该配置官方网站：http://logging.apache.org/log4j/2.x/manual/configuration.html -->
+<!-- Configuration：为根节点，有status和monitorInterval等多个属性 -->
+<!-- status的值有 “trace”, “debug”, “info”, “warn”, “error” and “fatal”，用于控制log4j2日志框架本身的日志级别， -->
+<!-- 如果将stratus设置为较低的级别就会看到很多关于log4j2本身的日志，如加载log4j2配置文件的路径等信息 -->
+<!-- monitorInterval，含义是每隔多少秒重新读取配置文件，可以不重启应用的情况下修改配置 -->
+<Configuration status="DEBUG" monitorInterval="1800">
+	<Appenders>
+		<properties>
+			<!-- 可以设置变量 -->
+		</properties>
+		
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%-5level] - %l - %msg%n" />
+		</Console>
+		<!-- %d{HH:mm:ss.SSS} 表示输出到毫秒的时间 -->
+		<!--%t 输出当前线程名称 -->
+		<!--%-5level 输出日志级别，-5表示左对齐并且固定输出5个字符，如果不足在右边补0 -->
+		<!--%logger 输出logger名称，因为Root Logger没有名称，所以没有输出 -->
+		<!--%msg 日志文本 -->
+		<!--%n 换行 -->
+		<!--其他常用的占位符有： -->
+		<!--%F 输出所在的类文件名，如Log4j2Test.java -->
+		<!--%L 输出行号 -->
+		<!--%M 输出所在方法名 -->
+		<!--%l 输出语句所在的行数, 包括类名、方法名、文件名、行数 -->
+		<RollingRandomAccessFile name="SERVICE_LOG_FILE"
+			fileName="logs/server.log" filePattern="logs/$${date:yyyy-MM}/server-%d{yyyy-MM-dd}-%i.log.gz">
+			<!-- <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/> -->
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%-5level] - %l - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" /><!-- 每天一个文件 -->
+				<SizeBasedTriggeringPolicy size="10 MB" /><!-- 每个文件10M -->
+			</Policies>
+			<DefaultRolloverStrategy max="2000" /> <!-- 每天最多2000个文件 -->
+		</RollingRandomAccessFile>
+		<RollingRandomAccessFile name="JOB_LOG_FILE"
+			fileName="logs/job.log" filePattern="logs/$${date:yyyy-MM}/job-%d{yyyy-MM-dd}-%i.log.gz">
+			<!-- <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY" /> -->
+			<PatternLayout pattern="%d{ABSOLUTE} &lt;%c&gt; %5p [%t]: %m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+			<DefaultRolloverStrategy />
+		</RollingRandomAccessFile>
+	</Appenders>
+	
+	<Loggers>
+		<Logger name="com.ifast" level="DEBUG" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="SERVICE_LOG_FILE"/>
+        </Logger>
+		<Logger name="org.quartz" level="DEBUG" additivity="false">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="JOB_LOG_FILE" />
+		</Logger>
+	   <!--  <logger name="org.mybatis" level="DEBUG">
+			<AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="SERVICE_LOG_FILE"/>
+		</logger> -->
+		<Logger name="com.ifast.web.dao" level="DEBUG" additivity="false">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="SERVICE_LOG_FILE" />
+		</Logger> 
+		<Root level="INFO">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="SERVICE_LOG_FILE" />
+			<AppenderRef ref="JOB_LOG_FILE" />
+		</Root>
+	</Loggers>
+</Configuration>

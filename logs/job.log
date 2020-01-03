@@ -661,3 +661,5 @@ java.lang.IllegalArgumentException: Root element name cannot be null
 21:15:49,759 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
 21:16:17,607 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
 21:16:45,677 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+21:17:15,325 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+21:17:39,675 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers

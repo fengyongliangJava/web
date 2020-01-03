@@ -28,7 +28,7 @@
 					<div class='icon'>
 						<img alt="" src='/img/user_icon_copy.png'>
 					</div>
-					<input name="login" placeholder='用户名' maxlength="16" type='text' autocomplete="off" value="kbcxy" />
+					<input name="login" placeholder='用户名' maxlength="16" type='text' autocomplete="off" value="admin" />
 					<div class='validation'>
 						<img alt="" src='/img/tick.png'>
 					</div>
@@ -37,7 +37,7 @@
 					<div class='icon'>
 						<img alt="" src='/img/lock_icon_copy.png'>
 					</div>
-					<input name="pwd" placeholder='密码' maxlength="16" type='text' autocomplete="off">
+					<input name="pwd" placeholder='密码' maxlength="16" type='text' autocomplete="off" value="admin">
 					<div class='validation'>
 						<img alt="" src='/img/tick.png'>
 					</div>
@@ -87,7 +87,7 @@
 			var ajaxmockjax = 1; //是否启用虚拟Ajax的请求响 0 不启用  1 启用
 			//默认账号密码
 
-			var truelogin = "kbcxy";
+			var truelogin = "admin";
 			var truepwd = "1";
 
 			var CodeVal = 0;
@@ -125,7 +125,7 @@
 				$('input[type="button"]').click(function() {
 					var login = $('input[name="login"]').val();
 					var pwd = $('input[name="pwd"]').val();
-					var code = $('input[name="code"]').val();
+					var code = $('input[name="ValidateNum"]').val();
 					if(login == '') {
 						ErroAlert('请输入您的账号');
 					} else if(pwd == '') {
@@ -135,15 +135,15 @@
 					} else {
 						//登陆
 						var JsonData = {
-							login: login,
-							pwd: pwd,
+								username: login,
+							password: pwd,
 							code: code
 						};
-						//$.post("url",JsonData,function(data) {
-						console.log(111);
-						alert("登录成功");
-						//window.location.href = 'http://127.0.0.1:8020/jQueryLogin/index.html?__hbt=1567408106021';
-						//});						
+						$.post("/login/ajax_login",JsonData,function(data) {
+							if(data.code == "0"){
+								window.location.href = '/index';
+							}
+						});						
 					}
 				})
 			})

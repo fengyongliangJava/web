@@ -142,7 +142,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/webjars/**", "anon");
         filterChainDefinitionMap.put("/v2/**", "anon");
         filterChainDefinitionMap.put("/shiro/**", "anon");
-        filterChainDefinitionMap.put("/login", "anon");
+        filterChainDefinitionMap.put("/login/**", "anon");
         filterChainDefinitionMap.put("/css/**", "anon");
         filterChainDefinitionMap.put("/css2/**", "anon");
         filterChainDefinitionMap.put("/css3/**", "anon");
@@ -161,6 +161,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/files/**", "anon");
         filterChainDefinitionMap.put("/test/**", "anon");
         filterChainDefinitionMap.put("/logout", "logout");
+        
         filterChainDefinitionMap.put("/", "anon");
         
         filterChainDefinitionMap.put("/wechat/**", "anon");

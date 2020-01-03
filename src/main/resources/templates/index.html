@@ -583,13 +583,42 @@
 
             <div id="full-screen-slider">
                 <ul id="slides">
-                  
-					<li style="background: rgba(0, 0, 0, 0) url('img/banner1.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
+                  	<script>
+                  			// TODO 请求  imgcontroller -> list
+                	 	$.ajax({
+							cache : true,
+							type : "get",
+							url : "/web/img/list?pageNumber=1&pageSize=6",
+							async : false,
+							error : function(request) {
+								parent.layer.alert("Connection error");
+							},
+							success : function(data) {
+								//alert(JSON.stringify(data.data.records));
+								var data = data.data.records;
+								var html = "";
+								if(data){
+									for (i = 0; i < data.length; i++) { 
+										//alert(JSON.stringify(data[i].src))
+										if(i %2 == 0){
+											 html +="<li style='background: rgba(0, 0, 0, 0) url("+ data[i].src +") no-repeat scroll center top; z-index: 800; display: block;'></li>";
+										}else{
+											 html +="<li style='background: rgba(0, 0, 0, 0) url("+ data[i].src +") no-repeat scroll center top; z-index: 900; display: none;'></li>";
+										}
+									 }
+								}
+								$("#slides").empty();
+								$("#slides").append(html);
+							}
+						});  
+                  			
+                  	</script>
+					<!-- <li style="background: rgba(0, 0, 0, 0) url('upload/111.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
 					<li style="background: rgba(0, 0, 0, 0) url('img/banner2.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
 					<li style="background: rgba(0, 0, 0, 0) url('img/banner3.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
 					<li style="background: rgba(0, 0, 0, 0) url('img/banner4.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
 					<li style="background: rgba(0, 0, 0, 0) url('img/banner5.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
-					<li style="background: rgba(0, 0, 0, 0) url('img/banner6.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('img/banner6.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li> -->
     
                 </ul>
 				<ul id="pagination" style="margin-left: -25px;">

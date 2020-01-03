@@ -53,7 +53,6 @@ public class ImgController extends AdminBaseController {
 
 	@ResponseBody
 	@GetMapping("/list")
-	@RequiresPermissions("web:img:img")
 	public Result<Page<ImgDO>> list(ImgDO imgDTO) {
 		Wrapper<ImgDO> wrapper = new EntityWrapper<ImgDO>(imgDTO);
 		Page<ImgDO> page = imgService.selectPage(getPage(ImgDO.class), wrapper);
@@ -61,13 +60,11 @@ public class ImgController extends AdminBaseController {
 	}
 
 	@GetMapping("/add")
-	@RequiresPermissions("web:img:add")
 	String add() {
 		return "web/img/add";
 	}
 
 	@GetMapping("/edit/{id}")
-	@RequiresPermissions("web:img:edit")
 	String edit(@PathVariable("id") Integer id, Model model) {
 		ImgDO img = imgService.selectById(id);
 		model.addAttribute("img", img);
@@ -79,7 +76,6 @@ public class ImgController extends AdminBaseController {
 	 */
 	@ResponseBody
 	@PostMapping("/save")
-	@RequiresPermissions("web:img:add")
 	public Result<String> save(ImgDO img) {
 		imgService.insert(img);
 		return Result.ok();
@@ -90,7 +86,6 @@ public class ImgController extends AdminBaseController {
 	 */
 	@ResponseBody
 	@RequestMapping("/update")
-	@RequiresPermissions("web:img:edit")
 	public Result<String> update(ImgDO img) {
 		imgService.updateById(img);
 		return Result.ok();
@@ -101,7 +96,6 @@ public class ImgController extends AdminBaseController {
 	 */
 	@PostMapping("/remove")
 	@ResponseBody
-	@RequiresPermissions("web:img:remove")
 	public Result<String> remove(Integer id) {
 		imgService.deleteById(id);
 		return Result.ok();
@@ -112,7 +106,6 @@ public class ImgController extends AdminBaseController {
 	 */
 	@PostMapping("/batchRemove")
 	@ResponseBody
-	@RequiresPermissions("web:img:batchRemove")
 	public Result<String> remove(@RequestParam("ids[]") Integer[] ids) {
 		imgService.deleteBatchIds(Arrays.asList(ids));
 		return Result.ok();

@@ -52,17 +52,9 @@ spring:
 #      max-file-size: 100MB
 #      # 最大支持请求大小
 #      max-request-size: 100Mb
-
-# 人脸识别项目
-wechat:
-  # /home/face/upload/F://upload/
-  uploadPath: F://upload/
-  app_id: 2108504196
-  app_key: b4SeaZvnUYJFSTzz
-  group_id: test001
   
 web:
-  filePath: D://upload/biaozhun/
+  uploadPath: D://upload/
   
   
   

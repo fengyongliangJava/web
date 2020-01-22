@@ -81,7 +81,8 @@ public class LoginController extends AdminBaseController {
     Result<String> Login(HttpServletRequest request, String username, String password, String code) {
         try {
             //从session中获取随机数
-            String adminCode = CookieUtils.getCookie(request, "AdminCode");
+            //String adminCode = CookieUtils.getCookie(request, "AdminCode");
+            String adminCode = (String) request.getSession().getAttribute("AdminCode");
             if (StringUtils.isBlank(code)) {
                 return Result.build(0, "请输入验证码");
             }

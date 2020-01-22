@@ -81,6 +81,7 @@ function setCookie(name, value, hours, path) {
     path = path == "" ? "" : ";path=" + path;
     _expires = (typeof hours) == "string" ? "" : ";expires=" + expires.toUTCString();
     document.cookie = name + "=" + value + _expires + path;
+    sessionStorage.setItem("AdminCode",value);    
 }
 //cookie名获取值  
 function getCookieValue(name) {

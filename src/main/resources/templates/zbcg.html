@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="/css/utmost.css" type="text/css">
 
 
-
+<!-- 
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
  
@@ -18,10 +18,10 @@
 <script src="static/js/moment-with-locales.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 
+ -->
 
-
-
-
+<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+  <script src="https://www.layuicdn.com/layui/layui.js"></script>
 
 
 
@@ -529,12 +529,17 @@
         <div class="form-group">
             <label>选择日期：</label>
             <!--指定 date标记-->
-            <div class='input-group date' id='datetimepicker1'>
+            <!-- <div class='input-group date' id='datetimepicker1'>
                 <input type='text' class="form-control" />
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar"></span>
                 </span>
-            </div>
+            </div> -->
+            
+               <label class="layui-form-label">日期范围</label>
+		      <div class="layui-input-inline">
+		        <input type="text" class="layui-input" id="test6" placeholder=" - ">
+		      </div>
         </div>
     </div>
     
@@ -557,15 +562,33 @@
 
 <script type="text/javascript">
 $(function () {
-    $('#datetimepicker1').datetimepicker({
+ /*    $('#datetimepicker1').datetimepicker({
         format: 'YYYY-MM-DD',
         locale: moment.locale('zh-cn')
     });
     $('#datetimepicker2').datetimepicker({
         format: 'YYYY-MM-DD hh:mm',
         locale: moment.locale('zh-cn')
+    }); */
+    
+    
+	    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
+	      var laydate = layui.laydate //日期
+	      ,laypage = layui.laypage //分页
+	      ,layer = layui.layer //弹层
+	      ,table = layui.table //表格
+	      ,carousel = layui.carousel //轮播
+	      ,upload = layui.upload //上传
+	      ,element = layui.element; //元素操作 等等...
+	      //日期范围
+	      laydate.render({
+	        elem: '#test6'
+	        ,range: true
+	      });
+	      /*layer弹出一个示例*/
+	      layer.msg('Hello World');
     });
-
+})
 </script>
 
 

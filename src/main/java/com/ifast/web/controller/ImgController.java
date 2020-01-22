@@ -3,6 +3,7 @@ package com.ifast.web.controller;
 
 import java.io.File;
 import java.util.Arrays;
+import java.util.Date;
 
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import com.baomidou.mybatisplus.plugins.Page;
 import com.ifast.common.base.AdminBaseController;
 import com.ifast.common.type.EnumErrorCode;
 import com.ifast.common.utils.Result;
+import com.ifast.web.config.FileConfig;
 import com.ifast.web.domain.ImgDO;
 import com.ifast.web.service.ImgService;
 
@@ -41,9 +43,9 @@ public class ImgController extends AdminBaseController {
 	private ImgService imgService;
 	
 	
-/*	@Autowired
+	@Autowired
 	private FileConfig fileConfig;
-	*/
+
 	
 	
 	
@@ -87,6 +89,12 @@ public class ImgController extends AdminBaseController {
 	@PostMapping("/save")
 	@RequiresPermissions("web:img:add")
 	public Result<String> save( ImgDO img){
+		
+		img.setCreatetime(new Date());
+		img.setCreateby(getUserId()+"");
+		img.setUpdatetime(new Date());
+		img.setUpdateby(getUserId()+"");
+		
 		imgService.insert(img);
         return Result.ok();
 	}
@@ -97,6 +105,8 @@ public class ImgController extends AdminBaseController {
 	@RequestMapping("/update")
 	@RequiresPermissions("web:img:edit")
 	public Result<String>  update( ImgDO img){
+		img.setUpdatetime(new Date());
+		img.setUpdateby(getUserId()+"");
 		imgService.updateById(img);
 		return Result.ok();
 	}
@@ -126,7 +136,7 @@ public class ImgController extends AdminBaseController {
 	
 	
 	
-/*	@ResponseBody
+	@ResponseBody
 	@PostMapping("/upload")
 	Result<String> upload(@RequestParam("file") MultipartFile file) {
 		String fileName = "";
@@ -144,7 +154,7 @@ public class ImgController extends AdminBaseController {
 					EnumErrorCode.FileUploadGetBytesError.getMsg());
 		}
 		return Result.ok(fileName);
-	}*/
+	}
 
 
 	

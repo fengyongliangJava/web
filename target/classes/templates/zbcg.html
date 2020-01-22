@@ -1,81 +1,51 @@
-<html >
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>招标采购</title>
-<link rel="icon" href="/img/logo3.png" type="image/x-icon"/>
-<link href="/css/myStyle.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="/js/CTRSCalendar_Obj.js"></script>
-<script type="text/javascript" src="/js/CTRSCalendar.js"></script>
-<style type="text/css">
-@import url("/css/calendar-blue.css");
-</style>
-<script type="text/javascript" src="/js/cn_utf8.js"></script>
-<script src="/js/jquery-1.js" type="text/javascript"></script>
-    <!--鼠标点击 JS 开始-->
-	
-	
-	
-	
-	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>招标采购</title>
+		<link rel="icon" href="/img/logo3.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="/css/HeadFoter.css" type="text/css">
+		<link rel="stylesheet" href="/css/subpage.css" type="text/css">
+		<link rel="stylesheet" href="/css/utmost.css" type="text/css">
+
+
+<!-- 
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+ 
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="static/js/moment-with-locales.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+ -->
+
+<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+  <script src="https://www.layuicdn.com/layui/layui.js"></script>
+
+
+
+
+
+<script src="/js/query.js"></script>
+<script src="/js/jquery_002.js" type="text/javascript"></script>
+<script src="/js/HeadFoter.js" type="text/javascript"></script>    
+<script src="/js/jquery.jslides.js" type="text/javascript"></script> 
+<script src="/js/jquery-1.12.2.min.js" type="text/javascript"></script>
+<script src="/js/jq_scroll.js" type="text/javascript"></script>
 <script type="text/javascript">
-//点击给隐藏的option选中
-function changelx(lx){
-	document.getElementById('type').value=lx;
-}
-function changehy(hy){
-	if(hy=='00'){
-		document.getElementById('invitetype').value="";
-	}else{
-	document.getElementById('invitetype').value=hy;
-	}
-}
-//点击选中效果
-$(document).ready(function(){
-    var $asd=$(".article_sx  span a");
-    $asd.removeClass("hover");
-    if(false){
-	   	$("span[id='one']  a").each(function(){
-			var aa=$(this).attr('value');
-			if(aa==0){
-				 $(this).addClass("hover");
-			}
-		})
-    }else{
-    	$("span[id='one']  a:first").addClass("hover");
-    }
-    if(false){
-	   	$("span[id='two']  a").each(function(){
-			var aa=$(this).attr('value');
-			if(aa==0){
-				 $(this).addClass("hover");
-			}
-		})
-    }else{
-		$("span[id='two']  a:first").addClass("hover");
-	}
-    $asd.click(function(){
-        $(this).addClass("hover").siblings().removeClass("hover"); 
-    });
-})
+	$(document).ready(function(){
+	 $("#scrollDiv").Scroll({line:1,speed:500,timer:3000,up:"but_up",down:"but_down"});
+	});
 </script>
 
 
-
-
-
-
-
-
-
- 	<!--鼠标点击 JS 开始-->
- 	
- 	<style type="text/css">
-	
-       #top{width:100%;height:100px;position:relative;z-index:100;}
+<style type="text/css">
+       #top{width:100%;height:100px;position:relative;}
        #t_left{float:left;margin-top:10px;margin-left:30px}
        #t_right{float:right;}  
 	   #search{width:300px;height:40px;background:none;outline:none;border:1px solid #00a2a4;margin-top:25px;text-indent:1em;font-size: 16px;float:left;}
-	   #searchbtn{width:40px;height:40px;background:#00a2a4;line-height:44px;cursor:pointer;border:0px;float:left;margin-right:100px;margin-top:25px;}
+	   #searchbtn{width:42px;height:42px;background:#00a2a4;line-height:44px;cursor:pointer;border:0px;float:left;margin-right:100px;margin-top:25px;}
 
 	   #clear{clear:both;}
 	   #office:hover{background:red;z-index:10;}
@@ -83,27 +53,55 @@ $(document).ready(function(){
        .hoverbox img:hover{transform: scale(2);}
        .wjlogo {font-family: "微软雅黑 Light";font-size: 32px;text-shadow: rgb(153, 153, 153) 1px 2px 3px;text-align: center;margin: 10px auto;}
 	   #shang{width:80px;height:80px;background:red;position:fixed;right:30px;bottom:30px;display:none;}
+	   .iconpng{margin:5px 10px 0 0;cursor: pointer;transition: all 0.6s}
+	   .iconpng:hover{transform: scale(2);}
+	    #jtgg{background-color:rgba(0, 0, 0, 0.2)};
+	   img{border:0 } 
 	   
+	   
+	   	.scrollbox{ width:400px; height:150px; margin-left: ; overflow: hidden; border: 1px solid #CFCFCF; padding:5px; }
+		#scrollDiv{width:390px;height:124px; overflow:hidden;}
+		#scrollDiv li{height:30px;line-height:30px;width:390px;overflow:hidden; vertical-align:bottom; zoom:1; border-bottom:#B7B7B7 dashed 1px;}
+		#scrollDiv li a{ height:30px;font-size:14px; color:#353535; line-height:30px; width:390px;}
+		.scroltit{ height:20px; line-height:20px; margin-top:5px;}
+		.scroltit .updown{float:right; width:32px; height:22px;}
+		#but_up{ background:url(/img/up.gif) no-repeat 0 0; text-indent:-9999px}
+		#but_down{ background:url(/img/down.gif) no-repeat 0 0; text-indent:-9999px}
 	   
     </style>
- 	
 </head>
 
-<body style="min-width:1200px;margin:0 auto;">
-<!--新 -->
-<style type="text/css">
-table {
-margin: 0 auto;
-}
-a {
-cursor: pointer;
-}
-</style>
-
-	<!-- 新版头部开始-->
+<body style=" background:#ffffff;">
+ <div class="sjw-header"></div>
+ <!--侧边栏固定 开始-->
+<div id="fixd" class="fixd1" style="left:-3.5px">
 
 
-  	<div id="top" >
+       <dl class="wrz-fix">
+         <dd><a href="/html/jtgk" target="_blank">集团</a></dd>
+         <dd><a href="/html/xwzx" target="_blank">新闻</a></dd>
+         <dd><a href="/html/qywh" target="_blank">文化</a></dd>
+         <dd><a href="/html/zxns" target="_blank">招聘</a></dd>
+         <dd><a href="/html/zbcg" target="_blank">招标</a></dd>
+		 <dd><a href="/html/mtxs" target="_blank">销售</a></dd>
+         <dd><a href="/html/lxwm" target="_blank">联系</a></dd>
+       </dl>
+
+
+</div>
+<!--侧边栏固定 结束-->
+<div class="Header" style="height:530px; overflow:hidden;">
+
+
+ 	<!--HeadTop 开始-->
+<div class="HeadTop"> 
+  
+  
+   
+    
+
+    
+	<div id="top">
 	
          <div id="t_left">   
              <a href="http://www.59jt.com" target="_blank">
@@ -120,632 +118,723 @@ cursor: pointer;
 			<input id="search" name="search" type="text" value="请输入搜索信息"><a id="searchbtn" href="http://www.baidu.com" target="_blank">  <img src="/img/but.png" width="44"height="44"/></a>
 	   	 </div>
 	
-	 </div>
-
-
-  	
-  	
-    <div class="header_nav" style="margin-top:0;">
-         <div class="main">
-             <ul>
-		<li class="current">
-			<a href="http://www.59jt.com" hidefocus="true">首 页</a> <!--//正式网址-->
-		</li>
-		<li>
-			<a class="">招标信息</a>
-			<div class="nav_hide" style="display: none;"><ol>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=1" class="">招标公告</a></li>
-<!-- 			<li><a href="/cpcec/bul/bul_list.jsp?type=6">投标邀请函</a></li> -->
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=2" class="">招标结果公示</a></li>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=3" class="">招标结果公告</a></li>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=7" class="">中标通知书</a></li>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=33" class="">招标终止公告</a></li>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=4" class="">资格预审公告</a></li>
-			<li><a href="#/cpcec/bul/bul_list.jsp?type=5" class="">资格预审结果</a></li>
-			</ol></div>
-		</li>
-		<li><a class="">采购信息</a>
-			<div class="nav_hide" style="display: none;"><ol>
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=8" target="_blank" class="">询价公告</a></li>
-<!-- 			<li><a href="/cpcec/bul/bul_xbj_list.jsp?type=9" target="_blank">询价邀请函</a></li> -->
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=46" target="_blank" class="">评审询价公告</a></li>
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=45" target="_blank" class="">竞争性谈判公告</a></li>
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=36" target="_blank" class="">竞价公告</a></li>
-<!-- 			<li><a href="/cpcec/bul/bul_xbj_list.jsp?type=37" target="_blank">竞价邀请函</a></li> -->
-<!-- 			<li><a href="/cpcec/bul/bul_xbj_list.jsp?type=44" target="_blank">邀请竞争性谈判</a></li> -->
-<!-- 			<li><a href="/cpcec/bul/bul_xbj_list.jsp?type=47" target="_blank">评审询价邀请</a></li> -->
-<!-- 			<li><a href="/cpcec/bul/bul_xbj_list.jsp?type=48" target="_blank">直接采购</a></li> -->
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=24" target="_blank" class="">采购结果</a></li>
-			<li><a href="#/cpcec/bul/bul_xbj_list.jsp?type=25" target="_blank" class="">询价终止公告</a></li>
-			</ol></div>
-		</li>
-		<li><a class="">供求信息</a><div class="nav_hide" style="display: none;"><ol>
-			<li><a href="#/cpjs/gqxx/" target="_blank" class="">供求信息</a></li>
-			<li><a href="#/cpjs/hzxx/" target="_blank" class="">会展信息</a></li>
-			</ol></div>
-		</li>
-		<li><a class="">电子商城</a>
-		<div class="nav_hide" style="display: none;"><ol>
-			<li><a href="javascript:void(0);" class="">企业商城</a></li>
-			<li><a href="javascript:void(0);" class="">员工商城</a></li>
-
-
-		</ol></div>
-		</li>
-		<li><a class="">新闻专递</a>
-		<div class="nav_hide" style="display: none;"><ol>
-			<li><a href="#/xwzd_174/" target="_blank" class="">新闻专递</a></li>
-			<li><a href="#/gcjs/jsdt/" target="_blank" class="">建设动态</a></li>
-			<li><a href="#/sbzz/zzydt/" target="_blank" class="">制造业动态</a></li>
-			<li><a href="#/zcfg/zcdt/" target="_blank" class="">政策动态</a></li>
-			<li><a href="#/gjdl/" target="_blank" class="">国际电力</a></li>
-			<li><a href="#/jsbz/bzhdt/" target="_blank" class="">标准化动态</a></li>
-		</ol></div>
-		</li>
-		<li><a>供应商</a>
-		<div class="nav_hide" style="display: none;"><ol>
-			<li><a href="#/cpcec/recom/purvey_review_project.jsp" target="_blank">供应商评审申报</a></li>
-			<li><a href="#/cpcec/info/train_list.jsp" target="_blank">供应商培训报名</a></li>
-		</ol></div>
-		</li>
 	
-             </ul>
-         </div>
-		<script type="text/javascript">
-             $(document).ready(function(){
-                 var $asd=$(".header_nav .main ul li");
+	</div>
 
-                 $asd.hover(function(){
 
-                     $(this).find('a').addClass("hover").parent().siblings().children('a').removeClass("hover");
-                     $(this).find('div.nav_hide').show().parent().siblings().children('div.nav_hide').hide();
-                 },function(){
-                     $(this).find('a').removeClass('hover');
-                     $(this).find('div.nav_hide').hide();
 
-                 });
-             })
-         </script>
-     </div>
-     <div class="clear"></div>
+ 
+  
+  
+  	<!--MenuBox 开始-->
+    <div class="MenuBox">
+    	<!--znav w1200 开始-->
+      <div class="znav w1200">
+      	<!--zcenter 开始-->
+        <div class="zcenter">
+        	<!--zn_menu clearfix开始-->
+            <dl class="zn_menu clearfix" id="zn_menu">
+                          <dt><a href="http://www.59jt.com">首页</a></dt>
+              <!--1-->    <dd role="#jituangaikuang"><a href="/html/jtgk" target="_blank">集团简介</a>
+                        <div class="zn_sub" id="jituangaikuang" style="display: none;">
+                              <div class="zn_site">
+                                    <ul class="fl zn_item zn_list zn_box">
+                                          <li><a href="/html/dsh"  target="_blank">董事会</a></li>
+                                          <li><a href="/html/jtld" target="_blank">集团领导</a></li>
+                                          <li><a href="/html/zzjg" target="_blank">组织机构</a></li>
+                                    </ul>
+                                    <ul class="fl zn_item zn_list">                         
+                                          <li><a href="/html/jyfw"  target="_blank">经营范围</a></li>
+                                          <li><a href="/html/lishi" target="_blank">发展历程</a></li>
+										  <li><a href="/html/ryzz"  target="_blank">荣誉资质</a></li>
+                                    </ul>
+                                    <div class="fl zn_item zn_pic" style="width:208px"> <a  class="hoverbox"  ><img src="/img/jt1.jpg"></a> </div>
+                                    <div class="fl zn_item zn_info">
+                                    <p>
+									
+									五九煤炭（集团）公司坐落于内蒙古自治区呼伦贝尔大草原和大兴安岭交汇处。前身为五九煤矿，1957年建矿，1994年成立有限责任公司，2003年12日组建集团公司，2006与新大洲控股公司重组，<a href="jtgk.html">详细信息</a>
+									
+								    </p>
+                                    </div>
+                                    <div class="fl zn_item zn_info" style="width:278px;padding-right:0;border-right:none">
+                                          <div class="jtimg hoverbox"> 
+                                                     
+                                                     <img src="/img/ld1.jpg" alt="领导" class="fl" width="110" height="150" border="0">
+                                                                <div><span>集团董事长</span></div>
+                                          </div>
+                                         
+                                         <div class="jtimg hoverbox"> 
+                                                    
+                                                     <img src="/img/ld2.jpg" alt="领导" class="fl" width="110" height="150" border="0">
+																<div><span>集团总经理</span></div>
+                                          </div>
+                                          
+                                    </div>  
+                                    <div class="clear"></div>
+                              </div>
+                        </div>
+                  </dd>
      
-</header>
-	<!-- 新版头部结束 -->
-	<!--中部内容  开始-->
-<article id="article">
-    <div class="main">
-    	<!--搜索栏 开始-->
-        <div class="article_sx">
-        
-        
-        
-            
-			<form name="frmSearch" onsubmit="CTRSAction_doSearch(this);return false;">
-            <p>
-                <b>公告类型：</b>
-                <span id="one">
-                    <a onclick="changelx()" value="" class="hover">全部</a>
-                    <a onclick="changelx(1)" value="1">招标公告</a>
-                    <a onclick="changelx(2)" value="2">招标结果公示</a>
-                    <a onclick="changelx(3)" value="3">招标结果公告</a>
-                    <a onclick="changelx(7)" value="7">中标通知书</a>
-                    <a onclick="changelx(33)" value="33">招标终止公告</a>
-                    <a onclick="changelx(4)" value="4">资格预审公告</a>
-                    <a onclick="changelx(5)" value="5">资格预审结果及招标公告</a>
-<!--                     <a onclick="changelx(6)" value="6">投标邀请函</a> -->
-                    <a onclick="changelx(34)" value="34">截开标确定通知</a>
-                </span>
-            </p>
-            <p>
-                <b>招标类<!-- 招标类型 -->：</b>
-                <span id="two">
-                    <a onclick="changehy()" value="" class="hover">全部</a>
-                    <a onclick="changehy('01')" value="01">主机</a>
-                    <a onclick="changehy('02')" value="02">辅机及配套</a>
-                    <a onclick="changehy('03')" value="03">土建</a>
-                    <a onclick="changehy('04')" value="04">安装施工</a>
-                    <a onclick="changehy('05')" value="05">调试</a>
-                    <a onclick="changehy('06')" value="06">监理</a>
-                    <a onclick="changehy('07')" value="07">管道</a>
-                    <a onclick="changehy('08')" value="08">设计</a>
-                    <a onclick="changehy('09')" value="09">脱硫</a>
-                    <a onclick="changehy('10')" value="10">运行服务</a>
-                    <a onclick="changehy('11')" value="11">电气及通信</a>
-                    <a onclick="changehy('99')" value="99">其他</a>
-                </span>
-            </p>	
-            		<div style="display: none;">
-					<select name="type" id="type" style="width:145px">
-						<option value="" selected="selected">所有</option><!-- 所有 -->
-						<option value="4">资格预审公告</option><!-- 资格预审公告 -->
-						<option value="5">资格预审结果及招标公告</option><!-- 资格预审结果及招标公告 -->
-						<option value="1">招标公告</option><!-- 招标公告 -->
+              <!--3 -->   <dd role="#jingyingfazhan"><a href="/html/xwzx" target="_blank">新闻动态</a>
+                        <div class="zn_sub" id="jingyingfazhan" style="display: none;">
 						
-						<option value="2">招标结果公示</option><!-- 招标结果公示 -->
-						<option value="3">招标结果公告</option><!-- 招标结果公告 -->
-						<option value="7">中标通知书</option><!-- 中标通知书 -->
-						<option value="33">招标终止公告</option><!-- 招标终止公告 -->
-						<option value="34">截开标确定通知</option><!-- 截开标确定通知 -->
-					</select>
-					&nbsp;&nbsp;&nbsp;&nbsp;招标类<!-- 招标类型 -->&nbsp;&nbsp;
-					<select name="invitetype" id="invitetype" style="display: none;">
-						<option value="" selected="selected">所有</option><!-- 所有 -->
-						<option value="01">主机<!-- 主机 --></option>
-						<option value="02">辅机及配套<!-- 辅机及配套 --></option>
-						<option value="03">土建<!-- 土建 --></option>
-						<option value="04">安装施工<!-- 安装施工 --></option>
-						<option value="05">调试<!-- 调试 --></option>
-						<option value="06">监理<!-- 监理 --></option>
-						<option value="07">管道<!-- 管道 --></option>
-						<option value="08">设计<!-- 设计 --></option>
-						<option value="09">脱硫<!-- 脱硫 --></option>
-						<option value="10">运行服务<!-- 运行服务 --></option>
-						<option value="11">电气及通信<!-- 电气及通信 --></option>
-						<option value="99">其他<!-- 其他 --></option>
-					</select>   
-					</div>
-					
-        
-<p>
-
-                <b>发布时间：</b>
-<em class="zdy" style="height: 14px;">
-<!--                         <font>自定义</font> -->
-                        <cite>
-                        	<script>TRSCalendar.drawWithoutTime("beginTime", "2019-08-19");
-                        	</script>
-                        	<!--<input readonly="true" maxlength="10" dateformat="%Y-%m-%d" onblur="checkDateString()" class="inputtext" type="text" name="beginTime" id="beginTime" value="2019-08-19" style="width:80px">
-                        	<a href="###" onclick="return TRSCalendar.showCalendar('beginTime', '%Y-%m-%d', null, true);">
-                        	<img src="/img/img.gif" style="cursor: pointer; border: 1px solid red;" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" border="0">
-                        	</a>-->
-                        	&nbsp;到&nbsp;
-							<script>TRSCalendar.drawWithoutTime("endTime", "2019-09-19");
-							</script>
-							<!--<input readonly="true" maxlength="10" dateformat="%Y-%m-%d" onblur="checkDateString()" class="inputtext" type="text" name="endTime" id="endTime" value="2019-09-19" style="width:80px">
-							<a href="###" onclick="return TRSCalendar.showCalendar('endTime', '%Y-%m-%d', null, true);">
-							<img src="/img/img.gif" style="cursor: pointer; border: 1px solid red;" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" border="0">
-							</a>-->
-<!--                             <input type="date" name="beginTime" value="请输入开始日期" /> -- -->
-<!--                             <input type="date" name="endTime" value="请输入结束日期" /> -->
-                            <button onclick="submitForm();" style="cursor: pointer;">查询</button>
-                        </cite>
-                   </em>      
-</p>
-            
-            <p>
-                <b>所属地区：</b>
-                <span>
-                    <!--<input type="text" value="请输入地区" class="dq" />-->
-                    <select name="area" style="width:145px">
-						<option value="" selected="selected">所有</option><!-- 所有 -->
-						<option value="1">华北</option><option value="11">北京市</option><option value="12">天津市</option><option value="13">河北省</option><option value="14">山西省</option><option value="15">内蒙古自治区</option><option value="2">东北</option><option value="21">辽宁省</option><option value="22">吉林省</option><option value="23">黑龙江省</option><option value="3">华东</option><option value="31">上海市</option><option value="32">江苏省</option><option value="33">浙江省</option><option value="34">安徽省</option><option value="35">福建省</option><option value="36">江西省</option><option value="37">山东省</option><option value="4">中南</option><option value="41">河南省</option><option value="42">湖北省</option><option value="43">湖南省</option><option value="44">广东省</option><option value="45">广西壮族自治区</option><option value="46">海南省</option><option value="5">西南</option><option value="50">重庆市</option><option value="51">四川省</option><option value="52">贵州省</option><option value="53">云南省</option><option value="54">西藏自治区</option><option value="6">西北</option><option value="61">陕西省</option><option value="62">甘肃省</option><option value="63">青海省</option><option value="64">宁夏回族自治区</option><option value="65">新疆维吾尔自治区</option><option value="7">台湾省</option><option value="71">台湾省</option><option value="8">港澳</option><option value="81">香港特别行政区</option><option value="82">澳门特别行政区</option><option value="9">其他</option><option value="91">跨省</option><option value="92">亚洲</option><option value="93">欧洲</option><option value="94">非洲</option><option value="95">北美洲</option><option value="96">南美洲</option><option value="97">大洋洲</option><option value="98">中美洲</option><option value="99">加勒比</option>
-                    </select> 
-                </span>
-            </p>
-            <script language="javascript">
-			document.frmSearch.type.value = "";
-			document.frmSearch.invitetype.value = "";
-			
-			document.frmSearch.name.value = "";
-			document.frmSearch.area.value = "";
-			document.frmSearch.beginTime.value = "2019-08-19";
-			document.frmSearch.endTime.value = "2019-09-19";
-			</script>
-        </form>
-        </div>
-		<!--搜索栏 开始--> 
-		<!--展示栏 开始-->
-  		<div class="article_list">
-            <div class="article_list_lb">
-                <p>
-                    <span>公告名称</span>
-                    <b>公告类型</b>
-                    <cite>公告行业</cite>
-                    <i>发布日期</i>
-                    <font>招标地区</font>
-                    <em>状态</em>
-                </p>
-                
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63505,1);" title="国家电投吉林电力股份有限公司二〇一九年生产工程第九批项目集中招标二次公告">国家电投吉林电力股份有限公司二〇一九年生产工程第九批项目集中招标二...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-19</i>
-                        <font>吉林省</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63499,1);" title="国家电力投资集团有限公司二〇一九年度第六十六批集中招标（内蒙古公司通辽总厂生产用原水改造工程）变更公告">国家电力投资集团有限公司二〇一九年度第六十六批集中招标（内蒙古公司...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-19</i>
-                        <font>内蒙古自治区</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63500,1);" title="国家电投集团新疆能源化工有限责任公司二〇一九年度第三十七批招标招标公告">国家电投集团新疆能源化工有限责任公司二〇一九年度第三十七批招标招标...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-19</i>
-                        <font>新疆维吾尔自治区</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63506,1);" title="通辽发电总厂贮灰场生态环境综合治理150MWp光伏发电项目施工招标招标公告">通辽发电总厂贮灰场生态环境综合治理150MWp光伏发电项目施工招标...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-19</i>
-                        <font>北京市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63498,1);" title="国家电投集团贵州金元股份有限公司2019年度第11批集中招标招标公告">国家电投集团贵州金元股份有限公司2019年度第11批集中招标招标公...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-19</i>
-                        <font>贵州省</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63483,1);" title="国核电力规划设计研究院有限公司4号办公楼暖通系统工程施工、办公家具采购项目招标公告">国核电力规划设计研究院有限公司4号办公楼暖通系统工程施工、办公家具...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-18</i>
-                        <font>北京市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63487,2);" title="国家电投集团江西电力有限公司2019年分宜电厂扩建项目十二辅非集中招标招标结果公示">国家电投集团江西电力有限公司2019年分宜电厂扩建项目十二辅非集中...</a></span>
-                        <b><script>showType('2');</script>招标结果公示</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-18</i>
-                        <font>江西省</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63485,2);" title="国核电力规划设计研究院有限公司工程招标（国家电投河南公司所属电厂煤场改造设备及施工）中标结果公示">国核电力规划设计研究院有限公司工程招标（国家电投河南公司所属电厂煤...</a></span>
-                        <b><script>showType('2');</script>招标结果公示</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-18</i>
-                        <font>河南省</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63488,7);" title="铝电投资有限公司新能源第5批集中招标第1标段中标通知书">铝电投资有限公司新能源第5批集中招标第1标段中标通知书</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-18</i>
-                        <font>宁夏回族自治区</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63491,7);" title="铝电投资有限公司新能源第5批集中招标第4标段中标通知书">铝电投资有限公司新能源第5批集中招标第4标段中标通知书</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-18</i>
-                        <font>宁夏回族自治区</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63450,1);" title="白音华高精铝板带产品项目一期建设工程第十批（设备）集中招标公告">白音华高精铝板带产品项目一期建设工程第十批（设备）集中招标公告</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('02');</script>辅机及配套</cite>
-                        <i>2019-09-17</i>
-                        <font>内蒙古自治区</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63440,7);" title="中国电力国际有限公司2019年度生产工程第五批集中招标（第二部分）第13标段中标通知书">中国电力国际有限公司2019年度生产工程第五批集中招标（第二部分）...</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63478,2);" title="宁夏能源铝业2019年第10批招标结果公示">宁夏能源铝业2019年第10批招标结果公示</a></span>
-                        <b><script>showType('2');</script>招标结果公示</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>宁夏回族自治区</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63484,1);" title="国家电力投资集团有限公司安徽分公司安徽省涡阳县生活垃圾焚烧发电项目汽轮发电机组、焚烧炉和余热锅炉设计、设备供货及技术服务招标二次公告">国家电力投资集团有限公司安徽分公司安徽省涡阳县生活垃圾焚烧发电项目...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>上海市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63453,1);" title="上海电力股份有限公司2019年第43批集中招标第二次招标公告">上海电力股份有限公司2019年第43批集中招标第二次招标公告</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>上海市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63467,1);" title="北京公司第二十一批次公开招标招标公告">北京公司第二十一批次公开招标招标公告</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63469,3);" title="国核示范扩建项目环境调查与评价专题项目招标结果公告">国核示范扩建项目环境调查与评价专题项目招标结果公告</a></span>
-                        <b><script>showType('3');</script>招标结果公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63473,1);" title="上海电力股份有限公司2019年第46批集中招标招标公告">上海电力股份有限公司2019年第46批集中招标招标公告</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>上海市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63482,7);" title="北京公司第十五批公开招标第2标段中标通知书">北京公司第十五批公开招标第2标段中标通知书</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63468,1);" title="内蒙古霍煤通顺碳素有限责任公司焙烧炉火道墙维修耐火砖采购招标公告（二次）">内蒙古霍煤通顺碳素有限责任公司焙烧炉火道墙维修耐火砖采购招标公告（...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>内蒙古自治区</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63476,3);" title="国核电力规划设计研究院2019-2022年山东客户服务中心车辆驾驶服务项目招标结果公告">国核电力规划设计研究院2019-2022年山东客户服务中心车辆驾驶...</a></span>
-                        <b><script>showType('3');</script>招标结果公告</b>
-                        <cite><script>showInvitetype('10');</script>运行服务</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63479,1);" title="国家电投集团远达环保股份有限公司2019年第九批集中招标采购项目招标公告">国家电投集团远达环保股份有限公司2019年第九批集中招标采购项目招...</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>重庆市</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63470,7);" title="国核示范扩建项目环境调查与评价专题项目中标通知书">国核示范扩建项目环境调查与评价专题项目中标通知书</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>北京市</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63472,1);" title="国家电投集团山西铝业有限公司二〇一九年度第十三批集中招标招标公告">国家电投集团山西铝业有限公司二〇一九年度第十三批集中招标招标公告</a></span>
-                        <b><script>showType('1');</script>招标公告</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>山西省</font>
-                        
-                        	<em><font color="green">发售中</font></em>
-                        
-                        
-                    </li>
-                 
-                <ul>
-                    <li>
-                        <span><a class="xqa" onclick="goNewPage(63475,7);" title="国核电力规划设计研究院2019-2022年山东客户服务中心车辆驾驶服务项目中标通知书">国核电力规划设计研究院2019-2022年山东客户服务中心车辆驾驶...</a></span>
-                        <b><script>showType('7');</script>中标通知书</b>
-                        <cite><script>showInvitetype('99');</script>其他</cite>
-                        <i>2019-09-17</i>
-                        <font>山东省</font>
-                        
-                        	<em></em>
-                        
-                        
-                    </li>
-                   
-                </ul>
-                <div class="page">
-                
-                共<font color="red">673</font>条记录 共<font color="red">27</font>页 当前为第<font color="red">1</font>页 
-					
-							<a>首页</a>| <a>上一页</a>
+						
+						
+		
+                              <div class="zn_site">
+                                    <div class="zcenter">
+                                          <ul class="fl zn_item zn_list">
+										        <li><a href="/html/xwzx">集团要闻</a></li>
+											     <li><a href="/html/xwzx">安全生产</a></li>
+												<li><a href="/html/xwzx">经营管理</a></li>
+												
+                                          </ul>
+ 
+                                          <ul class="fl zn_item zn_list">
+												<li><a href="/html/xwzx">党群工作</a></li>
+                                                <li><a href="/html/xwzx">综合信息</a></li>
+											    <li><a href="/html/tpxw">图片新闻</a></li>
+                                          </ul>
+                                          <div class="fl zn_item zn_pic" style="width:390px;"><a  class="hoverbox"  ><img src="/img/ban1.jpg" width="390" /></a> </div>
+										<div class="scrollbox fl">
 							
-							| 
+										<div id="scrollDiv">
 						
-							<a href="" onclick="CTRSAction_gotoSearchPageBUL(2,'','','','2019-08-19','2019-09-19');return false;">下一页</a> | <a href="" onclick="CTRSAction_gotoSearchPageBUL(27,'','','','2019-08-19','2019-09-19');return false;">尾页</a> 
-						
-<!--                     <a href="#">上一页</a> -->
-<!--                     <a href="#">1</a> -->
-<!--                     <a href="#">2</a> -->
-<!--                     <a href="#">3</a> -->
-<!--                     <a href="#">…</a> -->
-<!--                     <a href="#">8</a> -->
-<!--                     <a href="#">下一页</a> -->
-                </div>
-            </ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></div>
+											<ul>
+											
+												 <li>
+												   <a   class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;集团内蒙古能源有聘公告...【2019-09-09 15:39:26】</a>
+												 </li>
+											 
+												 <li>
+												   <a   class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;燃气轮机技术有限公司... 【2019-09-09 15:39:26】</a>
+												 </li>
+											 
+												 <li>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;国能电投云南国际招聘公告...【2019-09-09 15:39:26】</a>
+												 </li>
+												 
+												 <li>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;五九煤炭集团招聘公告...【2019-09-09 15:39:26】</a>
+												 </li>
+
+												 <li>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;内蒙古上涨公告...【2019-09-09 15:39:26】</a>
+												 </li>
+												 
+												 
+											</ul>
+										</div>
+										<div class="scroltit"><div class="updown" id="but_down">向上</div><div class="updown" id="but_up">向下</div></div>
+										
+										
+							</div>
+						</dd>
+        
+				  
+				  
+				  
+              <!--6-->    <dd role="#dangjiangongzuo"> <a href="/html/qywh" target="_blank">企业文化</a> 
+                        <div class="zn_sub" id="dangjiangongzuo" style="display: none;">
+                              <div class="zn_site">
+                                    <div class="zcenter">
+                                          <div class="fl zn_item zn_info1" style="width:150px;overflow;hiddent;padding-left:70px">
+                                               <p style="text-indent:0;font-size:14px">
+													      "优秀的现代企业"<br>
+													     "优秀的诚信企业"<br>
+									                                                      "优秀的市场主体"<br>
+									                                                      "优秀的绿色公司"<br>
+									                                                      "优秀的能源集团"
+													  
+												</p>
+                                          </div>
+
+										<div class="fl zn_item">  
+										   <p class="hoverbox"> <img src="/img/W020151129699742652788.jpg" alt="W020151116845784060490.jpg" style="height:189px;margin-top:-10px;" class="fl/" width="370" border="0"> </p>
+										</div>
+                      
+										 <ul class="fl zn_item zn_list">
+											 <li><a>企业使命</a></li>  
+											 <li><a>企业愿景</a></li>
+											 <li><a>核心价值观</a></li>
+											 <li><a>管理理念</a></li>                                       
+										 </ul>
+											
+											
+                                          <ul class="fl zn_item zn_list">
+                                                <li><a>经营理念</a></li>
+												<li><a>人才理念</a></li>
+												<li><a>工作理念</a></li>
+												<li><a>安全理念</a></li>                                
+										  </ul>
+										  
+										  
+                                          <ul class="fl zn_item zn_list">
+                                               <li><a>廉洁理念</a></li>
+                                               <li><a>职业操守</a></li>                                          
+											   
+										  </ul>
+
+                                          <div class="clear"></div>
+                                    </div>
+                              </div>
+                        </div>
+                  </dd>
+              <!--7-->    <dd role="#jijianjiancha"><a href="/html/zxns" target="_blank">招贤纳士</a>
+                        <div class="zn_sub" id="jijianjiancha" style="display: none;">
+                              <div class="zn_site">
+                                    <div class="zcenter">
+ 
+                                        <div class="fl zn_item zn_pic" style="padding-left:150px">  
+										      <p class="hoverbox"> <img src="/img/W020150916064946442985.jpg" alt="8bd903314ac644f7aba32cdc5cad3b0f.jpg" class="fl/" border="0"> </p>
+									    </div>
+                      
+                                        <ul class="fl zn_item zn_list" style="padding-right:50px;">
+											 <li><a href="zxns.html">招聘岗位</a></li>                            
+										     <li>报名咨询:</li>
+											 <li>联系方式:</li>
+											 <li>简历邮箱:</li>  
+
+                                        </ul>
+                                        <ul class="fl zn_item zn_list" style="padding-right:30px;width:170px;">    
+											 <li><a href="zxns.html">薪资待遇</a></li>	
+											 <li>0470-2285284</li>
+											 <li>0470-2285214</li>											 
+											 <li>2427080128@qq.com</li>
+							
+                                        </ul>
+                                        <div class="clear"></div>
+                                    </div>
+                              </div>
+                        </div>
+                  </dd>
+              <!--8-->    <dd role="#xinxigongkai"><a href="/html/zbcg" target="_blank">招标采购</a>
+                       <div class="zn_sub" id="xinxigongkai" style="display:none;">
+                                          <div class="zn_site" style=" z-index: 100;">
+                                            <div class="zcenter">
+                                            <div class="fl zn_item zn_info1" style="margin-left:150px;">
+													<p class="hoverbox"> <img src="/img/caigo.jpg" alt="采购" width="320"  height="140" class="fl/" border="0"> </p>
+                                            </div>
+											
+											
+                                             <ul class="fl photo_rec" style="padding-left:20px">
+                                                  <li class="xxgk1"><a>公开指南</a></li>
+                                                  <li class="xxgk2"><a>公开目录</a></li>
+                                                  <li class="xxgk3"><a>公开规定</a></li>
+                                                  <li class="xxgk4"><a>联系我们</a></li>
+                                              </ul>
+                                                   
+												   
+												   
+                                              <ul class="fl zn_item zn_list zn_box" style="padding-left:20px">
+                           
+                                                 <li><a>集团工程招标</a></li>
+                                                 <li><a>矿山机械招标</a></li>
+                                                 <li><a>物资采购招标</a></li>
+                                              </ul>
+                                              <ul class="fl zn_item zn_list">
+                                             	 <li><a>安装施工招标</a></li>
+                                                 <li><a>运输售后招标</a></li>
+                                                 <li><a>机电配套招标</a></li>                                                                                     
+                                              </ul>
+                                              <ul class="fl zn_item zn_list">
+                                               	 <li><a>电器通信招标</a></li>
+                                                 <li><a>监理设计招标</a></li>
+                                                 <li><a>企业安全环保</a></li>
+                                              </ul>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+       						 </div>
+                  </dd>
+				 
+				  
+				           <!--2-->    <dd role="#xinwenzhongxin"><a href="/html/mtxs" target="_blank">煤炭销售</a>
+                        <div class="zn_sub" id="xinwenzhongxin" style="display: none;">
+                              <div class="zn_site">
+                                    <div class="zcenter">
+									
+
+						                   <ul>
+        									  
+										     <div class="jtimg hoverbox"> 
+												<img src="/img/chanpin_1.jpg" alt="" class="fl" width="110" height="150" border="0">
+											    <div><span>混煤</span></div>
+                                              </div>
+                                          </ul>
+
+										  
+                                          <ul>
+        									  
+										     <div class="jtimg hoverbox"> 
+                                                   
+												<img src="/img/chanpin_2.jpg" alt="" class="fl" width="110" height="150" border="0">
+												 <div><span>热量≥3800</span></div>
+                                              </div>
+                                          </ul>
+
+										  
+										  
+                                          <ul>
+										      <div class="jtimg hoverbox"> 
+												<img src="/img/chanpin_3.jpg" alt="" class="fl" width="110" height="150" border="0">
+												 <div><span>热量≥4200</span></div>
+                                              </div>
+                                          </ul>
+   
+   
+                                          <ul>
+                      									  
+										      <div class="jtimg hoverbox"> 
+												<img src="/img/cpxx.jpg" alt="" class="fl" width="800" height="160" border="0">
+                                              </div>
+                                          </ul>
+   
+  
+                                    </div>
+                              </div>
+                        </div>
+                  </dd>
+				  	  
+				  
+              <!--9-->    <dd role="#touzizheguanxi"><a href="/html/lxwm" target="_blank">联系我们</a>
+                        <div class="zn_sub" id="touzizheguanxi">
+                                <div class="zn_site">
+                                    <div class="zcenter">
+ 
+                                        <div class="fl zn_item zn_pic " style="padding-left:50px">  
+											<p class="hoverbox">	<img src="/img/map.jpg" alt="地图" width="600"   class="fl/" border="0"></p>
+									    </div>
+                          
+						  
+						  
+                                        <ul class="fl zn_item zn_list" style="padding-right:50px;width:230px;">
+										
+										     <li><img class="iconpng"src="/img/icon1.png" height="20" width="20">办公电话:0470-2285555</li>
+											 <li><img class="iconpng"src="/img/icon4.png" height="20" width="20">传真电话:0470-2285666</li>
+											 <li><img class="iconpng"src="/img/icon3.png" height="20" width="20">邮政编码:022161</li>
+											 <li><img class="iconpng"src="/img/icon5.png" height="20" width="20">wujiujituanbgs@163.com</li>  											 
+
+                                        </ul>
+                                        <ul class="fl zn_item zn_list" style="padding-right:30px;width:100px;">    
+											 <li><a href="/html/ditu" target="_blank" style="margin-left:10px;">地图搜索</a></li>	
+										     <li><a href="/html/ditu" target="_blank" style="background:none;"class="hoverbox"><img src="/img/maplogo.jpg" alt="地图" width="80"  height="80"  border="0" style="border-radius:5px;"></a></li>	
+								
+							
+                                        </ul>
+                                
+                                    </div>
+                              </div>
+                        </div>
+                  </dd>                   
+            </dl>
+            <!--zn_menu clearfix 结束-->
         </div>
-    	<!--展示栏 结束-->
-    </div>
-</article>
-	<!--中部内容  结束-->
-	    <!-- 新版列表结束-->
+            <div id="zn_bg3" class="zn_bg3" style="display: none;"> </div>
+      <!--zcenter 结束-->
+      </div>
+      <!--znav w1200 结束-->
+    </div>  
+    <!--MenuBox 结束-->
+  </div>
+    <!--HeadTop 结束-->
+   
+   
+   
+   <style>
+/* Banner */
+#full-screen-slider { width:100%; height:738px; float:left; position:relative; z-index:1}
+#slides { display:block; width:100%; height:738px; list-style:none; padding:0; margin:0; position:relative}
+#slides li { display:block; width:100%; height:100%; list-style:none; padding:0; margin:0; position:absolute;z-index:1}
+#slides li a { display:block; width:100%; height:100%; text-indent:-9999px}
+#pagination { display:none; list-style:none; position:absolute; left:50%; top:340px; z-index:2;  padding:5px 15px 5px 0; margin:0}
+#pagination li { display:block; list-style:none; width:10px; height:10px; float:left; margin-left:15px; border-radius:5px; background:#FFF }
+#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;  text-indent:-9999px;}
+#pagination li.current { background:#0092CE}
 
-<div height="10"> &nbsp;</div>
-<div class="calendar" style="position: absolute; display: none; left: 798px; top: 399px;"><table style="visibility: visible;" width="300" cellspacing="0" cellpadding="0"><thead><tr><td colspan="1" class="button"><div unselectable="on"> </div></td><td colspan="6" class="title" style="cursor: move;">八月, 2019</td><td colspan="1" class="button"><div unselectable="on">×</div></td></tr><tr class="headrow"><td colspan="1" class="button nav"><div unselectable="on">«</div></td><td colspan="1" class="button nav"><div unselectable="on">‹</div></td><td colspan="4" class="button"><div unselectable="on">今天</div></td><td colspan="1" class="button nav"><div unselectable="on">›</div></td><td colspan="1" class="button nav"><div unselectable="on">»</div></td></tr><tr class="daynames"><td class="name wn">周</td><td class="day name">星期一</td><td class="day name">星期二</td><td class="day name">星期三</td><td class="day name">星期四</td><td class="day name">星期五</td><td class="name day weekend">星期六</td><td class="name day weekend">星期日</td></tr></thead><tbody><tr class="daysrow"><td class="day wn">31</td><td class="day othermonth">29</td><td class="day othermonth">30</td><td class="day othermonth">31</td><td class="day">1</td><td class="day">2</td><td class="day weekend">3</td><td class="day weekend">4</td></tr><tr class="daysrow"><td class="day wn">32</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day weekend">10</td><td class="day weekend">11</td></tr><tr class="daysrow"><td class="day wn">33</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day weekend">17</td><td class="day weekend">18</td></tr><tr class="daysrow"><td class="day wn">34</td><td class="day selected">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day weekend">24</td><td class="day weekend">25</td></tr><tr class="daysrow"><td class="day wn">35</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day weekend">31</td><td class="day othermonth oweekend">1</td></tr><tr class="daysrow"><td class="day wn">36</td><td class="day othermonth">2</td><td class="day othermonth">3</td><td class="day othermonth">4</td><td class="day othermonth">5</td><td class="day othermonth">6</td><td class="day othermonth oweekend">7</td><td class="day othermonth oweekend">8</td></tr></tbody><tfoot><tr class="footrow"><td colspan="8" class="ttip" style="cursor: move;"><div unselectable="on">选择日期</div></td></tr></tfoot></table><div class="combo" style="display: none;"><div class="label">一月</div><div class="label">二月</div><div class="label">三月</div><div class="label">四月</div><div class="label">五月</div><div class="label">六月</div><div class="label">七月</div><div class="label">八月</div><div class="label">九月</div><div class="label">十月</div><div class="label">十一月</div><div class="label">十二月</div></div><div class="combo"><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div></div></div>
-<div class="calendar" style="position: absolute; display: none; left: 798px; top: 399px;"><table style="visibility: visible;" width="300" cellspacing="0" cellpadding="0"><thead><tr><td colspan="1" class="button"><div unselectable="on"> </div></td><td colspan="6" class="title" style="cursor: move;">八月, 2019</td><td colspan="1" class="button"><div unselectable="on">×</div></td></tr><tr class="headrow"><td colspan="1" class="button nav"><div unselectable="on">«</div></td><td colspan="1" class="button nav"><div unselectable="on">‹</div></td><td colspan="4" class="button"><div unselectable="on">今天</div></td><td colspan="1" class="button nav"><div unselectable="on">›</div></td><td colspan="1" class="button nav"><div unselectable="on">»</div></td></tr><tr class="daynames"><td class="name wn">周</td><td class="day name">星期一</td><td class="day name">星期二</td><td class="day name">星期三</td><td class="day name">星期四</td><td class="day name">星期五</td><td class="name day weekend">星期六</td><td class="name day weekend">星期日</td></tr></thead><tbody><tr class="daysrow"><td class="day wn">31</td><td class="day othermonth">29</td><td class="day othermonth">30</td><td class="day othermonth">31</td><td class="day">1</td><td class="day">2</td><td class="day weekend">3</td><td class="day weekend">4</td></tr><tr class="daysrow"><td class="day wn">32</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day weekend">10</td><td class="day weekend">11</td></tr><tr class="daysrow"><td class="day wn">33</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day weekend">17</td><td class="day weekend">18</td></tr><tr class="daysrow"><td class="day wn">34</td><td class="day selected">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day weekend">24</td><td class="day weekend">25</td></tr><tr class="daysrow"><td class="day wn">35</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day weekend">31</td><td class="day othermonth oweekend">1</td></tr><tr class="daysrow"><td class="day wn">36</td><td class="day othermonth">2</td><td class="day othermonth">3</td><td class="day othermonth">4</td><td class="day othermonth">5</td><td class="day othermonth">6</td><td class="day othermonth oweekend">7</td><td class="day othermonth oweekend">8</td></tr></tbody><tfoot><tr class="footrow"><td colspan="8" class="ttip" style="cursor: move;"><div unselectable="on">选择日期</div></td></tr></tfoot></table><div class="combo" style="display: none;"><div class="label">一月</div><div class="label">二月</div><div class="label">三月</div><div class="label">四月</div><div class="label">五月</div><div class="label">六月</div><div class="label">七月</div><div class="label">八月</div><div class="label">九月</div><div class="label">十月</div><div class="label">十一月</div><div class="label">十二月</div></div><div class="combo"><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div></div></div>
-<div class="calendar" style="position: absolute; display: none; left: 798px; top: 399px;"><table style="visibility: visible;" width="300" cellspacing="0" cellpadding="0"><thead><tr><td colspan="1" class="button"><div unselectable="on"> </div></td><td colspan="6" class="title" style="cursor: move;">八月, 2019</td><td colspan="1" class="button"><div unselectable="on">×</div></td></tr><tr class="headrow"><td colspan="1" class="button nav"><div unselectable="on">«</div></td><td colspan="1" class="button nav"><div unselectable="on">‹</div></td><td colspan="4" class="button"><div unselectable="on">今天</div></td><td colspan="1" class="button nav"><div unselectable="on">›</div></td><td colspan="1" class="button nav"><div unselectable="on">»</div></td></tr><tr class="daynames"><td class="name wn">周</td><td class="day name">星期一</td><td class="day name">星期二</td><td class="day name">星期三</td><td class="day name">星期四</td><td class="day name">星期五</td><td class="name day weekend">星期六</td><td class="name day weekend">星期日</td></tr></thead><tbody><tr class="daysrow"><td class="day wn">31</td><td class="day othermonth">29</td><td class="day othermonth">30</td><td class="day othermonth">31</td><td class="day">1</td><td class="day">2</td><td class="day weekend">3</td><td class="day weekend">4</td></tr><tr class="daysrow"><td class="day wn">32</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day weekend">10</td><td class="day weekend">11</td></tr><tr class="daysrow"><td class="day wn">33</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day weekend">17</td><td class="day weekend">18</td></tr><tr class="daysrow"><td class="day wn">34</td><td class="day selected">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day weekend">24</td><td class="day weekend">25</td></tr><tr class="daysrow"><td class="day wn">35</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day weekend">31</td><td class="day othermonth oweekend">1</td></tr><tr class="daysrow"><td class="day wn">36</td><td class="day othermonth">2</td><td class="day othermonth">3</td><td class="day othermonth">4</td><td class="day othermonth">5</td><td class="day othermonth">6</td><td class="day othermonth oweekend">7</td><td class="day othermonth oweekend">8</td></tr></tbody><tfoot><tr class="footrow"><td colspan="8" class="ttip" style="cursor: move;"><div unselectable="on">选择日期</div></td></tr></tfoot></table><div class="combo" style="display: none;"><div class="label">一月</div><div class="label">二月</div><div class="label">三月</div><div class="label">四月</div><div class="label">五月</div><div class="label">六月</div><div class="label">七月</div><div class="label">八月</div><div class="label">九月</div><div class="label">十月</div><div class="label">十一月</div><div class="label">十二月</div></div><div class="combo"><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div></div></div>
-<div class="calendar" style="position: absolute; display: none; left: 798px; top: 399px;"><table style="visibility: visible;" width="300" cellspacing="0" cellpadding="0"><thead><tr><td colspan="1" class="button"><div unselectable="on"> </div></td><td colspan="6" class="title" style="cursor: move;">八月, 2019</td><td colspan="1" class="button"><div unselectable="on">×</div></td></tr><tr class="headrow"><td colspan="1" class="button nav"><div unselectable="on">«</div></td><td colspan="1" class="button nav"><div unselectable="on">‹</div></td><td colspan="4" class="button"><div unselectable="on">今天</div></td><td colspan="1" class="button nav"><div unselectable="on">›</div></td><td colspan="1" class="button nav"><div unselectable="on">»</div></td></tr><tr class="daynames"><td class="name wn">周</td><td class="day name">星期一</td><td class="day name">星期二</td><td class="day name">星期三</td><td class="day name">星期四</td><td class="day name">星期五</td><td class="name day weekend">星期六</td><td class="name day weekend">星期日</td></tr></thead><tbody><tr class="daysrow"><td class="day wn">31</td><td class="day othermonth">29</td><td class="day othermonth">30</td><td class="day othermonth">31</td><td class="day">1</td><td class="day">2</td><td class="day weekend">3</td><td class="day weekend">4</td></tr><tr class="daysrow"><td class="day wn">32</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day weekend">10</td><td class="day weekend">11</td></tr><tr class="daysrow"><td class="day wn">33</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day weekend">17</td><td class="day weekend">18</td></tr><tr class="daysrow"><td class="day wn">34</td><td class="day selected">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day weekend">24</td><td class="day weekend">25</td></tr><tr class="daysrow"><td class="day wn">35</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day weekend">31</td><td class="day othermonth oweekend">1</td></tr><tr class="daysrow"><td class="day wn">36</td><td class="day othermonth">2</td><td class="day othermonth">3</td><td class="day othermonth">4</td><td class="day othermonth">5</td><td class="day othermonth">6</td><td class="day othermonth oweekend">7</td><td class="day othermonth oweekend">8</td></tr></tbody><tfoot><tr class="footrow"><td colspan="8" class="ttip" style="cursor: move;">选择日期</td></tr></tfoot></table><div class="combo" style="display: none;"><div class="label">一月</div><div class="label">二月</div><div class="label">三月</div><div class="label">四月</div><div class="label">五月</div><div class="label">六月</div><div class="label">七月</div><div class="label">八月</div><div class="label">九月</div><div class="label">十月</div><div class="label">十一月</div><div class="label">十二月</div></div><div class="combo" style="display: none;"><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div></div></div>
-<div class="calendar" style="position: absolute; display: none; left: 798px; top: 399px;"><table style="visibility: visible;" width="300" cellspacing="0" cellpadding="0"><thead><tr><td colspan="1" class="button"><div unselectable="on"> </div></td><td colspan="6" class="title" style="cursor: move;">八月, 2019</td><td colspan="1" class="button"><div unselectable="on">×</div></td></tr><tr class="headrow"><td colspan="1" class="button nav"><div unselectable="on">«</div></td><td colspan="1" class="button nav"><div unselectable="on">‹</div></td><td colspan="4" class="button"><div unselectable="on">今天</div></td><td colspan="1" class="button nav"><div unselectable="on">›</div></td><td colspan="1" class="button nav"><div unselectable="on">»</div></td></tr><tr class="daynames"><td class="name wn">周</td><td class="day name">星期一</td><td class="day name">星期二</td><td class="day name">星期三</td><td class="day name">星期四</td><td class="day name">星期五</td><td class="name day weekend">星期六</td><td class="name day weekend">星期日</td></tr></thead><tbody><tr class="daysrow"><td class="day wn">31</td><td class="day othermonth">29</td><td class="day othermonth">30</td><td class="day othermonth">31</td><td class="day">1</td><td class="day">2</td><td class="day weekend">3</td><td class="day weekend">4</td></tr><tr class="daysrow"><td class="day wn">32</td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day weekend">10</td><td class="day weekend">11</td></tr><tr class="daysrow"><td class="day wn">33</td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day weekend">17</td><td class="day weekend">18</td></tr><tr class="daysrow"><td class="day wn">34</td><td class="day selected">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day weekend">24</td><td class="day weekend">25</td></tr><tr class="daysrow"><td class="day wn">35</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day weekend">31</td><td class="day othermonth oweekend">1</td></tr><tr class="daysrow"><td class="day wn">36</td><td class="day othermonth">2</td><td class="day othermonth">3</td><td class="day othermonth">4</td><td class="day othermonth">5</td><td class="day othermonth">6</td><td class="day othermonth oweekend">7</td><td class="day othermonth oweekend">8</td></tr></tbody><tfoot><tr class="footrow"><td colspan="8" class="ttip" style="cursor: move;">选择日期</td></tr></tfoot></table><div class="combo" style="display: none;"><div class="label">一月</div><div class="label">二月</div><div class="label">三月</div><div class="label">四月</div><div class="label">五月</div><div class="label">六月</div><div class="label">七月</div><div class="label">八月</div><div class="label">九月</div><div class="label">十月</div><div class="label">十一月</div><div class="label">十二月</div></div><div class="combo"><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div><div class="label"></div></div></div>
-		<!--新版列表开始-->
-		
-		
-		
-<script type="text/javascript">
-		var i = 0;
-			
-		function changeColor(){
-		
-			var color = new Array("AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque", "Black","BlanchedAlmond",
-					"Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Chartreuse","Coral","CornflowerBlue",
-					"Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen",
-					"Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkViolet","DeepPink","DeepSkyBlue",
-					"DimGray","DodgerBlue","Feldspar","FireBrick","FloralWhite","ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod",
-					"Gray","Green","GreenYellow","HoneyDew","HotPink","DimGray","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen",
-					"LemonChiffon","LightBlue","LightCoral","LightCyan","LawnGreen","LightGoldenRodYellow","LightGrey","LightPink","LightSalmon","LightSeaGreen",
-					"LightSlateGray","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid",
-					"MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise"
-					
-					);
-					
-			
-			document.getElementById("top").style.backgroundColor = color[i];
-			i++;
-			if(i==color.length)
-			i = 0;
-
-		}
-	
-		setInterval("changeColor()",1000);	
-		
+  </style>
+	<!--banner 开始-->
+<div class="Banner" style="height:530px; overflow:hidden;">
     
+            <div id="full-screen-slider">
+                <ul id="slides">
+                  
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner1.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner2.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner3.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner4.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner5.jpg') no-repeat scroll center top; z-index: 800; display: block;"></li>
+					<li style="background: rgba(0, 0, 0, 0) url('/img/banner6.jpg') no-repeat scroll center top; z-index: 900; display: none;"></li>
+    
+                </ul>
+				<ul id="pagination" style="margin-left: -25px;">
+				    <li class=""><a href="javascript:void(0)">1</a></li>
+					<li class="current"><a href="javascript:void(0)">2</a></li>
+				</ul>
+            </div>
+
+    </div>
+
+    <!--banner 结束-->
+    <div class="clearfix"></div>
+</div>
+
+
+
+
+<style>
+.bannerNav{width:374px;position:absolute;top:252px}
+.bannerNav ul{background:url(/img/opacity50.png);padding:10px 0px 10px 14px;}
+.bannerNav ul li{width:120px;line-height:36px;text-align:left;float:left}
+.bannerNav ul li a{color:#fff;padding:10px 20px;font-size:15px}
+.bannerNav ul li a:hover{color:#fff;padding:5px 20px;border:solid 1px #fff}
+.zcenter { width: 1200px; margin: 0 auto; height:inherit}
+ .textcontent{height:720px;}
+</style>
+
+
+<!-----------------------------------  Header 结束  -------------------------------->
+
+<div class="contentdiv">
+
+    <div class="clearfix"></div>
+          <div class="leftnav fl">
+                <h3>招标采购</h3>
+                <ul>
+				            <li>
+								<a style="text-indent:5px;" class="current">集团招标公告</a>
+							</li>	
+
+							<li>
+								<a style="text-indent:5px;">招标结果公示</a>
+                            </li>
+
+                            <li>
+								<a style="text-indent:5px;">资格预审公告</a>
+                            </li>
+							
+                            <li>
+								<a style="text-indent:5px;">资格预审结果</a>
+                            </li>
+                            
+                  </ul>
+          </div>
+          <div class="rightContent fl" style="padding-top:50px;">
+    
+                <div class="textcontent">
+
+
+<div class="row">
+    <div class='col-sm-6'>
+        <div class="form-group">
+            <label>选择日期：</label>
+            <!--指定 date标记-->
+            <!-- <div class='input-group date' id='datetimepicker1'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div> -->
+            
+               <label class="layui-form-label">日期范围</label>
+		      <div class="layui-input-inline">
+		        <input type="text" class="layui-input" id="test6" placeholder=" - ">
+		      </div>
+        </div>
+    </div>
+    
+    
+    <div class='col-sm-6'>
+        <div class="form-group">
+            <label>选择日期+时间：</label>
+            <!--指定 date标记-->
+            <div class='input-group date' id='datetimepicker2'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+$(function () {
+ /*    $('#datetimepicker1').datetimepicker({
+        format: 'YYYY-MM-DD',
+        locale: moment.locale('zh-cn')
+    });
+    $('#datetimepicker2').datetimepicker({
+        format: 'YYYY-MM-DD hh:mm',
+        locale: moment.locale('zh-cn')
+    }); */
+    
+    
+	    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function() {
+	      var laydate = layui.laydate //日期
+	      ,laypage = layui.laypage //分页
+	      ,layer = layui.layer //弹层
+	      ,table = layui.table //表格
+	      ,carousel = layui.carousel //轮播
+	      ,upload = layui.upload //上传
+	      ,element = layui.element; //元素操作 等等...
+	      //日期范围
+	      laydate.render({
+	        elem: '#test6'
+	        ,range: true
+	      });
+	      /*layer弹出一个示例*/
+	      layer.msg('Hello World');
+    });
+})
 </script>
+
+
+
+               </div>
+                
+                
+                
+                
+
+        </div>                <div class="blank20"></div>
+                               <div class="blank35"></div>
+                
+          </div>
+    </div>
+<!-----------------------------------  contentdiv 结束  --------------------------------> 
+<style>
+
+.link{ height:64px;width:100%; clear:both;
+
+background: linear-gradient(to right, #931111, #e7171c, #931111);
+}
+
+
+.zfriendLinks,.zfooter{min-width:1200px}
+.zse_li a{font-size:12px;overflow:hidden;}
+.zfriendLinks { height: 64px;}
+.zfl_title { line-height: 64px; font-size: 18px; color: #fff; font-family:microsoft yahei }
+/*下拉菜单链接*/
+.zselect { position:relative; width:190px; margin-left: 26px; cursor:pointer; background:url(/img/kk.png) 0px 10px no-repeat;}
+.zse_p {  height:30px; padding-left:6px; border:none; background: none; line-height:30px; text-indent:10px; text-align:left; font-size:16px; color:#fff;font-family:Microsoft Yahei;}
+.zse_ul { position:absolute; left:3px; top:46px; width:204px; height: 246px; overflow-y:scroll; border:1px #aaa solid; border-top:none; background-color:#fff; display:none; z-index:91; }
+.zse_li a { display:block; height:24px; padding-left:6px; padding-right:6px; line-height:24px; text-align:left; text-decoration:none;color:#000000;}
+.zfl_ml { margin-left: 0;}
+.zfl_hover { background:url(/img/kk.png) 0px 10px no-repeat; color: #fff;}
+.zfl_white { background-color: #fff;}
+.zfl_white .zse_p { color: #bf0d0d; background:url(/img/kk.png) 0px 10px no-repeat;}
+
+.graybg{width:100%;background:#f7f7f7}
+.zcenter2{width:1260px; margin:0 auto;padding-top:35px;padding-bottom:35px;}
+.newsblock{width:809px;height:575px;background:url(/2018gwgb//image2016/newslistbg.png) no-repeat;margin-left:17px;}
+.stock{width:368px;margin-right:30px;margin-top:13px;border:solid 1px #ddd}
+
+.jyfz{width:373px;}
+.jyfzbox{height:355px;overflow:hidden;}
+.jyfzbox li{float:left;margin-bottom:3px;position:relative;width:184px;height:115px;overflow:hidden} 
+.jyfzbox li a{position:absolute;top:0;left:0;}
+</style>
+
+
+ 
+       <!--企业文化 结束-->
+       <style>
+         .youlink{height:64px;width:100%; clear:both;background:#00a2a4;filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #931111, endColorstr = #e7171c);}
+       </style>
+       
+       <!--友情链接 开始-->
+       <div class="youlink">
+        	<div class="w1200">
+                
+                        <div class="zfriendLinks">
+                          <div class="zcenter">
+                            <div class="fl zfl_title"> 友情链接： </div>
+                             <div class="fl zselect zfl_ml" id="selectdd" style="margin-left:60px;">
+                              <p class="zse_p">政府机构</p>
+                              <ul class="zse_ul" style="display: none;">
+                                   <li class="zse_li zse_first"><a href="javascript:void(0);">政府机构</a></li>
+                                   <li class="zse_li"><a href="http://www.gov.cn/" target="_blank">中国政府门户网</a></li>
+                                   <li class="zse_li"><a href="http://www.sasac.gov.cn/" target="_blank">国务院国资委</a></li>
+                                   <li class="zse_li"><a href="http://www.mof.gov.cn/mof/" target="_blank">财政部</a></li>
+                                   <li class="zse_li"><a href="http://www.sdpc.gov.cn/" target="_blank">国家发展和改革委员会</a></li>
+                                   <li class="zse_li"><a href="http://www.caea.gov.cn/n602669/index.html" target="_blank">国家原子能机构</a></li>
+                                   <li class="zse_li"><a href="http://www.mlr.gov.cn/" target="_blank">国土资源部</a></li>
+                                   <li class="zse_li"><a href="http://www.costind.gov.cn/n435777/index.html" target="_blank">国防科学技术工业委员会</a></li>
+                                   <li class="zse_li"><a href="http://www.zhb.gov.cn/" target="_blank">国家环保总局</a></li>
+                                   <li class="zse_li"><a href="http://www.chinasafety.gov.cn/" target="_blank">国家安全生产监督管理总局</a></li>
+                               </ul>
+                            </div>
+                           
+                            <div class="fl zselect" id="selectdd1" style="margin-left:60px;">
+                              <p class="zse_p">中央企业</p>
+                              <ul class="zse_ul" style="display: none;">
+                                <li class="zse_li zse_first"><a href="javascript:void(0);">中央企业</a></li>
+                                <li class="zse_li"><a href="http://www.sgcc.com.cn/" target="_blank">国家电网公司</a></li>
+								<li class="zse_li"><a href="http://www.csg.cn/" target="_blank">中国南方电网有限责任公司</a></li>
+								<li class="zse_li"><a href="http://www.chng.com.cn/" target="_blank">中国华能集团公司</a></li>
+								<li class="zse_li"><a href="http://www.china-cdt.com/" target="_blank">中国大唐集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chd.com.cn/" target="_blank">中国华电集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cgdc.com.cn/" target="_blank">国家能源集团</a></li>
+								<li class="zse_li"><a href="http://www.shenhuagroup.com.cn/cs/sh/index.html" target="_blank">神华集团有限责任公司</a></li>
+								<li class="zse_li"><a href="http://www.cnpc.com.cn/cnpc/index.shtml" target="_blank">中国石油天然气集团公司</a></li>
+								<li class="zse_li"><a href="http://www.sinopecgroup.com/group/" target="_blank">中国石油化工集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cnooc.com.cn/data/html/chinese/channel_1.html" target="_blank">中国海洋石油总公司</a></li>
+								<li class="zse_li"><a href="http://www.sdic.com.cn/cn/index.htm" target="_blank">国家开发投资公司</a></li>
+								<li class="zse_li"><a href="http://www.snptc.com/" target="_blank">国家核电技术有限公司</a></li>
+								<li class="zse_li"><a href="http://www.cecic.com.cn/" target="_blank">中国节能环保集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chinacoal.com/" target="_blank">中国中煤能源集团公司</a></li>
+								<li class="zse_li"><a href="http://www.ccteg.cn/" target="_blank">中国煤炭科工集团有限公司</a></li>
+								<li class="zse_li"><a href="http://www.ccgc.cn/" target="_blank">中国煤炭地质总局</a></li>
+								<li class="zse_li"><a href="http://www.cnaf.com/" target="_blank">中国航空油料集团公司</a></li>
+								<li class="zse_li"><a href="http://www.powerchina.cn/" target="_blank">中国电力建设集团有限公司</a></li>
+								<li class="zse_li"><a href="http://www.ceec.net.cn/" target="_blank">中国能源建设集团有限公司</a></li>
+                              </ul>
+                            </div>
+							
+											
+						
+
+						
+			
+						
+						
+                            <div class="fl zselect" id="selectdd3" style="margin-left:60px;">
+                              <p class="zse_p">知名媒体</p>
+                              <ul class="zse_ul" style="">
+                                <li class="zse_li zse_first"><a href="javascript:void(0);">知名媒体</a></li>
+                                <li class="zse_li"><a href="www.china.com.cn/chinese/index.htm" target="_blank">中 国 网</a></li>
+								<li class="zse_li"><a href="http://www.xinhuanet.com/" target="_blank">新 华 社</a></li>
+								<li class="zse_li"><a href="http://www.peopledaily.com.cn/" target="_blank">人 民 网</a></li>
+								<li class="zse_li"><a href="http://www.cctv.com/default.shtml" target="_blank">央视国际</a></li>
+								<li class="zse_li"><a href="http://www.cnradio.com.cn/" target="_blank">中国广播网</a></li>
+								<li class="zse_li"><a href="http://www.chinadaily.com.cn/english/home/index.html">中国日报网</a></li>
+								<li class="zse_li"><a href="http://www.chinanews.com.cn/">中 新 社</a></li>
+								<li class="zse_li"><a href="http://www.economicdaily.com.cn/no1/" target="_blank">经济日报网</a></li>
+								<li class="zse_li"><a href="http://www.cycnet.com.cn/" target="_blank">中 青 网</a></li>
+								<li class="zse_li"><a href="http://www.cyd.com.cn/" target="_blank">中青在线</a></li>
+								<li class="zse_li"><a href="http://www.whb.com.cn/" target="_blank">文新传媒</a></li>
+								<li class="zse_li"><a href="http://www.chinataiwan.org/web/webportal/index.html" target="_blank">中国台湾</a></li>
+								<li class="zse_li"><a href="http://www.cn5c.com/new/" target="_blank">五洲传媒</a></li>
+								<li class="zse_li"><a href="http://www.qianlong.com/" target="_blank">千 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.enorth.com.cn/">北 方 网</a></li>
+								<li class="zse_li"><a href="http://www.eastday.com/" target="_blank">东 方 网</a></li>
+								<li class="zse_li"><a href="http://www.southcn.com/" target="_blank">南 方 网</a></li>
+								<li class="zse_li"><a href="http://www.northeast.cn/" target="_blank">东 北 网</a></li>
+								<li class="zse_li"><a href="http://news.rednet.com.cn/" target="_blank">红网</a></li>
+								<li class="zse_li"><a href="http://www.gmw.cn/" target="_blank">光 明 网</a></li>
+								<li class="zse_li"><a href="http://www.dayoo.com/" target="_blank">大 洋 网</a></li>
+								<li class="zse_li"><a href="http://www.hsm.com.cn/" target="_blank">华 声 报</a></li>
+								<li class="zse_li"><a href="http://hnrb.hinews.cn/php/index.php" target="_blank">海南新闻网</a></li>
+								<li class="zse_li"><a href="http://www.cqnews.net/" target="_blank">华 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.cet.com.cn/20041216/default.htm" target="_blank">中国经济时报</a></li>
+								<li class="zse_li"><a href="http://www.newssc.net/gb/newssc/root/index.html" target="_blank">四川新闻网</a></li>
+								<li class="zse_li"><a href="http://www.gxnews.com.cn/news/" target="_blank">桂 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.anhuinews.com/" target="_blank">中 安 网</a></li>
+								<li class="zse_li"><a href="http://www.yndaily.com/" target="_blank">云南日报网</a></li>
+								<li class="zse_li"><a href="http://www.ben.com.cn/" target="_blank">京 报 网</a></li>
+								<li class="zse_li"><a href="http://www.infomorning.com/" target="_blank">信息早报</a></li>
+								<li class="zse_li"><a href="http://www.dzdaily.com.cn/" target="_blank">大 众 网</a></li>
+								<li class="zse_li"><a href="http://www.stdaily.com/" target="_blank">科技日报</a></li>
+								<li class="zse_li"><a href="http://www.jfdaily.com.cn/" target="_blank">解放日报</a></li>
+								<li class="zse_li"><a href="http://www.legaldaily.com.cn/" target="_blank">法 制 网</a></li>
+								<li class="zse_li"><a href="http://www.china-woman.com/" target="_blank">中国妇女</a></li>
+								<li class="zse_li"><a href="http://www.bjyouth.com.cn/" target="_blank">北 青 报</a></li>
+								<li class="zse_li"><a href="http://www.morningpost.com.cn/" target="_blank">北京晨报</a></li>
+								<li class="zse_li"><a href="http://www.nanfangdaily.com.cn/southnews/" target="_blank">南方报业</a></li>
+								<li class="zse_li"><a href="http://www.ycwb.com/" target="_blank">金 羊 网</a></li>
+								<li class="zse_li"><a href="http://www.snweb.com" target="_blank">环球资讯</a></li>
+								<li class="zse_li"><a href="http://www.sg.com.cn/" target="_blank">精 品 网</a></li>
+								<li class="zse_li"><a href="http://www.sznews.com/" target="_blank">深圳新闻</a></li>
+								<li class="zse_li"><a href="http://www.haiwainet.cn/" target="_blank">海外网</a></li>
+								<li class="zse_li"><a href="http://www.indaa.com.cn/" target="_blank">英大网</a></li>                           
+								</ul>
+                            </div>
+                            <div class="fl zselect" id="selectdd4" style="margin-left:60px;">
+                              <p class="zse_p">行业网站</p>
+                              <ul class="zse_ul">                     
+                                <li class="zse_li"><a href="http://www.zkjt.com.cn" target="_blank">山东能源枣庄矿业集团有限公司</a></li>
+								<li class="zse_li"><a href="http://www.sundiro.com" target="_blank">上海新大洲控股</a></li>
+								<li class="zse_li"><a href="http://www.sgcc.com.cn/" target="_blank">国家电网公司</a></li>
+								<li class="zse_li"><a href="http://www.csg.cn/" target="_blank">南方电网公司</a></li>
+								<li class="zse_li"><a href="http://www.chng.com.cn/" target="_blank">中国华能集团公司</a></li>
+								<li class="zse_li"><a href="http://www.china-cdt.com/" target="_blank">中国大唐集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chd.com.cn/" target="_blank">中国华电集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cgdc.com.cn/" target="_blank">中国国电集团公司</a></li>
+								<li class="zse_li"><a href="http://www.hydrochina.com.cn/" target="_blank">中国水电工程顾问集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cpecc.net/" target="_blank">中国电力工程顾问集团公司</a></li>
+								<li class="zse_li"><a href="http://www.sinohydro.com/" target="_blank">中国水利水电建设集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chinapower.com.cn/" target="_blank">中国电力网</a></li>                           
+								</ul>
+                            </div>
+
+
+
+                 
+
+
+            </div>
+        </div>
+       <!--友情链接 结束-->
+       <!--lower div-->
+       <div class="clearfix"></div>   
+</div>	
+<!--最外层div结束-->	
+	   <!--lower 开始-->	
+  <div class="footer">
+  		<div class="w1200">
+        	<ul class="ftxt" style="position:relative;">
+
+				
+			    <li>
+                   <div class="plf20">
+                      <a  class="hoverbox" href="http://www.59jt.com" target="_blank">
+					   <img  style="float:left;" src="/img/logo3.png" alt="image"  height="80" width="80"/>
+						 <div style="float:left;margin:-18px 0 0 20px;color:#000;">
+						  <h2  style="margin:30px 0 0 0 ;"></i> 五九煤炭集团 </h2>
+						  <h6 style="margin:5px 0 0 20px ;"></i>WUJIUCOALGROUP</h6>
+						 </div>      
+					  </a>
+                    </div>
+					
+					  <div id="clear"></div>
+					  <div style="margin-left:30px;"> Copyright ©五九煤炭集团有限公司版权</div>
+					  <div style="margin-left:30px;margin-top:0;">蒙ICP备14002253号</div>
+					  <div style="margin-left:30px;margin-top:0;">蒙公安网备15078202000048&nbsp;<a class="hoverbox" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15078202000048" target="_blank" ><img style="position:absolute;left:220px;top:175px;"src="/img/gongan.png" height="20" width="20"></a></div>
+					  <div style="margin-left:30px;margin-top:-20px;">蒙工商亮照&nbsp;&nbsp;&nbsp;&nbsp;7013&nbsp;&nbsp;&nbsp;&nbsp;<a class="hoverbox" href="https://nmlz.saicjg.com/7013/authority?key=1f2aa0b62b9eacce841b6303fff6de46" target="_blank"><img style="position:absolute;left:160px;top:200px;"src="https://nmlz.saicjg.com/images/siteBase.png" width="20" height="20" title="亮照" alt="亮照" border="0"/></a></div>
+                </li>
+
+                    
+
+                <li>
+                	<div  style="text-align:center;">
+                      <p >微信关注我们</p>
+					  <p style="margin-left:145px;">    
+						<a class="hoverbox" href="/html/weixin" target="_blank">     
+					      <img  src="/img/wx.jpg" alt="微信"  height="100" width="100"/>
+					    </a>
+					  </p>
 	
-    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$(document).contextmenu(function(){
-				return false;
-			});
-		});
-	</script>
+                    </div>
+                </li>
+                <li>
+                    <div class="plf20">
+                    <img class="iconpng"src="/img/icon2.png" height="20" width="20">地址：内蒙古牙克石市煤田镇<br>
+                    <img class="iconpng"src="/img/icon3.png" height="20" width="20">邮编：022161<br>
+                    <img class="iconpng"src="/img/icon1.png" height="20" width="20">电话：0470-2285555<br>
+                    <img class="iconpng"src="/img/icon4.png" height="20" width="20">传真：0470-2285666<br> 
+                    <img class="iconpng"src="/img/icon5.png" height="20" width="20">电子邮箱：wujiujituanbgs@163.com<br>
+                   </div>
+                </li>
+
 		
-</body>
-</html>
+            </ul>
+
+        </div>
+  </div>
+
+
+
+</body></html>

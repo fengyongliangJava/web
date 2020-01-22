@@ -5,6 +5,7 @@ import com.ifast.common.annotation.Log;
 import com.ifast.common.base.AdminBaseController;
 import com.ifast.common.domain.Tree;
 import com.ifast.common.type.EnumErrorCode;
+import com.ifast.common.utils.CookieUtils;
 import com.ifast.common.utils.MD5Utils;
 import com.ifast.common.utils.Result;
 import com.ifast.common.utils.ShiroUtils;
@@ -12,6 +13,8 @@ import com.ifast.oss.domain.FileDO;
 import com.ifast.oss.service.FileService;
 import com.ifast.sys.domain.MenuDO;
 import com.ifast.sys.service.MenuService;
+
+import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -75,51 +78,27 @@ public class LoginController extends AdminBaseController {
     @Log("登录")
     @PostMapping("/login/ajax_login")
     @ResponseBody
-    Result<String> Login(String username, String password) {
-    	
-/*    	
+    Result<String> Login(HttpServletRequest request, String username, String password, String code) {
         try {
             //从session中获取随机数
-            String random = (String) request.getSession().getAttribute(RandomValidateCodeUtil.RANDOMCODEKEY);
+            String adminCode = CookieUtils.getCookie(request, "AdminCode");
             if (StringUtils.isBlank(code)) {
-                return R.error("请输入验证码");
+                return Result.build(0, "请输入验证码");
             }
-            if (random.equals(code)) {
+            if (adminCode.equalsIgnoreCase(code)) {
+            	password = MD5Utils.encrypt(username, password); 
+            	  UsernamePasswordToken token = new UsernamePasswordToken(username, password);
+                  Subject subject = SecurityUtils.getSubject();
+                  subject.login(token);
+                  return Result.ok();
             } else {
-                return R.error("请输入正确的验证码");
+                return Result.build(0, "请输入正确的验证码");
             }
         } catch (Exception e) {
-            logger.error("验证码校验失败", e);
-            return R.error("验证码校验失败");
+        	e.printStackTrace();
+        	 return Result.build(EnumErrorCode.userLoginFail.getCode(), EnumErrorCode.userLoginFail.getMsg());
         }
-    	*/
-    	
-
-    	
-    	
-//      try {
-//      //从session中获取随机数
-//      //String random = (String) request.getSession().getAttribute(RandomValidateCodeUtil.RANDOMCODEKEY);
-//      if (StringUtils.isEmpty(code)) {
-//          return Result.build(Result.CODE_FAIL, "请输入验证码");
-//      } else if (random.equals(code)) {
-//          return R.error("请输入正确的验证码");
-//      }
-//  } catch (Exception e) {
-//      logger.error("验证码校验失败", e);
-//      return R.error("验证码校验失败");
-//  }
-    	
   
-        password = MD5Utils.encrypt(username, password);  
-        UsernamePasswordToken token = new UsernamePasswordToken(username, password);
-        Subject subject = SecurityUtils.getSubject();
-        try {
-            subject.login(token);
-            return Result.ok();
-        } catch (AuthenticationException e) {
-            return Result.build(EnumErrorCode.userLoginFail.getCode(), EnumErrorCode.userLoginFail.getMsg());
-        }
     }
 
     

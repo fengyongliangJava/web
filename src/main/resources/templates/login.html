@@ -46,7 +46,7 @@
 					<div class='icon'>
 						<img alt="" src='/img/key.png'>
 					</div>
-					<input name="code" placeholder='验证码' maxlength="4" type='text' name="ValidateNum" autocomplete="off">
+					<input name="code" placeholder='验证码' maxlength="4" type='text'  autocomplete="off">
 					<div class='validation' style="opacity: 1; right: -5px;top: -3px;">
 						<canvas class="J_codeimg" id="myCanvas" onclick="Code();">对不起，您的浏览器不支持canvas，请下载最新版浏览器!</canvas>
 					</div>
@@ -130,7 +130,7 @@
 				$('input[type="button"]').click(function() {
 					var login = $('input[name="login"]').val();
 					var pwd = $('input[name="pwd"]').val();
-					var code = $('input[name="ValidateNum"]').val();
+					var code = $('input[name="code"]').val();
 					if(login == '') {
 						ErroAlert('请输入您的账号');
 					} else if(pwd == '') {

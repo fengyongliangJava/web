@@ -34,10 +34,6 @@ public class IndexController extends AdminBaseController {
         return "xwzx";
     }
 	
-    @GetMapping({"/html/jtcy"})
-    String jtcy() {
-        return "jtcy";
-    }
     
     @GetMapping({"/html/qywh"})
     String qywh() {
@@ -48,6 +44,12 @@ public class IndexController extends AdminBaseController {
     String zbcg() {
         return "zbcg";
     }
+    
+    @GetMapping({"/html/zxns"})
+    String zxns() {
+        return "zxns";
+    } 
+    
     
     @GetMapping({"/html/mtxs"})
     String mtxs() {
@@ -84,40 +86,24 @@ public class IndexController extends AdminBaseController {
         return "zzjg";
     }
     
-    @GetMapping({"/html/cydw"})
-    String cydw() {
-        return "cydw";
-    }
     
     @GetMapping({"/html/ryzz"})
     String ryzz() {
         return "ryzz";
     }
     
-    @GetMapping({"/html/jyfw"})
-    String jyfw() {
-        return "jyfw";
-    }
     
     @GetMapping({"/html/lishi"})
     String lishi() {
         return "lishi";
     }
     
-    @GetMapping({"/html/jtyx"})
-    String jtyx() {
-        return "jtyx";
-    }
     
     @GetMapping({"/html/tpxw"})
     String tpxw() {
         return "tpxw";
     }
     
-    @GetMapping({"/html/ndsj"})
-    String ndsj() {
-        return "ndsj";
-    }
     
     @GetMapping({"/html/ditu"})
     String ditu() {
@@ -131,71 +117,38 @@ public class IndexController extends AdminBaseController {
  //集团概况跳转  
     
 
-
-
-
     
     
- //专项工作跳转
-	
-    @GetMapping({"/html/mdkp"})
-    String mdkp() {
-        return "mdkp";
+    
+ //企业文化
+    @GetMapping({"/html/qywh1"})
+    String qywh1() {
+        return "qywh1";
     }
+    
+    @GetMapping({"/html/qywh2"})
+    String qywh2() {
+        return "qywh2";
+    } 
+    
+    @GetMapping({"/html/qywh3"})
+    String qywh3() {
+        return "qywh3";
+    }
+    
+    @GetMapping({"/html/qywh4"})
+    String qywh4() {
+        return "qywh4";
+    } 
+    
+    
+    @GetMapping({"/html/qywh5"})
+    String qywh5() {
+        return "qywh5";
+    }
+ //企业文化 
 
-    
-    @GetMapping({"/html/dangjian"})
-    String dangjian() {
-        return "dangjian";
-    } 
-    
-    
-    @GetMapping({"/html/zxns"})
-    String zxns() {
-        return "zxns";
-    } 
-    
-    @GetMapping({"/html/jjjc"})
-    String jjjc() {
-        return "jjjc";
-    } 
-
-    
-    @GetMapping({"/html/shzr"})
-    String shzr() {
-        return "shzr";
-    } 
-    
-    
-    @GetMapping({"/html/text1"})
-    String text1() {
-        return "text1";
-    } 
-    
-    @GetMapping({"/html/text2"})
-    String text2() {
-        return "text2";
-    } 
-
-    
-    @GetMapping({"/html/sangong"})
-    String sangong() {
-        return "sangong";
-    } 
-    
-    @GetMapping({"/html/hjbh"})
-    String hjbh() {
-        return "hjbh";
-    } 
-    
-    @GetMapping({"/html/xxgk"})
-    String xxgk() {
-        return "xxgk";
-    } 
-    
-
-  //专项工作跳转
-
+ 
 
 
 

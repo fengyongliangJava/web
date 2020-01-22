@@ -9,10 +9,11 @@
 <link rel="stylesheet" href="/css/subpage.css"   type="text/css">
 
 
+
 <script src="/js/query.js"></script>
 <script src="/js/jquery_002.js" type="text/javascript"></script>
-<script src="/js/HeadFoter.js" type="text/javascript"></script>      
-<script src="/js/jquery.jslides.js" type="text/javascript"></script> 
+<script src="/js/HeadFoter.js" type="text/javascript"></script>      <!--top 下滑栏 js-->
+<script src="/js/jquery.jslides.js" type="text/javascript"></script> <!--top 轮播图 js-->
 <script src="/js/jquery-1.12.2.min.js" type="text/javascript"></script>
 <script src="/js/jq_scroll.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -20,6 +21,7 @@
 	 $("#scrollDiv").Scroll({line:1,speed:500,timer:3000,up:"but_up",down:"but_down"});
 	});
 </script>
+
 
 <style type="text/css">
        #top{width:100%;height:100px;position:relative;}
@@ -61,8 +63,6 @@
 <dl class="wrz-fix">
          <dd><a href="/html/jtgk" target="_blank">集团</a></dd>
          <dd><a href="/html/xwzx" target="_blank">新闻</a></dd>
-         <dd><a href="/html/jtcy" target="_blank">产业</a></dd>
-         <dd><a href="http://oa.sundiro.com" target="_blank">办公</a></dd>
          <dd><a href="/html/qywh" target="_blank">文化</a></dd>
          <dd><a href="/html/zxns" target="_blank">招聘</a></dd>
          <dd><a href="/html/zbcg" target="_blank">招标</a></dd>
@@ -77,6 +77,7 @@
 
  	<!--HeadTop 开始-->
 	<div class="HeadTop"> 
+  
   
    
     
@@ -105,7 +106,10 @@
 
  
   
-    
+  
+  
+  
+  
   	<!--MenuBox 开始-->
     <div class="MenuBox">
     	<!--znav w1200 开始-->
@@ -114,27 +118,24 @@
         <div class="zcenter">
         	<!--zn_menu clearfix开始-->
             <dl class="zn_menu clearfix" id="zn_menu">
-                          <dt><a href="/index">首页</a></dt>
+                          <dt><a href="http://www.59jt.com">首页</a></dt>
               <!--1-->    <dd role="#jituangaikuang"><a href="/html/jtgk" target="_blank">集团简介</a>
                         <div class="zn_sub" id="jituangaikuang" style="display: none;">
                               <div class="zn_site">
                                     <ul class="fl zn_item zn_list zn_box">
-                                          <li><a href="/html/jtgk" target="_blank">集团介绍</a></li>
-                                          <li><a href="/html/dsh"  target="_blank">懂事会</a></li>
+                                          <li><a href="/html/dsh"  target="_blank">董事会</a></li>
                                           <li><a href="/html/jtld" target="_blank">集团领导</a></li>
                                           <li><a href="/html/zzjg" target="_blank">组织机构</a></li>
                                     </ul>
-                                    <ul class="fl zn_item zn_list">
-                                          <li><a href="/html/cydw"  target="_blank">成员单位</a></li>
-                                          <li><a href="/html/ryzz"  target="_blank">荣誉资质</a></li>
-                                          <li><a href="/html/jyfw"  target="_blank">经营范围</a></li>
+                                    <ul class="fl zn_item zn_list">                         
                                           <li><a href="/html/lishi" target="_blank">发展历程</a></li>
+										  <li><a href="/html/ryzz"  target="_blank">荣誉资质</a></li>
                                     </ul>
-                                    <div class="fl zn_item zn_pic" style="width:208px"> <a  class="hoverbox" href=" "><img src="/img/jt1.jpg"></a> </div>
+                                    <div class="fl zn_item zn_pic" style="width:208px"> <a  class="hoverbox"  ><img src="/img/jt1.jpg"></a> </div>
                                     <div class="fl zn_item zn_info">
                                     <p>
 									
-									五九煤炭（集团）公司坐落于内蒙古自治区呼伦贝尔大草原和大兴安岭交汇处。前身为五九煤矿，1957年建矿，1994年成立有限责任公司，2003年12日组建集团公司，2006与新大洲控股公司重组，<a href="/html/jtgk">详细信息</a>
+									五九煤炭（集团）公司坐落于内蒙古自治区呼伦贝尔大草原和大兴安岭交汇处。前身为五九煤矿，1957年建矿，1994年成立有限责任公司，2003年12日组建集团公司，2006与新大洲控股公司重组，<a href="jtgk.html">详细信息</a>
 									
 								    </p>
                                     </div>
@@ -157,7 +158,7 @@
                         </div>
                   </dd>
      
-              <!--3 -->   <dd role="#jingyingfazhan"><a href="/html/xwzx" target="_blank">新闻公告</a>
+              <!--3 -->   <dd role="#jingyingfazhan"><a href="/html/xwzx" target="_blank">新闻动态</a>
                         <div class="zn_sub" id="jingyingfazhan" style="display: none;">
 						
 						
@@ -166,24 +167,18 @@
                               <div class="zn_site">
                                     <div class="zcenter">
                                           <ul class="fl zn_item zn_list">
-                                                <li><a href="/html/xwzx">领导活动</a></li>
-                                                <li><a href="/html/xwzx">集团要闻</a></li>
-                                                <li><a href="/html/xwzx">行业资讯</a></li>
+										        <li><a href="/html/xwzx">集团要闻</a></li>
+											     <li><a href="/html/xwzx">安全生产</a></li>
+												<li><a href="/html/xwzx">经营管理</a></li>
+												
+                                          </ul>
+ 
+                                          <ul class="fl zn_item zn_list">
+												<li><a href="/html/xwzx">党群工作</a></li>
                                                 <li><a href="/html/xwzx">综合信息</a></li>
+											    <li><a href="/html/tpxw">图片新闻</a></li>
                                           </ul>
-                                          <ul class="fl zn_item zn_list">
-                                                <li><a href="/html/xwzx">集团公告</a></li>
-                                                <li><a href="/html/xwzx">党群工作</a></li>
-                                                <li><a href="/html/xwzx">职工天地</a></li>
-                                                <li><a href="/html/xwzx">媒体聚焦</a></li>
-                                          </ul>
-                                          <ul class="fl zn_item zn_list">
-                                                <li><a href="/html/xwzx">基层特稿</a></li>
-                                                <li><a href="/html/xwzx">专题专栏</a></li>
-                                                <li><a href="/html/tpxw">图片新闻</a></li>
-                                                <li><a href="/html/jtyx">集团影像</a></li>
-                                          </ul>
-                                          <div class="fl zn_item zn_pic" style="width:290px;"><a  class="hoverbox" href=" "><img src="/img/ban1.jpg"></a> </div>
+                                          <div class="fl zn_item zn_pic" style="width:390px;"><a  class="hoverbox"  ><img src="/img/ban1.jpg" width="390" /></a> </div>
 										<div class="scrollbox fl">
 							
 										<div id="scrollDiv">
@@ -191,23 +186,23 @@
 											<ul>
 											
 												 <li>
-												   <a href=" " class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;集团内蒙古能源有聘公告...【2019-09-09 15:39:26】</a>
+												   <a   class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;集团内蒙古能源有聘公告...【2019-09-09 15:39:26】</a>
 												 </li>
 											 
 												 <li>
-												   <a href=" " class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;燃气轮机技术有限公司... 【2019-09-09 15:39:26】</a>
+												   <a   class="linktit"><img  src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;燃气轮机技术有限公司... 【2019-09-09 15:39:26】</a>
 												 </li>
 											 
 												 <li>
-												   <a href=" " class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;国能电投云南国际招聘公告...【2019-09-09 15:39:26】</a>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;国能电投云南国际招聘公告...【2019-09-09 15:39:26】</a>
 												 </li>
 												 
 												 <li>
-												   <a href=" " class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;五九煤炭集团招聘公告...【2019-09-09 15:39:26】</a>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;五九煤炭集团招聘公告...【2019-09-09 15:39:26】</a>
 												 </li>
 
 												 <li>
-												   <a href=" " class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;内蒙古上涨公告...【2019-09-09 15:39:26】</a>
+												   <a   class="linktit"><img src="/img/jtgg2.png" class="fl" width="20"  height="20" border="0"/>&nbsp;&nbsp;内蒙古上涨公告...【2019-09-09 15:39:26】</a>
 												 </li>
 												 
 												 
@@ -217,140 +212,19 @@
 										
 										
 							</div>
-                  </dd>
-              <!--4-->    <dd role="#shehuizeren"><a href="/html/jtcy" target="_blank">经营发展</a>
-                        <div class="zn_sub" id="shehuizeren" style="display: none;">
-                               <div class="zn_site">
-                                    <div class="zcenter">
-                                          <div class="fl zn_item zn_pic" style="padding-left:20px"> 
-										  <p class="hoverbox"> <img src="/img/cy1.jpg" width="310" height="150"> </p>
-									</div>
-								   <ul class="fl zn_item zn_list" style="padding-top:20px;">
-										<li><a href="/html/fzzl" target="_blank">发展战略</a></li>
-										<li><a href="/html/zcfb" target="_blank">资产分布</a></li>
-										<li><a href="/html/jtcy" target="_blank">集团产业</a></li>
-								   </ul>
-								   
-                                   <ul class="fl zn_item zn_list" style="padding-top:20px;">
-										<li><a href="/html/lishi" target="_blank">发展历程</a></li>
-										<li><a href="/html/dyjg"  target="_blank">电源结构</a></li>
-										<li><a href="/html/gjjxb" target="_blank">关键绩效表</a></li>
-                                    </ul>
-                                    <div id="pngbox"class="fl zn_item  zn_pic"><img src="/img/jtcy.png" usemap="#Mapjcty">
-                                                <map name="Mapjcty" id="Mapjcty">
-                                                      <area shape="rect" coords="12,2,67,66" href="#/2018jtcy/jw/">
-                                                      <area shape="rect" coords="92,0,152,64" href="#/2018jtcy/hd/">
-                                                      <area shape="rect" coords="174,0,239,65" href="#/2018jtcy/huodian/">
-                                                      <area shape="rect" coords="255,0,329,67" href="#/2018jtcy/sd/">
-                                                      <area shape="rect" coords="334,-2,404,66" href="#/2018jtcy/tyn/">
-                                                      <area shape="rect" coords="5,76,82,136" href="#/2018jtcy/fd/">
-                                                      <area shape="rect" coords="93,69,156,138" href="#/2018jtcy/dlxt/">
-                                                      <area shape="rect" coords="171,68,242,140" href="#/2018jtcy/dzfw/">
-                                                      <area shape="rect" coords="256,74,324,137" href="#/2018jtcy/jr/">
-                                                      <area shape="rect" coords="330,72,404,138" href="#/2018jtcy/hb/">
-                                                </map>
-                                    </div>
-                                    <div class="clear"></div>
-                                    </div>
-                              </div>
-                        </div>
-                  </dd>
-              <!--5-->    <dd role="#qiyewenhua"><a href="http://oa.sundiro.com" target="_blank">协同办公</a>
-                        <div class="zn_sub" id="qiyewenhua" style="display: none;">
-	
- 
-								<div id="butong_net_left" style="overflow:hidden;width:1200px;margin-top:10px;">
-								<table cellpadding="0" cellspacing="0" border="0">
-								<tr><td id="butong_net_left1" valign="top" align="center">
-								<table cellpadding="2" cellspacing="0" border="0">
-								<tr align="center">
-								<td></td>
-
-										<td>
-										<img src="/img/bangong_1.jpg" height="200" width="200" >
-										</td>
-										<td>
-										<img src="/img/bangong_2.jpg" height="200" width="200" >
-										</td>
-										
-										<td>
-										<img src="/img/bangong_3.jpg" height="200" width="200" >
-										</td>
-										
-										<td>
-										<img src="/img/bangong_4.jpg" height="200" width="200" >
-										</td>
-										
-										<td>
-										<img src="/img/bangong_5.jpg" height="200" width="200" >
-										</td>
-										
-										<td>
-										<img src="/img/bangong_6.jpg" height="200" width="200" >
-										</td>
-
-										
-										<td>
-										<img src="/img/bangong_7.jpg" height="200" width="200" >
-										</td>
-										
-										
-										<td>
-										<img src="/img/bangong_8.jpg" height="200" width="200" >
-										</td>
-
-										
-										<td>
-										<img src="/img/bangong_9.jpg" height="200" width="200" >
-										</td>
-										
-										
-										<td>
-										<img src="/img/bangong_10.jpg" height="200" width="200" >
-										</td>
-										
-										</tr>
-										</table>
-										</td>
-										<td id="butong_net_left2" valign="top" ></td>
-									</tr>
-								</table>
-								</div>
-                        </div>
-                  </dd>
+						</dd>
+        
 				  
 				  
 				  
-				  
-
-					<script >
-					var speed=10
-					butong_net_left2.innerHTML=butong_net_left1.innerHTML
-					function Marquee3(){
-					if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
-					butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
-					else{
-					butong_net_left.scrollLeft++
-					}
-					}
-					var MyMar3=setInterval(Marquee3,speed)
-					butong_net_left.onmouseover=function() {clearInterval(MyMar3)}
-					butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
-					</script>
-
-				  
-			  
-				  
-				  
-				  
-              <!--6-->    <dd role="#dangjiangongzuo"> <a href="/html/qywh" target="_blank">企业文化</a> 
+              <!--6-->    <dd role="#dangjiangongzuo"> <a>企业文化</a> 
                         <div class="zn_sub" id="dangjiangongzuo" style="display: none;">
                               <div class="zn_site">
                                     <div class="zcenter">
                                           <div class="fl zn_item zn_info1" style="width:150px;overflow;hiddent;padding-left:70px">
                                                <p style="text-indent:0;font-size:14px">
 													      "优秀的现代企业"<br>
-													      "优秀的诚信企业"<br>
+													     "优秀的诚信企业"<br>
 									                                                      "优秀的市场主体"<br>
 									                                                      "优秀的绿色公司"<br>
 									                                                      "优秀的能源集团"
@@ -399,14 +273,14 @@
 									    </div>
                       
                                         <ul class="fl zn_item zn_list" style="padding-right:50px;">
-											 <li><a href="/html/zxns" target="_blank">招聘岗位</a></li>                            
+											 <li><a href="zxns.html">招聘岗位</a></li>                            
 										     <li>报名咨询:</li>
 											 <li>联系方式:</li>
 											 <li>简历邮箱:</li>  
 
                                         </ul>
                                         <ul class="fl zn_item zn_list" style="padding-right:30px;width:170px;">    
-											 <li><a href="/html/zxns" target="_blank">薪资待遇</a></li>	
+											 <li><a href="zxns.html">薪资待遇</a></li>	
 											 <li>0470-2285284</li>
 											 <li>0470-2285214</li>											 
 											 <li>2427080128@qq.com</li>
@@ -427,28 +301,29 @@
 											
 											
                                              <ul class="fl photo_rec" style="padding-left:20px">
-                                                  <li class="xxgk1"><a href="/html/xxgk" target="_blank">公开指南</a></li>
-                                                  <li class="xxgk2"><a href="/html/xxgk" target="_blank">公开目录</a></li>
-                                                  <li class="xxgk3"><a href="/html/xxgk" target="_blank">公开规定</a></li>
-                                                  <li class="xxgk4"><a href="/html/lxwm" target="_blank">联系我们</a></li>
+                                                  <li class="xxgk1"><a>公开指南</a></li>
+                                                  <li class="xxgk2"><a>公开目录</a></li>
+                                                  <li class="xxgk3"><a>公开规定</a></li>
+                                                  <li class="xxgk4"><a>联系我们</a></li>
                                               </ul>
                                                    
 												   
 												   
                                               <ul class="fl zn_item zn_list zn_box" style="padding-left:20px">
-                                                 <li><a href="/html/zbcg" target="_blank">矿山机械招标</a></li>
-                                                 <li><a href="/html/zbcg" target="_blank">集团工程招标</a></li>
-                                                 <li><a href="/html/zbcg" target="_blank">物资采购招标</a></li>
+                           
+                                                 <li><a>集团工程招标</a></li>
+                                                 <li><a>矿山机械招标</a></li>
+                                                 <li><a>物资采购招标</a></li>
                                               </ul>
                                               <ul class="fl zn_item zn_list">
-                                                 <li><a href="/html/xxgk" target="_blank">重要人事变动</a></li>
-                                                 <li><a href="/html/zbcg" target="_blank">企业安全环保</a></li>
-                                                 <li><a href="/html/zbcg" target="_blank">设备物资采购</a></li>                                               
+                                             	 <li><a>安装施工招标</a></li>
+                                                 <li><a>运输售后招标</a></li>
+                                                 <li><a>机电配套招标</a></li>                                                                                     
                                               </ul>
                                               <ul class="fl zn_item zn_list">
-                                                 <li><a href="/html/xwzx" target="_blank">头条要闻</a></li>
-                                                 <li><a href="/html/shzr" target="_blank">社会责任</a></li> 
-                                                 <li><a href="/html/xwzx" target="_blank">集团公告</a></li>
+                                               	 <li><a>电器通信招标</a></li>
+                                                 <li><a>监理设计招标</a></li>
+                                                 <li><a>企业安全环保</a></li>
                                               </ul>
                                               <div class="clear"></div>
                                             </div>
@@ -484,7 +359,6 @@
 										  
 										  
                                           <ul>
-                      									  
 										      <div class="jtimg hoverbox"> 
 												<img src="/img/chanpin_3.jpg" alt="" class="fl" width="110" height="150" border="0">
 												 <div><span>热量≥4200</span></div>
@@ -550,7 +424,7 @@
    
    
    
- <style>
+   <style>
 /* Banner */
 #full-screen-slider { width:100%; height:738px; float:left; position:relative; z-index:1}
 #slides { display:block; width:100%; height:738px; list-style:none; padding:0; margin:0; position:relative}
@@ -565,7 +439,6 @@
 	<!--banner 开始-->
 <div class="Banner" style="height:530px; overflow:hidden;">
     
-
             <div id="full-screen-slider">
                 <ul id="slides">
                   
@@ -590,10 +463,6 @@
 </div>
 
 
-
-
-
-
 <style>
 .bannerNav{width:374px;position:absolute;top:252px}
 .bannerNav ul{background:url(/img/opacity50.png);padding:10px 0px 10px 14px;}
@@ -606,25 +475,15 @@
     <!--zcenter 集团概况 开始-->
 <div class="zcenter">
    <div class="bannerNav" style="z-index:11"><img src="/img/W020180607498941165058.png">     
-                        <ul class="clearfloat">
-                            <li><a href="/html/jtgk" target="_blank" class="current">集团介绍</a>
-                            </li>
-                            <li><a href="/html/dsh"   target="_blank">董 事 会</a>
-                            </li>
-                            <li><a href="/html/jtld"  target="_blank">集团领导</a>
-                            </li>
-                            <li><a href="/html/zzjg"  target="_blank">组织机构</a>
-                            </li>
-                            <li><a href="/html/cydw"  target="_blank">成员单位</a>
-                            </li>
-                            <li><a href="/html/ryzz"  target="_blank">荣誉资质</a>
-                            </li>
-                            <li><a href="/html/jyfw"  target="_blank">经营范围</a>
-                            </li>
-                            <li><a href="/html/nddsj" target="_blank">年度事迹</a>
-                            </li>
+                                      <ul class="clearfloat">
+                                          <li><a href="/html/dsh"  target="_blank">董事会</a></li>
+                                          <li><a href="/html/jtld" target="_blank">集团领导</a></li>
+                                          <li><a href="/html/zzjg" target="_blank">组织机构</a></li>      
+                                          <li><a href="/html/jyfw"  target="_blank">经营范围</a></li>
+                                          <li><a href="/html/lishi" target="_blank">发展历程</a></li>
+										  <li><a href="/html/ryzz"  target="_blank">荣誉资质</a></li>
 
-                         </ul>
+                     			     </ul>
       </div>
 </div>
 	<!--zcenter 集团概况 结束-->
@@ -635,69 +494,32 @@
 	<!--集团介绍 开始-->
 <div class="zcenter jtgk">
 	<div style="width:776px"><h1 class="jttit">集团介绍</h1><div class="clear"></div></div>
-        
- 
-    <img src="/img/jt1.jpg" alt="大楼" class="fl" width="376" height="250/" border="0">
-      
-        <div class="brief fl">
-		<p>五九煤炭（集团）公司坐落于内蒙古自治区呼伦贝尔大草原和大兴安岭交汇处。前身为五九煤矿，1957年建矿，1994年成立有限责任公司，2003年12日组建集团公司，2006年12月12日与新大洲控股公司重组，2012年9月21日与山东能源枣矿集团重组。现由8大职能部、3个子公司和5个分公司组成，员工3300人，生产矿井2对，年生产能力300万吨左右，年创利税1亿多元，总资产26亿元，煤炭资源总量15亿吨。</p><p>作为地区重点企业，曾荣获“全国五一劳动奖状”、“全国煤炭系统企业文化建设先进单位”以及内蒙古自治区、呼伦贝尔市颁发的多项荣誉。</p><a href="/html/jtgk"  target="_blank" class="more2">了解更多</a>';
+
+        <div class="brief fl" style="width:1200px;height:350px;">
+		<p>内蒙古牙克石五九煤炭（集团）有限责任公司坐落于内蒙古自治区呼伦贝尔大草原和大兴安岭交汇处的牙克石市乌尔其汉镇煤田辖区。地处大兴安岭南麓林海深处的五九煤炭集团，因距美丽的“森工之都”牙克石市59公里而得名。
+前身是五九煤矿，是为响应国家“以煤代木”号召，由地方政府于1957年筹建。进入二十世纪80年代，五九煤矿已拥有4对生产矿井，一座自备电厂以及7.3公里自备铁路线。1993年，五九煤矿由计划经济转入市场经济，企业成功转制，实行自主经营。1994年成立有限责任公司，2003年12月组建集团公司，2006年12月由新大洲控股有限公司重组，2012年10月与山东能源枣矿集团重组，正式迈入混合制企业发展新路。现由9个职能部室和4个二级单位组成，员工2700人，生产矿井2对，年生产能力300万吨左右，年创利税2亿多元，总资产26亿元，煤炭资源总量15亿吨。作为地区重点支柱企业，曾荣获“全国五一劳动奖状”、“全国煤炭系统企业文化建设先进单位”以及内蒙古自治区、呼伦贝尔市颁发的多项荣誉。
+五九煤炭（集团）产品为蒙东地区独有的低硫、低磷、低灰、中高发热量长焰煤。因具有突出的质量、交通、价格、服务等多方面优势，产品畅销辽宁、吉林、黑龙江、内蒙古等各省区，广泛应用于民用、电力、建材、冶金化工等行业，成为知名度、信誉度较高的煤炭品牌，深受广大用户信赖。
+历经六十余年的发展，五九集团始终坚持以党的领导为核心，尤其是转制以后，更是充分发挥独具特色的企业运营优势，实施文化引领，不断创新发展，探索出了一条成功的混合所有制企业发展之路。勤劳智慧的五九人顽强拼搏，锐意进取，生产经营实现安全常态化、生产现代化、管理精细化、运行规范化、技术科学化，整体运行更加符合现代企业管理规范，现代化管理水平全面提升。展望未来,我们将秉承坚持创新、协调、绿色、开放、共享的发展理念，全力推进智慧矿山建设，打造一个集约高效、安全和谐，可持续、高质量发展的现代化煤炭企业。</p>
 		</div>
 	
-    <div class="fr">
-    	<div class="grayblock marginB10"><a href="/html/jtld" target="_blank" class="jtld" style="*top:0px"><em></em><span style="line-height:72px">集团领导</span></a>
-        </div>              
-        <div class="grayblock"><a href="/html/zzjg"  target="_blank" class="zzjg" style="*top:0px"><em></em><span style="line-height:72px">组织机构</span></a>
-        </div>
-    </div>
-    <script>
-    $(".grayblock").mouseenter(function(){
-		$(this).addClass("grayblock_cur");
-	});
-	$(".grayblock").mouseleave(function(){
-		$(this).removeClass("grayblock_cur");
-	});
-	</script>
+
 </div>
-	<!--集团介绍 结束-->
-<div class="blank40"></div>
-	<!--集团范围 资质 单位 开始-->
-<div class="zcenter">
-	<div class="fl subpageBlock" style="width:376px;overflow:hidden">
-    	<div class="subpageBlock"><h1 class="jttit">经营范围</h1><a href="/html/jyfw " target="_blank" class="more fr"></a><div class="clear"></div></div>
-        <div class="imgTxtBlock">
-        	<img src="/img/dianchang.jpg" height="170" width="390">
-            <p><a href="/html/jyfw" target="_blank" >一、煤炭（电力、建材、冶金、化工等行业）投资、建设、生产、经营和销售；</a>
-            </p>
-        </div>
-    </div>
-    <div class="fl subpageBlock" style="margin-left:36px;width:376px;overflow:hidden">
-    	<div class="subpageBlock"><h1 class="jttit">荣誉资质</h1><a href="/html/ryzz"  target="_blank" class="more fr"></a><div class="clear"></div></div>
-        <div class="imgTxtBlock">
-        	<img src="/img/jtgkimg2.jpg">
-            <ul >
-            	  
-            	<li style="list-style-type:square;margin-left:10px;"><a href="/html/ryzz"   target="_blank" title="2013年度全区先进集体单位">2013年度全区先进集体单位</a></li>
+<div class="zcenter jtgk">
+	<div style="width:776px"><h1 class="jttit">集团影像</h1><div class="clear"></div></div>
+        
+ 
+	<video class="fl" width="600" height="300" controls="controls"   poster="/img/jtyx1.jpg">
+				<source src="/video/WJJT.mp4" type="video/mp4">
+				您的浏览器不支持 video 标签。
+	</video>
+      
 
-            
-            	<li style="list-style-type:square;margin-left:10px;"><a href="/html/ryzz"  target="_blank" title="2014年全区示范化企业工会">2014年全区示范化企业工会</a></li>
+	<video  class="fl" width="600" height="300" controls="controls"   poster="/img/70.jpg">
+				<source src="/video/70.mp4" type="video/mp4">
+				您的浏览器不支持 video 标签。
+	</video>
 
-            
-            	<li style="list-style-type:square;margin-left:10px;"><a href="/html/ryzz"  target="_blank" title="2015年全区先进煤矿">2015年全区先进煤矿</a></li>
-
-            
-            </ul>
-        </div>
-    </div>
-    <div class="fl subpageBlock" style="margin-left:36px;width:376px;overflow:hidden">
-    	<div class="subpageBlock"><h1 class="jttit">成员单位</h1><a href="/html/cydw" class="more fr"></a><div class="clear"></div></div>
-        <ul class="cyjg">
-        	<li class="marginB8"><a href=" "><em></em>分公司<label><i>13</i>家</label></a></li>
-            <li class="marginB8"><a href=" "><em></em>全资公司<label><i>19</i>家</label></a></li>
-            <li class="marginB8"><a href=" "><em></em>控股公司<label><i>10</i>家</label></a></li>
-            <li><a href=" "><em></em>直属机构<label><i>2</i>家</label></a></li>
-        </ul>
-    </div>
-</div><!---->
+</div>
 	<!--集团范围 资质 单位 开始-->
 <div class="blank35"></div>
 </div>
@@ -736,8 +558,9 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);
 .jyfzbox li a{position:absolute;top:0;left:0;}
 </style>
 
+   <!--企业文化 结束-->
        <style>
-         .youlink{height:64px;width:100%; clear:both;background: #00a2a4;filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #931111, endColorstr = #e7171c);}
+         .youlink{height:64px;width:100%; clear:both;background:#00a2a4;filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #931111, endColorstr = #e7171c);}
        </style>
        
        <!--友情链接 开始-->
@@ -747,58 +570,59 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);
                         <div class="zfriendLinks">
                           <div class="zcenter">
                             <div class="fl zfl_title"> 友情链接： </div>
-                             <div class="fl zselect zfl_ml" id="selectdd" style="margin-left:20px;">
+                             <div class="fl zselect zfl_ml" id="selectdd" style="margin-left:60px;">
                               <p class="zse_p">政府机构</p>
                               <ul class="zse_ul" style="display: none;">
+                                   <li class="zse_li zse_first"><a href="javascript:void(0);">政府机构</a></li>
                                    <li class="zse_li"><a href="http://www.gov.cn/" target="_blank">中国政府门户网</a></li>
                                    <li class="zse_li"><a href="http://www.sasac.gov.cn/" target="_blank">国务院国资委</a></li>
                                    <li class="zse_li"><a href="http://www.mof.gov.cn/mof/" target="_blank">财政部</a></li>
                                    <li class="zse_li"><a href="http://www.sdpc.gov.cn/" target="_blank">国家发展和改革委员会</a></li>
+                                   <li class="zse_li"><a href="http://www.caea.gov.cn/n602669/index.html" target="_blank">国家原子能机构</a></li>
+                                   <li class="zse_li"><a href="http://www.mlr.gov.cn/" target="_blank">国土资源部</a></li>
+                                   <li class="zse_li"><a href="http://www.costind.gov.cn/n435777/index.html" target="_blank">国防科学技术工业委员会</a></li>
+                                   <li class="zse_li"><a href="http://www.zhb.gov.cn/" target="_blank">国家环保总局</a></li>
+                                   <li class="zse_li"><a href="http://www.chinasafety.gov.cn/" target="_blank">国家安全生产监督管理总局</a></li>
                                </ul>
                             </div>
                            
-                            <div class="fl zselect" id="selectdd1">
+                            <div class="fl zselect" id="selectdd1" style="margin-left:60px;">
                               <p class="zse_p">中央企业</p>
                               <ul class="zse_ul" style="display: none;">
+                                <li class="zse_li zse_first"><a href="javascript:void(0);">中央企业</a></li>
                                 <li class="zse_li"><a href="http://www.sgcc.com.cn/" target="_blank">国家电网公司</a></li>
 								<li class="zse_li"><a href="http://www.csg.cn/" target="_blank">中国南方电网有限责任公司</a></li>
 								<li class="zse_li"><a href="http://www.chng.com.cn/" target="_blank">中国华能集团公司</a></li>
 								<li class="zse_li"><a href="http://www.china-cdt.com/" target="_blank">中国大唐集团公司</a></li>
 								<li class="zse_li"><a href="http://www.chd.com.cn/" target="_blank">中国华电集团公司</a></li>
 								<li class="zse_li"><a href="http://www.cgdc.com.cn/" target="_blank">国家能源集团</a></li>
-								<li class="zse_li"><a href="http://www.ctgpc.com.cn/" target="_blank">中国长江三峡集团公司</a></li>
 								<li class="zse_li"><a href="http://www.shenhuagroup.com.cn/cs/sh/index.html" target="_blank">神华集团有限责任公司</a></li>
+								<li class="zse_li"><a href="http://www.cnpc.com.cn/cnpc/index.shtml" target="_blank">中国石油天然气集团公司</a></li>
+								<li class="zse_li"><a href="http://www.sinopecgroup.com/group/" target="_blank">中国石油化工集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cnooc.com.cn/data/html/chinese/channel_1.html" target="_blank">中国海洋石油总公司</a></li>
+								<li class="zse_li"><a href="http://www.sdic.com.cn/cn/index.htm" target="_blank">国家开发投资公司</a></li>
+								<li class="zse_li"><a href="http://www.snptc.com/" target="_blank">国家核电技术有限公司</a></li>
+								<li class="zse_li"><a href="http://www.cecic.com.cn/" target="_blank">中国节能环保集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chinacoal.com/" target="_blank">中国中煤能源集团公司</a></li>
+								<li class="zse_li"><a href="http://www.ccteg.cn/" target="_blank">中国煤炭科工集团有限公司</a></li>
+								<li class="zse_li"><a href="http://www.ccgc.cn/" target="_blank">中国煤炭地质总局</a></li>
+								<li class="zse_li"><a href="http://www.cnaf.com/" target="_blank">中国航空油料集团公司</a></li>
+								<li class="zse_li"><a href="http://www.powerchina.cn/" target="_blank">中国电力建设集团有限公司</a></li>
+								<li class="zse_li"><a href="http://www.ceec.net.cn/" target="_blank">中国能源建设集团有限公司</a></li>
                               </ul>
                             </div>
 							
-							
-							
-							
-							
-							
-							
-							
-							
-                            <div class="fl zselect" id="selectdd2">
-                              <p class="zse_p">下属机构</p>
-                              <ul class="zse_ul" style="">
-                                <li class="zse_li"><a href=" ">五九销售公司</a></li>
-								<li class="zse_li"><a href=" ">牙星煤业公司</a></li>
-								<li class="zse_li"><a href=" ">白音查干煤业公司</a></li>
-								<li class="zse_li"><a href=" ">胜利煤矿</a></li>
-							    <li class="zse_li"><a href=" ">鑫鑫一矿</a></li>
-								<li class="zse_li"><a href=" ">五九三矿</a></li>
-								<li class="zse_li"><a href=" ">热点公司</a></li>
-								<li class="zse_li"><a href=" ">物业公司</a></li>
-                              </ul>
-                            </div>
-							
-							
-							
-							
-                            <div class="fl zselect" id="selectdd3">
+											
+						
+
+						
+			
+						
+						
+                            <div class="fl zselect" id="selectdd3" style="margin-left:60px;">
                               <p class="zse_p">知名媒体</p>
                               <ul class="zse_ul" style="">
+                                <li class="zse_li zse_first"><a href="javascript:void(0);">知名媒体</a></li>
                                 <li class="zse_li"><a href="www.china.com.cn/chinese/index.htm" target="_blank">中 国 网</a></li>
 								<li class="zse_li"><a href="http://www.xinhuanet.com/" target="_blank">新 华 社</a></li>
 								<li class="zse_li"><a href="http://www.peopledaily.com.cn/" target="_blank">人 民 网</a></li>
@@ -808,36 +632,65 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);
 								<li class="zse_li"><a href="http://www.chinanews.com.cn/">中 新 社</a></li>
 								<li class="zse_li"><a href="http://www.economicdaily.com.cn/no1/" target="_blank">经济日报网</a></li>
 								<li class="zse_li"><a href="http://www.cycnet.com.cn/" target="_blank">中 青 网</a></li>
-                       
-							</ul>
+								<li class="zse_li"><a href="http://www.cyd.com.cn/" target="_blank">中青在线</a></li>
+								<li class="zse_li"><a href="http://www.whb.com.cn/" target="_blank">文新传媒</a></li>
+								<li class="zse_li"><a href="http://www.chinataiwan.org/web/webportal/index.html" target="_blank">中国台湾</a></li>
+								<li class="zse_li"><a href="http://www.cn5c.com/new/" target="_blank">五洲传媒</a></li>
+								<li class="zse_li"><a href="http://www.qianlong.com/" target="_blank">千 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.enorth.com.cn/">北 方 网</a></li>
+								<li class="zse_li"><a href="http://www.eastday.com/" target="_blank">东 方 网</a></li>
+								<li class="zse_li"><a href="http://www.southcn.com/" target="_blank">南 方 网</a></li>
+								<li class="zse_li"><a href="http://www.northeast.cn/" target="_blank">东 北 网</a></li>
+								<li class="zse_li"><a href="http://news.rednet.com.cn/" target="_blank">红网</a></li>
+								<li class="zse_li"><a href="http://www.gmw.cn/" target="_blank">光 明 网</a></li>
+								<li class="zse_li"><a href="http://www.dayoo.com/" target="_blank">大 洋 网</a></li>
+								<li class="zse_li"><a href="http://www.hsm.com.cn/" target="_blank">华 声 报</a></li>
+								<li class="zse_li"><a href="http://hnrb.hinews.cn/php/index.php" target="_blank">海南新闻网</a></li>
+								<li class="zse_li"><a href="http://www.cqnews.net/" target="_blank">华 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.cet.com.cn/20041216/default.htm" target="_blank">中国经济时报</a></li>
+								<li class="zse_li"><a href="http://www.newssc.net/gb/newssc/root/index.html" target="_blank">四川新闻网</a></li>
+								<li class="zse_li"><a href="http://www.gxnews.com.cn/news/" target="_blank">桂 龙 网</a></li>
+								<li class="zse_li"><a href="http://www.anhuinews.com/" target="_blank">中 安 网</a></li>
+								<li class="zse_li"><a href="http://www.yndaily.com/" target="_blank">云南日报网</a></li>
+								<li class="zse_li"><a href="http://www.ben.com.cn/" target="_blank">京 报 网</a></li>
+								<li class="zse_li"><a href="http://www.infomorning.com/" target="_blank">信息早报</a></li>
+								<li class="zse_li"><a href="http://www.dzdaily.com.cn/" target="_blank">大 众 网</a></li>
+								<li class="zse_li"><a href="http://www.stdaily.com/" target="_blank">科技日报</a></li>
+								<li class="zse_li"><a href="http://www.jfdaily.com.cn/" target="_blank">解放日报</a></li>
+								<li class="zse_li"><a href="http://www.legaldaily.com.cn/" target="_blank">法 制 网</a></li>
+								<li class="zse_li"><a href="http://www.china-woman.com/" target="_blank">中国妇女</a></li>
+								<li class="zse_li"><a href="http://www.bjyouth.com.cn/" target="_blank">北 青 报</a></li>
+								<li class="zse_li"><a href="http://www.morningpost.com.cn/" target="_blank">北京晨报</a></li>
+								<li class="zse_li"><a href="http://www.nanfangdaily.com.cn/southnews/" target="_blank">南方报业</a></li>
+								<li class="zse_li"><a href="http://www.ycwb.com/" target="_blank">金 羊 网</a></li>
+								<li class="zse_li"><a href="http://www.snweb.com" target="_blank">环球资讯</a></li>
+								<li class="zse_li"><a href="http://www.sg.com.cn/" target="_blank">精 品 网</a></li>
+								<li class="zse_li"><a href="http://www.sznews.com/" target="_blank">深圳新闻</a></li>
+								<li class="zse_li"><a href="http://www.haiwainet.cn/" target="_blank">海外网</a></li>
+								<li class="zse_li"><a href="http://www.indaa.com.cn/" target="_blank">英大网</a></li>                           
+								</ul>
                             </div>
-							
-							
-							
-                            <div class="fl zselect" id="selectdd4">
+                            <div class="fl zselect" id="selectdd4" style="margin-left:60px;">
                               <p class="zse_p">行业网站</p>
                               <ul class="zse_ul">                     
                                 <li class="zse_li"><a href="http://www.zkjt.com.cn" target="_blank">山东能源枣庄矿业集团有限公司</a></li>
 								<li class="zse_li"><a href="http://www.sundiro.com" target="_blank">上海新大洲控股</a></li>
 								<li class="zse_li"><a href="http://www.sgcc.com.cn/" target="_blank">国家电网公司</a></li>
 								<li class="zse_li"><a href="http://www.csg.cn/" target="_blank">南方电网公司</a></li>
-								<li class="zse_li"><a href="http://www.chng.com.cn/" target="_blank">中国华能集团公司</a></li>                   
+								<li class="zse_li"><a href="http://www.chng.com.cn/" target="_blank">中国华能集团公司</a></li>
+								<li class="zse_li"><a href="http://www.china-cdt.com/" target="_blank">中国大唐集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chd.com.cn/" target="_blank">中国华电集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cgdc.com.cn/" target="_blank">中国国电集团公司</a></li>
+								<li class="zse_li"><a href="http://www.hydrochina.com.cn/" target="_blank">中国水电工程顾问集团公司</a></li>
+								<li class="zse_li"><a href="http://www.cpecc.net/" target="_blank">中国电力工程顾问集团公司</a></li>
+								<li class="zse_li"><a href="http://www.sinohydro.com/" target="_blank">中国水利水电建设集团公司</a></li>
+								<li class="zse_li"><a href="http://www.chinapower.com.cn/" target="_blank">中国电力网</a></li>                           
 								</ul>
                             </div>
 
-							
-							
-                        <div class="fl zselect zfl_ml" id="selectdd5" style="display:none">
-							  <p class="zse_p"></p>
-							  <ul class="zse_ul">
-								<li class="zse_li zse_first"><a href="javascript:void(0);">政府机构</a></li>
-								<li class="zse_li"><a href="http://www.gov.cn/" target="_blank">中国政府门户网</a></li>
-								<li class="zse_li"><a href="http://www.sasac.gov.cn/" target="_blank">国务院国资委</a></li>
-							  </ul>
-							</div>
 
-                           </div>
-                        </div>
+
+                 
 
 
             </div>
@@ -846,63 +699,14 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);
        <!--lower div-->
        <div class="clearfix"></div>   
 </div>	
-
-
-
-
-
-
-
 <!--最外层div结束-->	
 	   <!--lower 开始-->	
   <div class="footer">
   		<div class="w1200">
         	<ul class="ftxt" style="position:relative;">
-            	<li>
-              	    <h2>关于我们</h2> 
-                    <a href="/html/jtgk" target="_blank">集团介绍</a>
-                    <a href="/html/zzjg" target="_blank">组织机构</a>
-                    <a href="/html/jyfw" target="_blank">经营范围</a>
-                    
-                    <h2 style="padding-top:6px;">新闻中心</h2>
-                    <a href="/html/xwzx" target="_blank">集团公告</a>
-                    <a href="/html/xwzx" target="_blank">领导活动</a>
-                    
-                </li>
-				
-				
-			    <li style="position:absolute;left:150px; border-right:0;">
-              	    <h2>招标采购</h2> 
-                    <a href="/html/zbcg" target="_blank">工程招标</a>
-                    <a href="/html/zbcg" target="_blank">后勤采购</a>
-                    <a href="/html/zbcg" target="_blank">办公采购</a>
-                    
-                    <h2 style="padding-top:6px;">招贤纳士</h2>
-                    <a href="/html/zxns" target="_blank">招聘岗位</a>
-                    <a href="/html/zxns" target="_blank">薪资待遇</a>
-                    
 
-                <li>
-                	<div  style="text-align:center;">
-                      <p >微信关注我们</p>
-					  <p style="margin-left:100px;">    
-						<a class="hoverbox" href="/html/weixin" target="_blank">     
-					      <img  src="/img/wx.jpg" alt="微信"  height="100" width="100"/>
-					    </a>
-					  </p>
-	
-                    </div>
-                </li>
-                <li>
-                    <div class="plf20">
-                    <img class="iconpng"src="/img/icon2.png" height="20" width="20">地址：内蒙古牙克石市煤田镇<br>
-                    <img class="iconpng"src="/img/icon3.png" height="20" width="20">邮编：022161<br>
-                    <img class="iconpng"src="/img/icon1.png" height="20" width="20">电话：0470-2285555<br>
-                    <img class="iconpng"src="/img/icon4.png" height="20" width="20">传真：0470-2285666<br> 
-                    <img class="iconpng"src="/img/icon5.png" height="20" width="20">电子邮箱：wujiujituanbgs@163.com<br>
-                   </div>
-                </li>
-                <ol>
+				
+			    <li tyle="width:390;">
                    <div class="plf20">
                       <a  class="hoverbox" href="http://www.59jt.com" target="_blank">
 					   <img  style="float:left;" src="/img/logo3.png" alt="image"  height="80" width="80"/>
@@ -914,23 +718,40 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);
                     </div>
 					
 					  <div id="clear"></div>
-					  <p style="margin-left:30px;"> Copyright ©五九煤炭集团有限公司版权</p>
-					  <p style="margin-left:30px;">蒙ICP备14002253号</p>
-					  <p style="margin-left:30px;"><a class="hoverbox" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15078202000048" target="_blank" >蒙公安网备15078202000048&nbsp;<img src="/img/gongan.png" height="20" width="20"></a></p>
-					  <p style="margin-left:30px;"><a class="hoverbox" href="https://nmlz.saicjg.com/7013/authority?key=1f2aa0b62b9eacce841b6303fff6de46" target="_blank">蒙工商亮照&nbsp;&nbsp;&nbsp;&nbsp;7013&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://nmlz.saicjg.com/images/siteBase.png" width="20" height="20" title="亮照" alt="亮照" border="0"/></a></p>
-                </ol>
+					  <div style="margin-left:30px;"> Copyright ©五九煤炭集团有限公司版权</div>
+					  <div style="margin-left:30px;margin-top:0;">蒙ICP备14002253号</div>
+					  <div style="margin-left:30px;margin-top:0;">蒙公安网备15078202000048&nbsp;<a class="hoverbox" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15078202000048" target="_blank" ><img style="position:absolute;left:220px;top:175px;"src="/img/gongan.png" height="20" width="20"></a></div>
+					  <div style="margin-left:30px;margin-top:-20px;">蒙工商亮照&nbsp;&nbsp;&nbsp;&nbsp;7013&nbsp;&nbsp;&nbsp;&nbsp;<a class="hoverbox" href="https://nmlz.saicjg.com/7013/authority?key=1f2aa0b62b9eacce841b6303fff6de46" target="_blank"><img style="position:absolute;left:160px;top:200px;"src="https://nmlz.saicjg.com/images/siteBase.png" width="20" height="20" title="亮照" alt="亮照" border="0"/></a></div>
+                </li>
+
+                    
+
+                <li tyle="width:390;">
+                	<div  style="text-align:center;">
+                      <p >微信关注我们</p>
+					  <p style="margin-left:145px;">    
+						<a class="hoverbox" href="/html/weixin" target="_blank">     
+					      <img  src="/img/wx.jpg" alt="微信"  height="100" width="100"/>
+					    </a>
+					  </p>
+	
+                    </div>
+                </li>
+                <li tyle="width:390;">
+                    <div class="plf20">
+                    <img class="iconpng"src="/img/icon2.png" height="20" width="20">地址：内蒙古牙克石市煤田镇<br>
+                    <img class="iconpng"src="/img/icon3.png" height="20" width="20">邮编：022161<br>
+                    <img class="iconpng"src="/img/icon1.png" height="20" width="20">电话：0470-2285555<br>
+                    <img class="iconpng"src="/img/icon4.png" height="20" width="20">传真：0470-2285666<br> 
+                    <img class="iconpng"src="/img/icon5.png" height="20" width="20">电子邮箱：wujiujituanbgs@163.com<br>
+                   </div>
+                </li>
+
 		
             </ul>
 
         </div>
-	   <div id="shang"></div>
   </div>
 
-	<script type="text/javascript">
-		$(function(){
-			$(document).contextmenu(function(){
-				return false;
-			});
-		});
-	</script>
+
 </body></html>

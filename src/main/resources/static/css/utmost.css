@@ -61,7 +61,7 @@ img{border:0}
 .sech form input.but{margin:0px;padding:0px; background:url(../img/but.jpg) no-repeat #b40c01;width:39px;float:right;height:40px; line-height:40px;border:0px; cursor:pointer;}
 
 /* 导航 */
-.HeadTop .MenuBox{width:100%; height:58px; background:#00a2a4;position:relative; }
+.HeadTop .MenuBox{width:100%; height:58px; background:#00a2a4;position:relative;padding-left:100px; }
 
 .znav {}
 .zn_menu {height:100%;}
@@ -79,7 +79,7 @@ img{border:0}
 .zn_bg3{width:100%;height:218px;background:#f3f3f3;position:absolute;*top:165px;left:0;z-index:10;display:none;margin-top:-1px;*margin-top:0;border-top:3px solid #e71a1f;}
 .zn_sub { position:absolute;*top:165px;left:50%;margin-left:-600px; width: 1px; height:0px; margin-top: -3px; text-align: left; display: none; background-color: #203963; z-index: 12;}
 .zn_site { position: absolute; left: 0px; top: 3px ; width: 1200px; height: 192px; padding-top: 25px; line-height:24px;color:#434343;   z-index: 12;}
-.zn_item {height: 120px; padding-bottom: 18px; padding-left: 26px; padding-right: 26px;border-right: 1px #d2d2da solid;}
+.zn_item {height: 140px; padding-bottom: 18px; padding-left: 26px; padding-right: 26px;border-right: 1px #d2d2da solid;}
 .zn_box { padding-left: 110px;}
 .zn_list { font-size: 14px;width:90px;}
 .zn_list li { line-height: 36px;}
@@ -728,7 +728,7 @@ background: linear-gradient(to right, #931111, #e7171c, #931111);filter: progid:
 
 .ftxt ol{font-size:14px; width:298px;float:right; display:inline-block; height:200px;line-heiht:24px;margin-top:60px;text-align:left;}
 
-.ftxt li{font-size:14px; width:298px;float:left;height:200px;line-heiht:24px;margin-top:60px;text-align:left;border-right:1px dotted #cccccc; display:inline-block}
+.ftxt li{font-size:14px; width:390px;float:left;height:200px;line-heiht:24px;margin-top:60px;text-align:left;border-right:1px dotted #cccccc; display:inline-block}
 
 .ftxt .plf20{padding-left:20px;font-size:13px; line-height:24px; }
 

@@ -27,7 +27,7 @@ import com.ifast.common.utils.Result;
  * <pre>
  * 首页新闻管理
  * </pre>
- * <small> 2020-01-04 21:58:31 | feng</small>
+ * <small> 2020-01-18 10:30:39 | feng</small>
  */
 @Controller
 @RequestMapping("/web/text")
@@ -36,12 +36,14 @@ public class TextController extends AdminBaseController {
 	private TextService textService;
 	
 	@GetMapping()
+	@RequiresPermissions("web:text:text")
 	String Text(){
 	    return "web/text/text";
 	}
 	
 	@ResponseBody
 	@GetMapping("/list")
+	@RequiresPermissions("web:text:text")
 	public Result<Page<TextDO>> list(TextDO textDTO){
         Wrapper<TextDO> wrapper = new EntityWrapper<TextDO>(textDTO);
         Page<TextDO> page = textService.selectPage(getPage(TextDO.class), wrapper);
@@ -67,6 +69,7 @@ public class TextController extends AdminBaseController {
 	 */
 	@ResponseBody
 	@PostMapping("/save")
+	@RequiresPermissions("web:text:add")
 	public Result<String> save( TextDO text){
 		textService.insert(text);
         return Result.ok();
@@ -76,6 +79,7 @@ public class TextController extends AdminBaseController {
 	 */
 	@ResponseBody
 	@RequestMapping("/update")
+	@RequiresPermissions("web:text:edit")
 	public Result<String>  update( TextDO text){
 		textService.updateById(text);
 		return Result.ok();
@@ -86,6 +90,7 @@ public class TextController extends AdminBaseController {
 	 */
 	@PostMapping( "/remove")
 	@ResponseBody
+	@RequiresPermissions("web:text:remove")
 	public Result<String>  remove( Integer id){
 		textService.deleteById(id);
         return Result.ok();
@@ -96,6 +101,7 @@ public class TextController extends AdminBaseController {
 	 */
 	@PostMapping( "/batchRemove")
 	@ResponseBody
+	@RequiresPermissions("web:text:batchRemove")
 	public Result<String>  remove(@RequestParam("ids[]") Integer[] ids){
 		textService.deleteBatchIds(Arrays.asList(ids));
 		return Result.ok();

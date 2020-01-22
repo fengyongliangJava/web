@@ -35,18 +35,18 @@ img{border:0}
 .foot-link:hover{text-decoration:underline}
 .footer-right{width:300px;float:right}
 .telephone{width:100%;height:32px;line-height:32px;color:#fff}
-.telephone span{display:inline-block;width:32px;height:32px;float:left;background:url(../images/phone_32px.png);margin-left:16%}
+.telephone span{display:inline-block;width:32px;height:32px;float:left;background:url(../img/phone_32px.png);margin-left:16%}
 .telephone .tel-number{font-size:30px;font-weight:400;text-align:right}
 .official-plat{width:100%;height:100%;margin-top:20px;position:relative}
 .official-plat ul{float:right;margin-top:7px}
-.official-plat ul li span{display:inline-block;width:32px;height:32px;background:url(../images/plat_icon.png) no-repeat 0 0;line-height:32px;float:left;margin-right:12px}
-.official-plat ul li .weibo-logo{background:url(../images/plat_icon.png) no-repeat -32px 0}
-.official-plat ul li .qq-logo{background:url(../images/plat_icon.png) no-repeat -64px 0}
+.official-plat ul li span{display:inline-block;width:32px;height:32px;background:url(../img/plat_icon.png) no-repeat 0 0;line-height:32px;float:left;margin-right:12px}
+.official-plat ul li .weibo-logo{background:url(../img/plat_icon.png) no-repeat -32px 0}
+.official-plat ul li .qq-logo{background:url(../img/plat_icon.png) no-repeat -64px 0}
 .official-plat ul li{height:45px}
 .official-plat ul a{display:inline-block;height:32px;width:100%;line-height:32px;color:#fff;text-decoration:none;font-size:12px}
 .official-plat>p{display:inline-block;width:132px;height:132px;border:1px solid #ddd;background-color:#fff}
-.official-plat .weixin{position:absolute;top:0;left:10px;background-image:url(../images/plat_qrcode.png);background-repeat:no-repeat;background-position:0 0}
-.official-plat .weibo{position:absolute;top:0;left:10px;background-image:url(../images/plat_qrcode.png);background-repeat:no-repeat;background-position:-132px 0;display:none}
+.official-plat .weixin{position:absolute;top:0;left:10px;background-image:url(../img/plat_qrcode.png);background-repeat:no-repeat;background-position:0 0}
+.official-plat .weibo{position:absolute;top:0;left:10px;background-image:url(../img/plat_qrcode.png);background-repeat:no-repeat;background-position:-132px 0;display:none}
 #wx-corner{border:10px solid transparent;border-left:10px solid #fff;position:absolute;top:12px;right:-20px;z-index:10}
 #wb-corner{border:10px solid transparent;border-left:10px solid #fff;position:absolute;top:58px;right:-20px;z-index:10}
 .five-superiority{width:100%;border-bottom:1px solid #27aede;padding:10px 0 20px}
@@ -55,7 +55,7 @@ img{border:0}
 .five-superiority-list li a{display:inline-block;position:relative;width:100%;height:36px;line-height:36px;background:no-repeat 2% center;text-indent:2em;color:#fff;font-size:16px}
 .five-superiority-list li a:hover{color:#bfe7f5}
 .five-superiority-list li a.superiority-text{text-indent:4em}
-.superiority-icon{position:absolute;width:40px;height:40px;left:10%;background-repeat:no-repeat;background-image:url(../images/footer_youshi.png)}
+.superiority-icon{position:absolute;width:40px;height:40px;left:10%;background-repeat:no-repeat;background-image:url(../img/footer_youshi.png)}
 .compensate_ico .superiority-icon{background-position:0 0}
 .compensate_ico:hover .superiority-icon{background-position:0 -50px}
 .retreat_ico .superiority-icon{background-position:0 -100px}

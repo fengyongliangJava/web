@@ -40,7 +40,6 @@ public class Application implements CommandLineRunner, ApplicationListener<Appli
 	/**
 	 * <pre>
 	 * </pre>
-	 * 
 	 * <small> 2018年3月22日 | Aron</small>
 	 *
 	 * @param args
@@ -74,7 +73,7 @@ public class Application implements CommandLineRunner, ApplicationListener<Appli
 
 // https://www.cnblogs.com/chen110xi/p/6198483.html 配置错误跳转
 //
-//	@Bean
+//	@Bean      
 //	public EmbeddedServletContainerCustomizer containerCustomizer() {
 //
 //		return new EmbeddedServletContainerCustomizer() {

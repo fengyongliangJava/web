@@ -43,7 +43,6 @@ import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
  * . realm(cache)
  * . securityManager（realm）
  * . ShiroFilterFactoryBean 注册
- * 
  * </pre>
  * <small> 2018年4月18日 | Aron</small>
  */
@@ -142,30 +141,29 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/webjars/**", "anon");
         filterChainDefinitionMap.put("/v2/**", "anon");
         filterChainDefinitionMap.put("/shiro/**", "anon");
-        filterChainDefinitionMap.put("/login/**", "anon");
+        filterChainDefinitionMap.put("/login", "anon");
+        filterChainDefinitionMap.put("/login/** ","anon");
+        
+ 
+        
         filterChainDefinitionMap.put("/css/**", "anon");
-        filterChainDefinitionMap.put("/css2/**", "anon");
-        filterChainDefinitionMap.put("/css3/**", "anon");
-        filterChainDefinitionMap.put("/css4/**", "anon");
+        filterChainDefinitionMap.put("/video/**", "anon");
         filterChainDefinitionMap.put("/static/**", "anon");
         filterChainDefinitionMap.put("/js/**", "anon");
         filterChainDefinitionMap.put("/layui/**", "anon");
         filterChainDefinitionMap.put("/fonts/**", "anon");
         filterChainDefinitionMap.put("/font/**", "anon");
         filterChainDefinitionMap.put("/img/**", "anon");
-        filterChainDefinitionMap.put("/image/**", "anon");
-        filterChainDefinitionMap.put("/images/**", "anon");
         filterChainDefinitionMap.put("/docs/**", "anon");
         filterChainDefinitionMap.put("/druid/**", "anon");
         filterChainDefinitionMap.put("/upload/**", "anon");
         filterChainDefinitionMap.put("/files/**", "anon");
         filterChainDefinitionMap.put("/test/**", "anon");
         filterChainDefinitionMap.put("/logout", "logout");
-        
         filterChainDefinitionMap.put("/", "anon");
         
         filterChainDefinitionMap.put("/wechat/**", "anon");
-		filterChainDefinitionMap.put("/face/**", "anon");
+		filterChainDefinitionMap.put("/face/**", "anon"); 
 		
 		filterChainDefinitionMap.put("/web/**", "anon");
 		filterChainDefinitionMap.put("/html/**", "anon");

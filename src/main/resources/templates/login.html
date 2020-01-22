@@ -10,11 +10,11 @@
 		<meta http-equiv="expires" content="0">
 		<title>登录界面</title>
 		<link rel="icon" href="/img/logo3.png" type="image/x-icon"/>
-		<link href="/css2/default.css" rel="stylesheet" type="text/css" />
+		<link href="/css/logoyun1.css" rel="stylesheet" type="text/css"/>
 		<!--必要样式-->
-		<link href="/css2/styles.css" rel="stylesheet" type="text/css" />
-		<link href="/css2/demo.css" rel="stylesheet" type="text/css" />
-		<link href="/css2/loaders.css" rel="stylesheet" type="text/css" />
+		<link href="/css/logoyun2.css" rel="stylesheet" type="text/css"/>
+		<link href="/css/logoyun3.css" rel="stylesheet" type="text/css"/>  
+		<link href="/css/logoyun4.css" rel="stylesheet" type="text/css"/>
 	</head>
 
 	<body>
@@ -37,7 +37,7 @@
 					<div class='icon'>
 						<img alt="" src='/img/lock_icon_copy.png'>
 					</div>
-					<input name="pwd" placeholder='密码' maxlength="16" type='text' autocomplete="off" value="admin">
+					<input name="pwd" placeholder='密码' maxlength="16" type='text' autocomplete="off" value="admin" />
 					<div class='validation'>
 						<img alt="" src='/img/tick.png'>
 					</div>
@@ -71,6 +71,8 @@
 			</div>
 			<p>认证中...</p>
 		</div>
+		
+		
 		<div class="OverWindows"></div>
 		
 		<link href="/layui/css/layui.css" rel="stylesheet" type="text/css" />
@@ -89,8 +91,10 @@
 
 			var truelogin = "admin";
 			var truepwd = "1";
-
 			var CodeVal = 0;
+			
+			
+			
 			Code();
 
 			function Code() {
@@ -119,6 +123,7 @@
 				}
 			});
 
+			
 			var open = 0;
 			layui.use('layer', function() {
 				//非空验证
@@ -130,23 +135,40 @@
 						ErroAlert('请输入您的账号');
 					} else if(pwd == '') {
 						ErroAlert('请输入密码');
-					} else if(code == '' || code.length != 4) {
+					} 
+					
+					
+					
+	/* 			   else if(code == '' || code.length != 4) {
 						ErroAlert('输入验证码');
-					} else {
+					}  */
+					
+					
+					
+					
+					else {
 						//登陆
 						var JsonData = {
-								username: login,
+							username: login,
 							password: pwd,
 							code: code
 						};
+						
+						
+						
+						
 						$.post("/login/ajax_login",JsonData,function(data) {
 							if(data.code == "0"){
 								window.location.href = '/index';
 							}
-						});						
+						});		
+						
+						
 					}
 				})
 			})
+			
+			
 			//全屏
 			var fullscreen = function() {
 				elem = document.body;

@@ -14,7 +14,7 @@ import com.baomidou.mybatisplus.annotations.TableName;
  * <pre>
  * 首页新闻管理
  * </pre>
- * <small> 2020-01-04 21:58:31 | feng</small>
+ * <small> 2020-01-18 10:30:39 | feng</small>
  */
  @TableName("index_text")
 public class TextDO implements Serializable {

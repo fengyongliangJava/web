@@ -9866,3 +9866,618 @@ java.sql.SQLException: Field 'updateBy' doesn't have a default value
 17:08:48,606 <org.quartz.simpl.SimpleThreadPool> DEBUG [schedulerFactoryBean_Worker-6]: WorkerThread is shut down.
 17:08:48,607 <org.quartz.simpl.SimpleThreadPool> DEBUG [schedulerFactoryBean_Worker-10]: WorkerThread is shut down.
 17:09:08,258 <org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext>  INFO [restartedMain]: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e2ccf4f: startup date [Wed Jan 22 17:09:08 CST 2020]; root of context hierarchy
+17:11:11,846 <org.hibernate.validator.internal.util.Version>  INFO [background-preinit]: HV000001: Hibernate Validator 5.3.5.Final
+17:11:11,852 <org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext>  INFO [restartedMain]: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7991ad3e: startup date [Wed Jan 22 17:11:11 CST 2020]; root of context hierarchy
+17:11:50,732 <org.springframework.data.repository.config.RepositoryConfigurationDelegate>  INFO [restartedMain]: Multiple Spring Data modules found, entering strict repository configuration mode!
+17:11:55,187 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'shiroConfig' of type [com.ifast.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$9e521129] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:00,986 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'getCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:00,991 <org.apache.shiro.cache.ehcache.EhCacheManager>  INFO [restartedMain]: Cache with name 'com.ifast.sys.shiro.SysUserAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+17:12:00,994 <org.apache.shiro.cache.ehcache.EhCacheManager>  INFO [restartedMain]: Added EhCache named [com.ifast.sys.shiro.SysUserAuthorizingRealm.authorizationCache]
+17:12:01,034 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'userRealm' of type [com.ifast.sys.shiro.SysUserAuthorizingRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,126 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'jwtAuthorizingRealm' of type [com.ifast.api.shiro.JWTAuthorizingRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,186 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'getAuthenticator' of type [com.ifast.shiro.realm.IFastModularRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,208 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'getAuthorizer' of type [org.apache.shiro.authz.ModularRealmAuthorizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,212 <org.apache.shiro.cache.ehcache.EhCacheManager>  INFO [restartedMain]: Cache with name 'com.ifast.api.shiro.JWTAuthorizingRealm.authorizationCache.1' does not yet exist.  Creating now.
+17:12:01,214 <org.apache.shiro.cache.ehcache.EhCacheManager>  INFO [restartedMain]: Added EhCache named [com.ifast.api.shiro.JWTAuthorizingRealm.authorizationCache.1]
+17:12:01,243 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,364 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:01,511 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:02,274 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:02,535 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9596720a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:03,385 <org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker>  INFO [restartedMain]: Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$dea8a828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:12:06,291 <org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer>  INFO [restartedMain]: Tomcat initialized with port(s): 8082 (http)
+17:12:06,321 <org.apache.catalina.core.StandardService>  INFO [restartedMain]: Starting service [Tomcat]
+17:12:06,324 <org.apache.catalina.core.StandardEngine>  INFO [restartedMain]: Starting Servlet Engine: Apache Tomcat/8.5.16
+17:12:06,738 <org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]>  INFO [localhost-startStop-1]: Initializing Spring embedded WebApplicationContext
+17:12:06,739 <org.springframework.web.context.ContextLoader>  INFO [localhost-startStop-1]: Root WebApplicationContext: initialization completed in 55024 ms
+17:12:09,702 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'characterEncodingFilter' to: [/*]
+17:12:09,704 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+17:12:09,705 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:12:09,705 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:12:09,706 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'requestContextFilter' to: [/*]
+17:12:09,706 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'xssFilter' to urls: [/*]
+17:12:09,707 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'webStatFilter' to urls: [/*]
+17:12:09,709 <org.springframework.boot.web.servlet.FilterRegistrationBean>  INFO [localhost-startStop-1]: Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+17:12:09,710 <org.springframework.boot.web.servlet.ServletRegistrationBean>  INFO [localhost-startStop-1]: Mapping servlet: 'statViewServlet' to [/druid/*]
+17:12:09,717 <org.springframework.boot.web.servlet.ServletRegistrationBean>  INFO [localhost-startStop-1]: Mapping servlet: 'dispatcherServlet' to [/]
+17:12:12,674 <com.alibaba.druid.pool.DruidDataSource>  INFO [restartedMain]: {dataSource-1} inited
+17:12:24,432 <org.quartz.impl.StdSchedulerFactory>  INFO [restartedMain]: Using default implementation for ThreadExecutor
+17:12:24,677 <org.quartz.core.SchedulerSignalerImpl>  INFO [restartedMain]: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:12:24,686 <org.quartz.core.QuartzScheduler>  INFO [restartedMain]: Quartz Scheduler v.2.2.1 created.
+17:12:24,704 <org.quartz.simpl.RAMJobStore>  INFO [restartedMain]: RAMJobStore initialized.
+17:12:24,710 <org.quartz.core.QuartzScheduler>  INFO [restartedMain]: Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+17:12:24,714 <org.quartz.impl.StdSchedulerFactory>  INFO [restartedMain]: Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+17:12:24,718 <org.quartz.impl.StdSchedulerFactory>  INFO [restartedMain]: Quartz scheduler version: 2.2.1
+17:12:24,723 <org.quartz.core.QuartzScheduler>  INFO [restartedMain]: JobFactory set to: com.ifast.job.quartz.JobFactory@798254fd
+17:12:25,690 <org.quartz.utils.UpdateChecker> DEBUG [Timer-0]: Checking for available updated version of Quartz...
+17:12:26,787 <org.quartz.utils.UpdateChecker> DEBUG [Timer-0]: Quartz version update check failed: Server returned HTTP response code: 403 for URL: http://www.terracotta.org/kit/reflector?kitID=quartz&pageID=update.properties&id=-1062731409&os-name=Windows+10&jvm-name=Java+HotSpot%28TM%29+64-Bit+Server+VM&jvm-version=1.8.0_131&platform=amd64&tc-version=2.2.1&tc-product=Quartz&source=Quartz&uptime-secs=1&patch=UNKNOWN
+17:12:35,244 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/login],methods=[POST]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.token(com.ifast.api.pojo.dto.UserLoginDTO)
+17:12:35,247 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/refresh],methods=[POST]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.refresh(java.lang.String,java.lang.String)
+17:12:35,249 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/require_permission],methods=[GET]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.requirePermission()
+17:12:35,253 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/require_role],methods=[GET]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.requireRole()
+17:12:35,261 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/require_auth],methods=[GET]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.requireAuth()
+17:12:35,270 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/api/user/logout],methods=[POST]}" onto public com.ifast.common.utils.Result<?> com.ifast.api.controller.ApiUserController.logout(java.lang.String,java.lang.String)
+17:12:35,280 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/add],methods=[GET]}" onto java.lang.String com.ifast.common.controller.ConfigController.add()
+17:12:35,282 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.ConfigController.remove(java.lang.Long)
+17:12:35,284 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.ConfigController.remove(java.lang.Long[])
+17:12:35,285 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.ConfigController.update(com.ifast.common.domain.ConfigDO)
+17:12:35,288 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.common.domain.ConfigDO>> com.ifast.common.controller.ConfigController.list(com.ifast.common.domain.ConfigDO)
+17:12:35,290 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.ConfigController.save(com.ifast.common.domain.ConfigDO)
+17:12:35,293 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config],methods=[GET]}" onto java.lang.String com.ifast.common.controller.ConfigController.Config()
+17:12:35,294 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/config/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.common.controller.ConfigController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:35,312 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/add],methods=[GET]}" onto java.lang.String com.ifast.common.controller.DictController.add()
+17:12:35,316 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.DictController.remove(java.lang.Long)
+17:12:35,319 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.DictController.remove(java.lang.Long[])
+17:12:35,321 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.DictController.update(com.ifast.common.domain.DictDO)
+17:12:35,324 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.common.domain.DictDO>> com.ifast.common.controller.DictController.list(com.ifast.common.domain.DictDO)
+17:12:35,326 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.DictController.save(com.ifast.common.domain.DictDO)
+17:12:35,332 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/type],methods=[GET]}" onto public java.util.List<com.ifast.common.domain.DictDO> com.ifast.common.controller.DictController.listType()
+17:12:35,338 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.common.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:35,345 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/list/{type}],methods=[GET]}" onto public java.util.List<com.ifast.common.domain.DictDO> com.ifast.common.controller.DictController.listByType(java.lang.String)
+17:12:35,350 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict],methods=[GET]}" onto java.lang.String com.ifast.common.controller.DictController.sysDict()
+17:12:35,353 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysDict/add/{type}/{description}],methods=[GET]}" onto java.lang.String com.ifast.common.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+17:12:35,383 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/log/remove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.LogController.remove(java.lang.Long)
+17:12:35,385 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/log],methods=[GET]}" onto java.lang.String com.ifast.common.controller.LogController.log()
+17:12:35,387 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/log/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.common.domain.LogDO>> com.ifast.common.controller.LogController.list(com.ifast.common.domain.LogDO)
+17:12:35,392 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/log/batchRemove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.common.controller.LogController.batchRemove(java.lang.Long[])
+17:12:35,427 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/error]}" onto public java.lang.String com.ifast.common.exception.MainsiteErrorController.handleError()
+17:12:35,429 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/test/redis]}" onto public void com.ifast.demo.DemoController.redis()
+17:12:35,434 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator/update],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.generator.controller.GeneratorController.update(java.util.Map<java.lang.String, java.lang.String>)
+17:12:35,441 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator/list],methods=[GET]}" onto java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.ifast.generator.controller.GeneratorController.list()
+17:12:35,443 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator],methods=[GET]}" onto java.lang.String com.ifast.generator.controller.GeneratorController.generator()
+17:12:35,444 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator/code/{tableName}]}" onto public void com.ifast.generator.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+17:12:35,445 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator/edit],methods=[GET]}" onto public java.lang.String com.ifast.generator.controller.GeneratorController.edit(org.springframework.ui.Model)
+17:12:35,446 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/generator/batchCode]}" onto public void com.ifast.generator.controller.GeneratorController.batchCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+17:12:35,482 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/add],methods=[GET]}" onto java.lang.String com.ifast.job.controller.JobController.add()
+17:12:35,484 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.job.controller.JobController.remove(java.lang.Long)
+17:12:35,487 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.job.controller.JobController.remove(java.lang.Long[])
+17:12:35,491 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/update],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.job.controller.JobController.update(com.ifast.job.domain.TaskDO)
+17:12:35,501 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.job.domain.TaskDO>> com.ifast.job.controller.JobController.list(com.ifast.job.domain.TaskDO)
+17:12:35,507 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.job.controller.JobController.save(com.ifast.job.domain.TaskDO)
+17:12:35,518 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/info/{id}]}" onto public com.ifast.common.utils.Result<com.ifast.job.domain.TaskDO> com.ifast.job.controller.JobController.info(java.lang.Long)
+17:12:35,521 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.job.controller.JobController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:35,525 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job/changeJobStatus],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.job.controller.JobController.changeJobStatus(java.lang.Long,java.lang.String)
+17:12:35,527 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/job],methods=[GET]}" onto java.lang.String com.ifast.job.controller.JobController.taskScheduleJob()
+17:12:35,533 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/add],methods=[GET]}" onto java.lang.String com.ifast.oss.controller.FileController.add()
+17:12:35,535 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.oss.controller.FileController.remove(java.lang.Long)
+17:12:35,537 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.oss.controller.FileController.remove(java.lang.Long[])
+17:12:35,539 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.oss.controller.FileController.update(com.ifast.oss.domain.FileDO)
+17:12:35,543 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.oss.domain.FileDO>> com.ifast.oss.controller.FileController.list(java.lang.Integer,java.lang.Integer,com.ifast.oss.domain.FileDO)
+17:12:35,544 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.oss.controller.FileController.save(com.ifast.oss.domain.FileDO)
+17:12:35,547 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/info/{id}]}" onto public com.ifast.common.utils.Result<com.ifast.oss.domain.FileDO> com.ifast.oss.controller.FileController.info(java.lang.Long)
+17:12:35,550 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile],methods=[GET]}" onto java.lang.String com.ifast.oss.controller.FileController.sysFile(org.springframework.ui.Model)
+17:12:35,551 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/upload],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.oss.controller.FileController.upload(org.springframework.web.multipart.MultipartFile)
+17:12:35,553 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/common/sysFile/edit],methods=[GET]}" onto java.lang.String com.ifast.oss.controller.FileController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:35,555 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/shiro/405]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.shiro.controller.ShiroController.http405()
+17:12:35,557 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/shiro/500]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.shiro.controller.ShiroController.http500()
+17:12:35,567 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/add/{pId}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.DeptController.add(java.lang.Long,org.springframework.ui.Model)
+17:12:35,580 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.DeptController.remove(java.lang.Long)
+17:12:35,610 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.DeptController.remove(java.lang.Long[])
+17:12:35,611 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.DeptController.update(com.ifast.sys.domain.DeptDO)
+17:12:35,614 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/list],methods=[GET]}" onto public java.util.List<com.ifast.sys.domain.DeptDO> com.ifast.sys.controller.DeptController.list(com.ifast.sys.domain.DeptDO)
+17:12:35,620 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.DeptController.save(com.ifast.sys.domain.DeptDO)
+17:12:35,621 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/tree],methods=[GET]}" onto public com.ifast.common.domain.Tree<com.ifast.sys.domain.DeptDO> com.ifast.sys.controller.DeptController.tree()
+17:12:35,625 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.DeptController.dept()
+17:12:35,627 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/treeView],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.DeptController.treeView()
+17:12:35,630 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/dept/edit/{deptId}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:35,645 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/index],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.index()
+17:12:35,647 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh1],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh1()
+17:12:35,649 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/weixin],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.weixin()
+17:12:35,650 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/ditu],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.ditu()
+17:12:35,651 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/tpxw],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.tpxw()
+17:12:35,652 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh5],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh5()
+17:12:35,665 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/xwzx],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.xwzx()
+17:12:35,666 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh()
+17:12:35,680 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/jtgk],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.jtgk()
+17:12:35,681 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/ryzz],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.ryzz()
+17:12:35,683 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/zzjg],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.zzjg()
+17:12:35,684 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/lishi],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.lishi()
+17:12:35,709 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/jtld],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.jtld()
+17:12:35,710 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/dsh],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.dsh()
+17:12:35,711 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/mtxs],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.mtxs()
+17:12:35,713 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/lxwm],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.lxwm()
+17:12:35,744 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/zbcg],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.zbcg()
+17:12:35,747 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/zxns],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.zxns()
+17:12:35,753 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh2],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh2()
+17:12:35,755 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh4],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh4()
+17:12:35,757 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/html/qywh3],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.IndexController.qywh3()
+17:12:35,761 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/index],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.index(org.springframework.ui.Model)
+17:12:35,763 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/main],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.main()
+17:12:35,765 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/403],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.error403()
+17:12:35,769 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/login/ajax_login],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.LoginController.Login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+17:12:35,771 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.welcome()
+17:12:35,780 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/login],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.login(org.springframework.ui.Model)
+17:12:35,782 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/logout],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.LoginController.logout()
+17:12:35,864 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/add/{pId}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.MenuController.add(org.springframework.ui.Model,java.lang.Long)
+17:12:35,907 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/remove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.MenuController.remove(java.lang.Long)
+17:12:35,909 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/update],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.MenuController.update(com.ifast.sys.domain.MenuDO)
+17:12:35,911 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/list]}" onto java.util.List<com.ifast.sys.domain.MenuDO> com.ifast.sys.controller.MenuController.list()
+17:12:35,914 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/save],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.MenuController.save(com.ifast.sys.domain.MenuDO)
+17:12:35,915 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/tree/{roleId}],methods=[GET]}" onto com.ifast.common.domain.Tree<com.ifast.sys.domain.MenuDO> com.ifast.sys.controller.MenuController.tree(java.lang.Long)
+17:12:35,917 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/tree],methods=[GET]}" onto com.ifast.common.domain.Tree<com.ifast.sys.domain.MenuDO> com.ifast.sys.controller.MenuController.tree()
+17:12:35,918 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.MenuController.menu(org.springframework.ui.Model)
+17:12:35,920 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/menu/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+17:12:35,927 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/add],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.RoleController.add()
+17:12:35,929 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/update],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.RoleController.update(com.ifast.sys.domain.RoleDO)
+17:12:35,931 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/list],methods=[GET]}" onto java.util.List<com.ifast.sys.domain.RoleDO> com.ifast.sys.controller.RoleController.list()
+17:12:35,933 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/remove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.RoleController.save(java.lang.Long)
+17:12:35,935 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/save],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.RoleController.save(com.ifast.sys.domain.RoleDO)
+17:12:35,990 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/batchRemove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.RoleController.batchRemove(java.lang.Long[])
+17:12:35,992 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.RoleController.role()
+17:12:35,994 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/role/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+17:12:36,000 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/online/list]}" onto public java.util.List<com.ifast.sys.domain.UserOnline> com.ifast.sys.controller.SessionController.list()
+17:12:36,003 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.ifast.sys.controller.SessionController.sessionList()
+17:12:36,005 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/online],methods=[GET]}" onto public java.lang.String com.ifast.sys.controller.SessionController.online()
+17:12:36,008 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/online/forceLogout/{sessionId}]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+17:12:36,064 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/exit],methods=[POST]}" onto boolean com.ifast.sys.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+17:12:36,065 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/add],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.add(org.springframework.ui.Model)
+17:12:36,266 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/remove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.remove(java.lang.Long)
+17:12:36,275 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/update],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.update(com.ifast.sys.domain.UserDO)
+17:12:36,279 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.sys.domain.UserDO>> com.ifast.sys.controller.UserController.list(com.ifast.sys.domain.UserDO)
+17:12:36,284 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/save],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.save(com.ifast.sys.domain.UserDO)
+17:12:36,288 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/batchRemove],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.batchRemove(java.lang.Long[])
+17:12:36,300 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/tree],methods=[GET]}" onto public com.ifast.common.domain.Tree<com.ifast.sys.domain.DeptDO> com.ifast.sys.controller.UserController.tree()
+17:12:36,306 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/treeView],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.treeView()
+17:12:36,312 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.user(org.springframework.ui.Model)
+17:12:36,354 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/resetPwd],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.resetPwd(com.ifast.sys.vo.UserVO)
+17:12:36,357 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/resetPwd/{id}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+17:12:36,362 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/updatePeronal],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.updatePeronal(com.ifast.sys.domain.UserDO)
+17:12:36,366 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/adminResetPwd],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.sys.controller.UserController.adminResetPwd(com.ifast.sys.vo.UserVO)
+17:12:36,369 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/personal],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.personal(org.springframework.ui.Model)
+17:12:36,374 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/uploadImg],methods=[POST]}" onto com.ifast.common.utils.Result<?> com.ifast.sys.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,org.apache.catalina.servlet4preview.http.HttpServletRequest) throws java.lang.Exception
+17:12:36,446 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/sys/user/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.sys.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+17:12:36,452 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/add],methods=[GET]}" onto java.lang.String com.ifast.web.controller.GongaoController.add()
+17:12:36,464 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.GongaoController.remove(java.lang.Integer)
+17:12:36,466 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.GongaoController.remove(java.lang.Integer[])
+17:12:36,467 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.GongaoController.update(com.ifast.web.domain.GongaoDO)
+17:12:36,469 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.web.domain.GongaoDO>> com.ifast.web.controller.GongaoController.list(com.ifast.web.domain.GongaoDO)
+17:12:36,470 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.GongaoController.save(com.ifast.web.domain.GongaoDO)
+17:12:36,472 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao],methods=[GET]}" onto java.lang.String com.ifast.web.controller.GongaoController.Gongao()
+17:12:36,474 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/gongao/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.web.controller.GongaoController.edit(java.lang.Integer,org.springframework.ui.Model)
+17:12:36,483 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/add],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ImgController.add()
+17:12:36,484 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ImgController.remove(java.lang.Integer)
+17:12:36,486 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ImgController.remove(java.lang.Integer[])
+17:12:36,487 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ImgController.update(com.ifast.web.domain.ImgDO)
+17:12:36,489 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.web.domain.ImgDO>> com.ifast.web.controller.ImgController.list(com.ifast.web.domain.ImgDO)
+17:12:36,490 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ImgController.save(com.ifast.web.domain.ImgDO)
+17:12:36,492 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ImgController.Img()
+17:12:36,494 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/upload],methods=[POST]}" onto com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ImgController.upload(org.springframework.web.multipart.MultipartFile)
+17:12:36,496 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/img/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ImgController.edit(java.lang.Integer,org.springframework.ui.Model)
+17:12:36,826 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/add],methods=[GET]}" onto java.lang.String com.ifast.web.controller.TextController.add()
+17:12:36,829 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.TextController.remove(java.lang.Integer)
+17:12:36,834 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.TextController.remove(java.lang.Integer[])
+17:12:36,839 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.TextController.update(com.ifast.web.domain.TextDO)
+17:12:36,844 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.web.domain.TextDO>> com.ifast.web.controller.TextController.list(com.ifast.web.domain.TextDO)
+17:12:36,849 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.TextController.save(com.ifast.web.domain.TextDO)
+17:12:36,857 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text],methods=[GET]}" onto java.lang.String com.ifast.web.controller.TextController.Text()
+17:12:36,863 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/text/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.web.controller.TextController.edit(java.lang.Integer,org.springframework.ui.Model)
+17:12:36,874 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/add],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZbcgController.add()
+17:12:36,893 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZbcgController.remove(java.lang.Integer)
+17:12:36,897 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZbcgController.remove(java.lang.Integer[])
+17:12:36,921 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZbcgController.update(com.ifast.web.domain.ZbcgDO)
+17:12:36,926 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.web.domain.ZbcgDO>> com.ifast.web.controller.ZbcgController.list(com.ifast.web.domain.ZbcgDO)
+17:12:37,053 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZbcgController.save(com.ifast.web.domain.ZbcgDO)
+17:12:37,058 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZbcgController.Zbcg()
+17:12:37,061 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zbcg/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZbcgController.edit(java.lang.Integer,org.springframework.ui.Model)
+17:12:37,083 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/add],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZxnsController.add()
+17:12:37,231 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/remove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZxnsController.remove(java.lang.Integer)
+17:12:37,234 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/batchRemove],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZxnsController.remove(java.lang.Integer[])
+17:12:37,235 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/update]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZxnsController.update(com.ifast.web.domain.ZxnsDO)
+17:12:37,237 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/list],methods=[GET]}" onto public com.ifast.common.utils.Result<com.baomidou.mybatisplus.plugins.Page<com.ifast.web.domain.ZxnsDO>> com.ifast.web.controller.ZxnsController.list(com.ifast.web.domain.ZxnsDO)
+17:12:37,244 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/save],methods=[POST]}" onto public com.ifast.common.utils.Result<java.lang.String> com.ifast.web.controller.ZxnsController.save(com.ifast.web.domain.ZxnsDO)
+17:12:37,246 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZxnsController.Zxns()
+17:12:37,247 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/web/zxns/edit/{id}],methods=[GET]}" onto java.lang.String com.ifast.web.controller.ZxnsController.edit(java.lang.Integer,org.springframework.ui.Model)
+17:12:37,249 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+17:12:37,267 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+17:12:37,271 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+17:12:37,274 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping>  INFO [restartedMain]: Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+17:12:38,800 <org.springframework.cache.ehcache.EhCacheManagerFactoryBean>  INFO [restartedMain]: Initializing EhCache CacheManager
+17:12:41,954 <org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter>  INFO [restartedMain]: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7991ad3e: startup date [Wed Jan 22 17:11:11 CST 2020]; root of context hierarchy
+17:12:43,226 <org.springframework.web.servlet.handler.SimpleUrlHandlerMapping>  INFO [restartedMain]: Mapped URL path [/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:12:43,226 <org.springframework.web.servlet.handler.SimpleUrlHandlerMapping>  INFO [restartedMain]: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:12:43,226 <org.springframework.web.servlet.handler.SimpleUrlHandlerMapping>  INFO [restartedMain]: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:12:43,505 <org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver>  INFO [restartedMain]: Detected @ExceptionHandler methods in applicationExceptionHandler
+17:12:43,832 <org.springframework.web.servlet.handler.SimpleUrlHandlerMapping>  INFO [restartedMain]: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:12:50,349 <org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer>  INFO [restartedMain]: LiveReload server is running on port 35729
+17:12:51,349 <org.springframework.jmx.export.annotation.AnnotationMBeanExporter>  INFO [restartedMain]: Registering beans for JMX exposure on startup
+17:12:51,353 <org.springframework.jmx.export.annotation.AnnotationMBeanExporter>  INFO [restartedMain]: Bean with name 'dataSource' has been autodetected for JMX exposure
+17:12:51,369 <org.springframework.jmx.export.annotation.AnnotationMBeanExporter>  INFO [restartedMain]: Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+17:12:51,380 <org.springframework.context.support.DefaultLifecycleProcessor>  INFO [restartedMain]: Starting beans in phase 2147483647
+17:12:51,383 <springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper>  INFO [restartedMain]: Context refreshed
+17:12:51,478 <springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper>  INFO [restartedMain]: Found 1 custom documentation plugin(s)
+17:12:51,536 <springfox.documentation.spring.web.scanners.ApiListingReferenceScanner>  INFO [restartedMain]: Scanning for api listing references
+17:12:52,629 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_1
+17:12:52,904 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_1
+17:12:52,973 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_1
+17:12:53,047 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_1
+17:12:53,143 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_2
+17:12:53,264 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_3
+17:12:53,378 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_1
+17:12:53,559 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_1
+17:12:53,639 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_1
+17:12:53,667 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_1
+17:12:53,806 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_1
+17:12:53,865 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_1
+17:12:53,919 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_1
+17:12:54,014 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_1
+17:12:54,053 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_1
+17:12:54,154 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_2
+17:12:54,242 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_2
+17:12:54,414 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_2
+17:12:54,641 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_4
+17:12:54,686 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_5
+17:12:54,751 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_2
+17:12:54,945 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_2
+17:12:55,039 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_2
+17:12:55,060 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_2
+17:12:55,081 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_2
+17:12:55,203 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_2
+17:12:55,224 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_2
+17:12:55,307 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_2
+17:12:55,357 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_2
+17:12:55,480 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_3
+17:12:55,595 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_3
+17:12:56,064 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_3
+17:12:56,171 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_6
+17:12:56,493 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_7
+17:12:56,713 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_3
+17:12:57,193 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_3
+17:12:57,264 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_3
+17:12:57,490 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_3
+17:12:57,520 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_3
+17:12:57,679 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_3
+17:12:57,845 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_3
+17:12:58,045 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_3
+17:12:58,075 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_3
+17:12:58,385 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_4
+17:12:58,410 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_4
+17:12:58,419 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_4
+17:12:58,456 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_4
+17:12:58,478 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_5
+17:12:58,554 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_5
+17:12:58,594 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_8
+17:12:58,681 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_9
+17:12:58,709 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_4
+17:12:58,728 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_4
+17:12:58,751 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_4
+17:12:58,770 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_5
+17:12:58,787 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_4
+17:12:58,798 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_4
+17:12:58,813 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_4
+17:12:58,831 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_4
+17:12:58,872 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_4
+17:12:58,984 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_5
+17:12:59,008 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_6
+17:12:59,136 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_6
+17:12:59,243 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_10
+17:12:59,362 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_11
+17:12:59,383 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_5
+17:12:59,432 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_5
+17:12:59,453 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_5
+17:12:59,470 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_6
+17:12:59,547 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_5
+17:12:59,606 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_5
+17:12:59,623 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_5
+17:12:59,655 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_5
+17:12:59,673 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_5
+17:12:59,726 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: uploadUsingPOST_1
+17:13:00,199 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_6
+17:13:00,243 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_7
+17:13:00,293 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingGET_1
+17:13:00,314 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingHEAD_1
+17:13:00,333 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingPOST_1
+17:13:00,347 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingPUT_1
+17:13:00,359 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingPATCH_1
+17:13:00,372 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingDELETE_1
+17:13:00,402 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingOPTIONS_1
+17:13:00,415 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: infoUsingTRACE_1
+17:13:00,460 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_7
+17:13:00,487 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_12
+17:13:00,530 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_13
+17:13:00,565 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_6
+17:13:00,609 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_7
+17:13:00,667 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_8
+17:13:00,746 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_14
+17:13:00,785 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: indexUsingGET_1
+17:13:00,891 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_7
+17:13:00,985 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_8
+17:13:01,046 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_9
+17:13:01,327 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_15
+17:13:01,356 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_7
+17:13:01,393 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: treeUsingGET_1
+17:13:01,411 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: treeUsingGET_2
+17:13:01,475 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_8
+17:13:01,536 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_8
+17:13:01,586 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: batchRemoveUsingPOST_1
+17:13:01,609 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_9
+17:13:01,712 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_10
+17:13:01,760 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_8
+17:13:01,892 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_9
+17:13:01,921 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_9
+17:13:02,148 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_11
+17:13:02,175 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingHEAD_1
+17:13:02,184 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingPOST_1
+17:13:02,193 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingPUT_1
+17:13:02,196 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingPATCH_1
+17:13:02,202 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingDELETE_1
+17:13:02,210 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingOPTIONS_1
+17:13:02,226 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingTRACE_1
+17:13:02,515 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_9
+17:13:02,527 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_10
+17:13:02,566 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_12
+17:13:02,583 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_16
+17:13:02,592 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_17
+17:13:02,603 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_10
+17:13:02,614 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_6
+17:13:02,627 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_6
+17:13:02,639 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_10
+17:13:02,647 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_6
+17:13:02,659 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_6
+17:13:02,671 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_6
+17:13:02,682 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_6
+17:13:02,692 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_6
+17:13:02,737 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_10
+17:13:02,905 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: batchRemoveUsingPOST_2
+17:13:02,926 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_11
+17:13:02,996 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_13
+17:13:03,033 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_18
+17:13:03,098 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_11
+17:13:03,113 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: treeUsingGET_3
+17:13:03,132 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: treeViewUsingGET_1
+17:13:03,251 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_11
+17:13:03,336 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_11
+17:13:03,358 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_12
+17:13:03,397 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_14
+17:13:03,414 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_19
+17:13:03,442 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_20
+17:13:03,457 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_12
+17:13:03,472 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_7
+17:13:03,483 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_7
+17:13:03,493 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_12
+17:13:03,505 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_7
+17:13:03,514 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_7
+17:13:03,526 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_7
+17:13:03,539 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_7
+17:13:03,555 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_7
+17:13:03,589 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: addUsingGET_12
+17:13:03,610 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: editUsingGET_13
+17:13:03,675 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: listUsingGET_15
+17:13:03,694 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_21
+17:13:03,740 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: removeUsingPOST_22
+17:13:03,761 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: saveUsingPOST_13
+17:13:03,832 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingGET_8
+17:13:03,847 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingHEAD_8
+17:13:03,860 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPOST_13
+17:13:04,030 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPUT_8
+17:13:04,073 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingPATCH_8
+17:13:04,107 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingDELETE_8
+17:13:04,191 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingOPTIONS_8
+17:13:04,207 <springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator>  INFO [restartedMain]: Generating unique operation named: updateUsingTRACE_8
+17:13:04,380 <org.springframework.scheduling.quartz.SchedulerFactoryBean>  INFO [restartedMain]: Starting Quartz Scheduler now
+17:13:04,381 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:13:04,381 <org.quartz.core.QuartzScheduler>  INFO [restartedMain]: Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+17:13:04,443 <org.apache.coyote.http11.Http11NioProtocol>  INFO [restartedMain]: Initializing ProtocolHandler ["http-nio-8082"]
+17:13:04,487 <org.apache.coyote.http11.Http11NioProtocol>  INFO [restartedMain]: Starting ProtocolHandler ["http-nio-8082"]
+17:13:04,560 <org.apache.tomcat.util.net.NioSelectorPool>  INFO [restartedMain]: Using a shared selector for servlet write/read
+17:13:04,739 <org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer>  INFO [restartedMain]: Tomcat started on port(s): 8082 (http)
+17:13:14,202 <org.apache.tomcat.util.http.parser.Cookie>  INFO [http-nio-8082-exec-30]: A cookie header was received [1578146262,1579674769; JSESSIONID=589f67be-64a7-4313-828c-8e8254951ec4; Hm_lpvt_416c770ac83a9d996d7b3793f8c4994d=1579682679] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+17:13:15,055 <org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]>  INFO [http-nio-8082-exec-30]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:13:15,067 <org.springframework.web.servlet.DispatcherServlet>  INFO [http-nio-8082-exec-30]: FrameworkServlet 'dispatcherServlet': initialization started
+17:13:16,757 <org.springframework.web.servlet.DispatcherServlet>  INFO [http-nio-8082-exec-30]: FrameworkServlet 'dispatcherServlet': initialization completed in 1686 ms
+17:13:17,890 <org.apache.shiro.session.mgt.AbstractValidatingSessionManager>  INFO [http-nio-8082-exec-30]: Enabling session validation scheduler...
+17:13:27,128 <org.thymeleaf.TemplateEngine>  INFO [http-nio-8082-exec-30]: [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:13:30,098 <org.thymeleaf.templateresolver.AbstractTemplateResolver>  INFO [http-nio-8082-exec-30]: [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+17:13:30,158 <org.thymeleaf.templateresolver.AbstractTemplateResolver>  INFO [http-nio-8082-exec-30]: [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+17:13:30,165 <org.thymeleaf.messageresolver.AbstractMessageResolver>  INFO [http-nio-8082-exec-30]: [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+17:13:30,170 <org.thymeleaf.messageresolver.AbstractMessageResolver>  INFO [http-nio-8082-exec-30]: [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+17:13:30,408 <org.thymeleaf.TemplateEngine.CONFIG>  INFO [http-nio-8082-exec-30]: [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 3]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 3]: at.pollux.thymeleaf.shiro.dialect.ShiroDialect
+[THYMELEAF]     * Prefix: "shiro"
+[THYMELEAF] * Dialect [3 of 3]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+17:13:30,418 <org.thymeleaf.TemplateEngine>  INFO [http-nio-8082-exec-30]: [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:13:33,449 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:13:59,016 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:14:25,061 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:14:54,727 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:15:19,703 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:15:48,296 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:16:17,090 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:16:45,468 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:17:10,060 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:17:34,761 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:18:02,917 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:18:28,052 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:18:53,331 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:19:17,378 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:19:45,793 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:20:10,950 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:20:39,780 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:21:05,001 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:21:29,575 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:21:57,987 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:22:23,871 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:22:48,999 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:23:16,564 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:23:44,189 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:24:08,311 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:24:38,109 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:25:03,054 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:25:31,873 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:25:55,589 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:26:25,170 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:26:52,370 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:27:18,011 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:27:47,732 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:28:17,197 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:28:41,922 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:29:05,937 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:29:33,918 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:29:58,518 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:30:22,121 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:30:47,233 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:31:12,934 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:31:38,168 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:32:07,513 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:32:32,022 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:32:57,782 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:33:25,993 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:33:55,817 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:34:21,156 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:34:47,291 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:35:12,693 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:35:39,918 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:36:07,546 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:36:36,216 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:37:04,354 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:37:31,187 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:37:58,523 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:38:23,485 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:38:47,968 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:39:14,507 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:39:42,395 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:40:09,350 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:40:32,579 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:41:00,930 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:41:29,345 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:41:53,278 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:42:21,584 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:42:47,827 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:43:13,171 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:43:37,824 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:44:02,320 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:44:29,177 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:44:53,996 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:45:18,172 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:45:41,734 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:46:09,949 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:46:36,265 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:47:01,366 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:47:26,794 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:47:51,282 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:48:18,721 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:48:42,521 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:49:07,341 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:49:35,431 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:50:04,160 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:50:30,761 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:50:54,043 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:51:20,732 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:51:45,380 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:52:09,622 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:52:37,311 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:53:02,155 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:53:25,916 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:53:54,080 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:54:19,121 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:54:48,919 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:55:12,664 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:55:37,814 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:56:06,324 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:56:35,950 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:57:05,082 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:57:33,154 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:57:59,624 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:58:23,616 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:58:48,899 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:59:18,799 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+17:59:47,509 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:00:11,716 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:00:36,393 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:01:05,731 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:01:35,521 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:02:03,967 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:02:29,551 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:02:54,865 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:03:19,321 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:03:46,282 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:04:13,762 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:04:41,483 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:05:05,890 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:05:31,009 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:05:54,157 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:06:20,115 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:06:43,138 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:07:07,593 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:07:34,684 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:08:02,688 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:08:29,152 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:08:57,572 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:09:22,346 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:09:45,561 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:10:10,212 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:10:33,432 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:11:02,209 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:11:25,306 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:11:54,158 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:12:22,930 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:12:51,455 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:13:18,041 <org.apache.shiro.session.mgt.AbstractValidatingSessionManager>  INFO [SessionValidationThread-1]: Validating all active sessions...
+18:13:18,044 <org.apache.shiro.session.mgt.AbstractValidatingSessionManager>  INFO [SessionValidationThread-1]: Finished session validation.  [1] sessions were stopped.
+18:13:19,498 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:13:48,721 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:14:15,015 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:14:39,865 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:15:08,497 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:15:38,286 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:16:02,704 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:16:30,595 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:16:59,934 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:17:23,922 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:17:48,747 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:18:12,579 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:18:40,057 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:19:09,196 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:19:38,607 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:20:05,856 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:20:34,897 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:20:59,734 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:21:28,060 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:21:53,878 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:22:23,061 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:22:48,675 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:23:17,718 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:23:44,633 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers
+18:24:10,214 <org.quartz.core.QuartzSchedulerThread> DEBUG [schedulerFactoryBean_QuartzSchedulerThread]: batch acquisition of 0 triggers

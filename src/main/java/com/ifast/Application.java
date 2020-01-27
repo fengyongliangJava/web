@@ -21,6 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import com.ifast.common.config.IFastConfig;
 import com.ifast.common.utils.SpringContextHolder;
 
+
 /**
  * <pre>
  * ifast 入口
